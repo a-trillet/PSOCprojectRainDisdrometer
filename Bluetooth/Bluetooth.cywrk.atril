@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bluetooth\BLEled\CM4 (Core 1)\Source Files\main_cm4.c">
+<ExpandedNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\TopDesign</v>
+<v>Bluetooth\BLEled\BLEled.cydwr</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\Pins</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\Analog</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\DMA</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\Clocks</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\Interrupts</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\System</v>
+<v>Bluetooth\BLEled\BLEled.cydwr\Directives</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\ARM GCC Generic</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\ARM GCC Generic\cy8c6xx7_cm0plus.ld</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\ARM IAR Generic</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\ARM IAR Generic\cy8c6xx7_cm0plus.icf</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\ARM MDK Generic</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\ARM MDK Generic\cy8c6xx7_cm0plus.scat</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Header Files</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\ARM GCC Generic</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\ARM GCC Generic\startup_psoc6_01_cm0plus.S</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\ARM IAR Generic</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\ARM IAR Generic\startup_psoc6_01_cm0plus.s</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\ARM MDK Generic</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\ARM MDK Generic\startup_psoc6_01_cm0plus.s</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\main_cm0p.c</v>
+<v>Bluetooth\BLEled\CM0p (Core 0)\Source Files\system_psoc6_cm0plus.c</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM GCC Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM IAR Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM MDK Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Header Files</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Header Files\FreeRTOSConfig.h</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>Bluetooth\BLEled\Shared Files</v>
+<v>Bluetooth\BLEled\Shared Files\cy_ble_config.h</v>
+<v>Bluetooth\BLEled\Shared Files\cyapicallbacks.h</v>
+<v>Bluetooth\BLEled\Shared Files\cyhal.h</v>
+<v>Bluetooth\BLEled\Shared Files\stdio_user.c</v>
+<v>Bluetooth\BLEled\Shared Files\stdio_user.h</v>
+<v>Bluetooth\BLEled\Shared Files\system_psoc6.h</v>
+<v>Bluetooth\BLEled\Generated_Source</v>
+<v>Bluetooth\BLEled\Generated_Source\PSoC6</v>
+<v>Bluetooth\BLEled\Generated_Source\PSoC6\pdl\utilities\retarget_io</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM MDK Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Header Files</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Header Files\FreeRTOSConfig.h</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc6_01_cm4.S</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc6_01_cm4.s</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM MDK Generic</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\ARM MDK Generic\startup_psoc6_01_cm4.s</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\main_cm4.c</v>
+<v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
+<v>Bluetooth\BLEled\Shared Files</v>
+<v>Bluetooth\BLEled\Shared Files\cy_ble_config.h</v>
+<v>Bluetooth\BLEled\Shared Files\cyapicallbacks.h</v>
+<v>Bluetooth\BLEled\Shared Files\cyhal.h</v>
+<v>Bluetooth\BLEled\Shared Files\stdio_user.c</v>
+<v>Bluetooth\BLEled\Shared Files\stdio_user.h</v>
+<v>Bluetooth\BLEled\Shared Files\system_psoc6.h</v>
+<v>Bluetooth\BLEled\Generated_Source</v>
+<v>Bluetooth\BLEled\Generated_Source\PSoC6</v>
+<v>Bluetooth\BLEled\Generated_Source\PSoC6\pdl</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bluetooth\BLEled\TopDesign\TopDesign.cysch">
+<ExpandedNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\TopDesign</v>
+<v>Bluetooth\BLEled\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\TopDesign</v>
+<v>Bluetooth\BLEled\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\CortexM0p</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_INIT.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE_config.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\BLE_custom_config.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_aios.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ancs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ans.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bas.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bcs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bls.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bms.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_bts.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cgms.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cps.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cscs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_cts.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_custom.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_dis.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ess.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_event_handler.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gap.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gatt.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_gls.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_int.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_pvt.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hids.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hps.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hrs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_hts.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ias.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ips.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_lls.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_lns.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_ndcs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_pass.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_plxs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_rscs.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_rtus.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_scps.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_tps.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_uds.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_wpts.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_wss.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_mcwdt.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sar.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_counter.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_pwm.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_quaddec.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\MCWDT_1_PDL.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm0plus.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm0plus.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\BLEled.elf</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\BLEled.hex</v>
+<v>Bluetooth\BLEled\CortexM0p\ARM_GCC_541\Debug\BLEled.map</v>
+<v>Bluetooth\BLEled\CortexM4</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC_INIT.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\BLE.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\BLE_config.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\BLE_custom_config.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\croutine.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_aios.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ancs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ans.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bas.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bcs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bls.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bms.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_bts.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cgms.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cps.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cscs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_cts.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_custom.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_dis.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ess.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_event_handler.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_gap.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_gatt.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_gls.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_int.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hal_pvt.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hids.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hps.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hrs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_hts.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ias.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ips.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_lls.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_lns.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_ndcs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_pass.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_plxs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_rscs.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_rtus.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_scps.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_tps.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_uds.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_wpts.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_wss.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_device.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_mcwdt.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sar.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_counter.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_pwm.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_quaddec.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\event_groups.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\heap_1.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\list.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\main_cm4.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\MCWDT_1_PDL.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\port.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\queue.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm4.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\stream_buffer.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm4.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\tasks.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\timers.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\BLEled.elf</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\BLEled.hex</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\BLEled.map</v>
+<v>Bluetooth\BLEled\BLEled.gpdsc</v>
+<v>Bluetooth\BLEled\BLEled.rpt</v>
+<v>Bluetooth\BLEled\BLEled_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_quaddec.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\event_groups.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\heap_1.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\list.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\main_cm4.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\MCWDT_1_PDL.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\port.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\queue.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\retarget.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\startup_psoc6_01_cm4.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\stdio_user.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\stream_buffer.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\system_psoc6_cm4.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\tasks.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\timers.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\BLEled.elf</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\BLEled.hex</v>
+<v>Bluetooth\BLEled\CortexM4\ARM_GCC_541\Debug\BLEled.map</v>
+<v>Bluetooth\BLEled\BLEled.gpdsc</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bluetooth">
+<ExpandedNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\PSoC 6 Architecture TRM</v>
+<v>Bluetooth\BLEled\PSoC 63 Family Datasheet</v>
+<v>Bluetooth\BLEled\Peripheral Driver Library</v>
+<v>Bluetooth\BLEled\System Reference Guides</v>
+<v>Bluetooth\BLEled\BLE_PDL_v2_20.pdf</v>
+<v>Bluetooth\BLEled\GPIO_PDL_v1_0</v>
+<v>Bluetooth\BLEled\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
+<v>Bluetooth\BLEled\MCWDT_PDL_v1_10.pdf</v>
+<v>Bluetooth\BLEled\Scan_ADC_P6_v3_10.pdf</v>
+<v>Bluetooth\BLEled\SCB_UART_PDL_v2_0.pdf</v>
+<v>Bluetooth\BLEled\SysClk_PDL_v1_0.pdf</v>
+<v>Bluetooth\BLEled\SysInt_PDL_v1_0</v>
+<v>Bluetooth\BLEled\SysInt_PDL_v1_0\SysInt_PDL_v1_0.pdf</v>
+<v>Bluetooth\BLEled\TCPWM_Counter_PDL_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\PSoC 6 Architecture TRM</v>
+<v>Bluetooth\BLEled\PSoC 63 Family Datasheet</v>
+<v>Bluetooth\BLEled\Peripheral Driver Library</v>
+<v>Bluetooth\BLEled\System Reference Guides</v>
+<v>Bluetooth\BLEled\BLE_PDL_v2_20.pdf</v>
+<v>Bluetooth\BLEled\GPIO_PDL_v1_0</v>
+<v>Bluetooth\BLEled\GPIO_PDL_v1_0\GPIO_PDL_v1_0.pdf</v>
+<v>Bluetooth\BLEled\MCWDT_PDL_v1_10.pdf</v>
+<v>Bluetooth\BLEled\Scan_ADC_P6_v3_10.pdf</v>
+<v>Bluetooth\BLEled\SCB_UART_PDL_v2_0.pdf</v>
+<v>Bluetooth\BLEled\SysClk_PDL_v1_0.pdf</v>
+<v>Bluetooth\BLEled\SysInt_PDL_v1_0</v>
+<v>Bluetooth\BLEled\SysInt_PDL_v1_0\SysInt_PDL_v1_0.pdf</v>
+<v>Bluetooth\BLEled\TCPWM_Counter_PDL_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\BLEled.cydsn\main_cm4.c" />
+<name v=".\BLEled.cydsn\BLEled.cydwr" />
+<name v=".\BLEled.cydsn\TopDesign\TopDesign.cysch" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1242, 488" SelectedTabbedMdiWindow="43094d81-41c6-45e5-b68c-5ce59b16c484"><DocumentWindow Key="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\main_cm4.c" Guid="43094d81-41c6-45e5-b68c-5ce59b16c484" /><DocumentWindow Key="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\BLEled.cydwr" Guid="a5141085-8d01-4e86-bbfa-48690121297c" /><DocumentWindow Key="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\TopDesign\TopDesign.cysch" Guid="b8f1ff77-0397-454f-a561-373da7630139" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

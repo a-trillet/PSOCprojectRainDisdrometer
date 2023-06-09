@@ -1,0 +1,6 @@
+C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\BLEled.cyprj|bf299c8a-c313-460c-b439-14b3442ff325
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|0907ff5e-3f1f-43cc-a459-f828a702952e
+C:\Users\atril\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|e7ac79a9-180b-4f31-a6a4-384217cd9bf2
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|d03aa905-d691-487d-8e7d-7b46f55d026f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|afdc90c0-f668-40d4-9902-710582f88e91
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|8e2d1a7c-c2f0-4a30-9df1-38f0af2bad50

@@ -1,0 +1,2063 @@
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0plus
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"BLE_custom_config.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_ble_customConfig
+  20              		.section	.rodata
+  21              		.align	2
+  22              		.type	cy_ble_customs, %object
+  23              		.size	cy_ble_customs, 20
+  24              	cy_ble_customs:
+  25 0000 1000     		.short	16
+  26 0002 1200     		.short	18
+  27 0004 1300     		.short	19
+  28 0006 0000     		.short	0
+  29 0008 1500     		.short	21
+  30 000a 0000     		.short	0
+  31 000c 0000     		.short	0
+  32 000e 1700     		.short	23
+  33 0010 1800     		.short	24
+  34 0012 1900     		.short	25
+  35              		.data
+  36              		.align	2
+  37              		.type	cy_ble_customConfig, %object
+  38              		.size	cy_ble_customConfig, 4
+  39              	cy_ble_customConfig:
+  40 0000 00000000 		.word	cy_ble_customs
+  41              		.text
+  42              	.Letext0:
+  43              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+  44              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+  45              		.file 3 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/device/cy_device.h"
+  46              		.file 4 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_host_main.h"
+  47              		.file 5 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_stack_gatt.h"
+  48              		.file 6 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_gap.h"
+  49              		.file 7 "Generated_Source\\PSoC6\\pdl\\middleware/ble/cy_ble_custom.h"
+  50              		.file 8 "Generated_Source\\PSoC6\\BLE_custom_config.c"
+  51              		.section	.debug_info,"",%progbits
+  52              	.Ldebug_info0:
+  53 0000 F2060000 		.4byte	0x6f2
+  54 0004 0400     		.2byte	0x4
+  55 0006 00000000 		.4byte	.Ldebug_abbrev0
+  56 000a 04       		.byte	0x4
+  57 000b 01       		.uleb128 0x1
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 2
+
+
+  58 000c B3070000 		.4byte	.LASF142
+  59 0010 0C       		.byte	0xc
+  60 0011 E8030000 		.4byte	.LASF143
+  61 0015 C7040000 		.4byte	.LASF144
+  62 0019 00000000 		.4byte	.Ldebug_line0
+  63 001d 02       		.uleb128 0x2
+  64 001e 04       		.byte	0x4
+  65 001f 05       		.byte	0x5
+  66 0020 696E7400 		.ascii	"int\000"
+  67 0024 03       		.uleb128 0x3
+  68 0025 04       		.byte	0x4
+  69 0026 07       		.byte	0x7
+  70 0027 53030000 		.4byte	.LASF0
+  71 002b 03       		.uleb128 0x3
+  72 002c 08       		.byte	0x8
+  73 002d 05       		.byte	0x5
+  74 002e 53010000 		.4byte	.LASF1
+  75 0032 03       		.uleb128 0x3
+  76 0033 08       		.byte	0x8
+  77 0034 04       		.byte	0x4
+  78 0035 45080000 		.4byte	.LASF2
+  79 0039 03       		.uleb128 0x3
+  80 003a 01       		.byte	0x1
+  81 003b 06       		.byte	0x6
+  82 003c 61010000 		.4byte	.LASF3
+  83 0040 04       		.uleb128 0x4
+  84 0041 86000000 		.4byte	.LASF5
+  85 0045 01       		.byte	0x1
+  86 0046 1D       		.byte	0x1d
+  87 0047 4B000000 		.4byte	0x4b
+  88 004b 03       		.uleb128 0x3
+  89 004c 01       		.byte	0x1
+  90 004d 08       		.byte	0x8
+  91 004e EE060000 		.4byte	.LASF4
+  92 0052 04       		.uleb128 0x4
+  93 0053 EA020000 		.4byte	.LASF6
+  94 0057 01       		.byte	0x1
+  95 0058 29       		.byte	0x29
+  96 0059 5D000000 		.4byte	0x5d
+  97 005d 03       		.uleb128 0x3
+  98 005e 02       		.byte	0x2
+  99 005f 05       		.byte	0x5
+ 100 0060 10070000 		.4byte	.LASF7
+ 101 0064 04       		.uleb128 0x4
+ 102 0065 70080000 		.4byte	.LASF8
+ 103 0069 01       		.byte	0x1
+ 104 006a 2B       		.byte	0x2b
+ 105 006b 6F000000 		.4byte	0x6f
+ 106 006f 03       		.uleb128 0x3
+ 107 0070 02       		.byte	0x2
+ 108 0071 07       		.byte	0x7
+ 109 0072 D8080000 		.4byte	.LASF9
+ 110 0076 03       		.uleb128 0x3
+ 111 0077 04       		.byte	0x4
+ 112 0078 05       		.byte	0x5
+ 113 0079 D5010000 		.4byte	.LASF10
+ 114 007d 04       		.uleb128 0x4
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 3
+
+
+ 115 007e C0020000 		.4byte	.LASF11
+ 116 0082 01       		.byte	0x1
+ 117 0083 41       		.byte	0x41
+ 118 0084 88000000 		.4byte	0x88
+ 119 0088 03       		.uleb128 0x3
+ 120 0089 04       		.byte	0x4
+ 121 008a 07       		.byte	0x7
+ 122 008b C2030000 		.4byte	.LASF12
+ 123 008f 03       		.uleb128 0x3
+ 124 0090 08       		.byte	0x8
+ 125 0091 07       		.byte	0x7
+ 126 0092 E8000000 		.4byte	.LASF13
+ 127 0096 03       		.uleb128 0x3
+ 128 0097 04       		.byte	0x4
+ 129 0098 07       		.byte	0x7
+ 130 0099 69050000 		.4byte	.LASF14
+ 131 009d 03       		.uleb128 0x3
+ 132 009e 01       		.byte	0x1
+ 133 009f 08       		.byte	0x8
+ 134 00a0 51080000 		.4byte	.LASF15
+ 135 00a4 04       		.uleb128 0x4
+ 136 00a5 9C090000 		.4byte	.LASF16
+ 137 00a9 02       		.byte	0x2
+ 138 00aa 18       		.byte	0x18
+ 139 00ab 40000000 		.4byte	0x40
+ 140 00af 04       		.uleb128 0x4
+ 141 00b0 4B010000 		.4byte	.LASF17
+ 142 00b4 02       		.byte	0x2
+ 143 00b5 20       		.byte	0x20
+ 144 00b6 52000000 		.4byte	0x52
+ 145 00ba 04       		.uleb128 0x4
+ 146 00bb A7030000 		.4byte	.LASF18
+ 147 00bf 02       		.byte	0x2
+ 148 00c0 24       		.byte	0x24
+ 149 00c1 64000000 		.4byte	0x64
+ 150 00c5 04       		.uleb128 0x4
+ 151 00c6 AA070000 		.4byte	.LASF19
+ 152 00ca 02       		.byte	0x2
+ 153 00cb 30       		.byte	0x30
+ 154 00cc 7D000000 		.4byte	0x7d
+ 155 00d0 05       		.uleb128 0x5
+ 156 00d1 B8       		.byte	0xb8
+ 157 00d2 03       		.byte	0x3
+ 158 00d3 34       		.byte	0x34
+ 159 00d4 E1040000 		.4byte	0x4e1
+ 160 00d8 06       		.uleb128 0x6
+ 161 00d9 CF000000 		.4byte	.LASF20
+ 162 00dd 03       		.byte	0x3
+ 163 00de 37       		.byte	0x37
+ 164 00df C5000000 		.4byte	0xc5
+ 165 00e3 00       		.byte	0
+ 166 00e4 06       		.uleb128 0x6
+ 167 00e5 B5020000 		.4byte	.LASF21
+ 168 00e9 03       		.byte	0x3
+ 169 00ea 38       		.byte	0x38
+ 170 00eb C5000000 		.4byte	0xc5
+ 171 00ef 04       		.byte	0x4
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 4
+
+
+ 172 00f0 06       		.uleb128 0x6
+ 173 00f1 19020000 		.4byte	.LASF22
+ 174 00f5 03       		.byte	0x3
+ 175 00f6 39       		.byte	0x39
+ 176 00f7 C5000000 		.4byte	0xc5
+ 177 00fb 08       		.byte	0x8
+ 178 00fc 06       		.uleb128 0x6
+ 179 00fd B6060000 		.4byte	.LASF23
+ 180 0101 03       		.byte	0x3
+ 181 0102 3A       		.byte	0x3a
+ 182 0103 C5000000 		.4byte	0xc5
+ 183 0107 0C       		.byte	0xc
+ 184 0108 06       		.uleb128 0x6
+ 185 0109 82010000 		.4byte	.LASF24
+ 186 010d 03       		.byte	0x3
+ 187 010e 3B       		.byte	0x3b
+ 188 010f C5000000 		.4byte	0xc5
+ 189 0113 10       		.byte	0x10
+ 190 0114 06       		.uleb128 0x6
+ 191 0115 CB010000 		.4byte	.LASF25
+ 192 0119 03       		.byte	0x3
+ 193 011a 3C       		.byte	0x3c
+ 194 011b C5000000 		.4byte	0xc5
+ 195 011f 14       		.byte	0x14
+ 196 0120 06       		.uleb128 0x6
+ 197 0121 DF030000 		.4byte	.LASF26
+ 198 0125 03       		.byte	0x3
+ 199 0126 3D       		.byte	0x3d
+ 200 0127 C5000000 		.4byte	0xc5
+ 201 012b 18       		.byte	0x18
+ 202 012c 06       		.uleb128 0x6
+ 203 012d 67000000 		.4byte	.LASF27
+ 204 0131 03       		.byte	0x3
+ 205 0132 3E       		.byte	0x3e
+ 206 0133 C5000000 		.4byte	0xc5
+ 207 0137 1C       		.byte	0x1c
+ 208 0138 06       		.uleb128 0x6
+ 209 0139 060A0000 		.4byte	.LASF28
+ 210 013d 03       		.byte	0x3
+ 211 013e 3F       		.byte	0x3f
+ 212 013f C5000000 		.4byte	0xc5
+ 213 0143 20       		.byte	0x20
+ 214 0144 06       		.uleb128 0x6
+ 215 0145 27060000 		.4byte	.LASF29
+ 216 0149 03       		.byte	0x3
+ 217 014a 40       		.byte	0x40
+ 218 014b C5000000 		.4byte	0xc5
+ 219 014f 24       		.byte	0x24
+ 220 0150 06       		.uleb128 0x6
+ 221 0151 1E050000 		.4byte	.LASF30
+ 222 0155 03       		.byte	0x3
+ 223 0156 43       		.byte	0x43
+ 224 0157 A4000000 		.4byte	0xa4
+ 225 015b 28       		.byte	0x28
+ 226 015c 06       		.uleb128 0x6
+ 227 015d 4D000000 		.4byte	.LASF31
+ 228 0161 03       		.byte	0x3
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 5
+
+
+ 229 0162 44       		.byte	0x44
+ 230 0163 A4000000 		.4byte	0xa4
+ 231 0167 29       		.byte	0x29
+ 232 0168 06       		.uleb128 0x6
+ 233 0169 FC090000 		.4byte	.LASF32
+ 234 016d 03       		.byte	0x3
+ 235 016e 45       		.byte	0x45
+ 236 016f A4000000 		.4byte	0xa4
+ 237 0173 2A       		.byte	0x2a
+ 238 0174 06       		.uleb128 0x6
+ 239 0175 19060000 		.4byte	.LASF33
+ 240 0179 03       		.byte	0x3
+ 241 017a 46       		.byte	0x46
+ 242 017b A4000000 		.4byte	0xa4
+ 243 017f 2B       		.byte	0x2b
+ 244 0180 06       		.uleb128 0x6
+ 245 0181 5D040000 		.4byte	.LASF34
+ 246 0185 03       		.byte	0x3
+ 247 0186 47       		.byte	0x47
+ 248 0187 A4000000 		.4byte	0xa4
+ 249 018b 2C       		.byte	0x2c
+ 250 018c 06       		.uleb128 0x6
+ 251 018d B7080000 		.4byte	.LASF35
+ 252 0191 03       		.byte	0x3
+ 253 0192 48       		.byte	0x48
+ 254 0193 A4000000 		.4byte	0xa4
+ 255 0197 2D       		.byte	0x2d
+ 256 0198 06       		.uleb128 0x6
+ 257 0199 8B010000 		.4byte	.LASF36
+ 258 019d 03       		.byte	0x3
+ 259 019e 49       		.byte	0x49
+ 260 019f A4000000 		.4byte	0xa4
+ 261 01a3 2E       		.byte	0x2e
+ 262 01a4 06       		.uleb128 0x6
+ 263 01a5 48050000 		.4byte	.LASF37
+ 264 01a9 03       		.byte	0x3
+ 265 01aa 4A       		.byte	0x4a
+ 266 01ab A4000000 		.4byte	0xa4
+ 267 01af 2F       		.byte	0x2f
+ 268 01b0 06       		.uleb128 0x6
+ 269 01b1 56080000 		.4byte	.LASF38
+ 270 01b5 03       		.byte	0x3
+ 271 01b6 4B       		.byte	0x4b
+ 272 01b7 A4000000 		.4byte	0xa4
+ 273 01bb 30       		.byte	0x30
+ 274 01bc 06       		.uleb128 0x6
+ 275 01bd D4030000 		.4byte	.LASF39
+ 276 01c1 03       		.byte	0x3
+ 277 01c2 4E       		.byte	0x4e
+ 278 01c3 A4000000 		.4byte	0xa4
+ 279 01c7 31       		.byte	0x31
+ 280 01c8 06       		.uleb128 0x6
+ 281 01c9 78000000 		.4byte	.LASF40
+ 282 01cd 03       		.byte	0x3
+ 283 01ce 4F       		.byte	0x4f
+ 284 01cf A4000000 		.4byte	0xa4
+ 285 01d3 32       		.byte	0x32
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 6
+
+
+ 286 01d4 06       		.uleb128 0x6
+ 287 01d5 47030000 		.4byte	.LASF41
+ 288 01d9 03       		.byte	0x3
+ 289 01da 50       		.byte	0x50
+ 290 01db A4000000 		.4byte	0xa4
+ 291 01df 33       		.byte	0x33
+ 292 01e0 06       		.uleb128 0x6
+ 293 01e1 7D050000 		.4byte	.LASF42
+ 294 01e5 03       		.byte	0x3
+ 295 01e6 51       		.byte	0x51
+ 296 01e7 A4000000 		.4byte	0xa4
+ 297 01eb 34       		.byte	0x34
+ 298 01ec 06       		.uleb128 0x6
+ 299 01ed 02090000 		.4byte	.LASF43
+ 300 01f1 03       		.byte	0x3
+ 301 01f2 52       		.byte	0x52
+ 302 01f3 AF000000 		.4byte	0xaf
+ 303 01f7 36       		.byte	0x36
+ 304 01f8 06       		.uleb128 0x6
+ 305 01f9 33020000 		.4byte	.LASF44
+ 306 01fd 03       		.byte	0x3
+ 307 01fe 53       		.byte	0x53
+ 308 01ff AF000000 		.4byte	0xaf
+ 309 0203 38       		.byte	0x38
+ 310 0204 06       		.uleb128 0x6
+ 311 0205 51090000 		.4byte	.LASF45
+ 312 0209 03       		.byte	0x3
+ 313 020a 54       		.byte	0x54
+ 314 020b AF000000 		.4byte	0xaf
+ 315 020f 3A       		.byte	0x3a
+ 316 0210 06       		.uleb128 0x6
+ 317 0211 ED090000 		.4byte	.LASF46
+ 318 0215 03       		.byte	0x3
+ 319 0216 55       		.byte	0x55
+ 320 0217 A4000000 		.4byte	0xa4
+ 321 021b 3C       		.byte	0x3c
+ 322 021c 06       		.uleb128 0x6
+ 323 021d 5A020000 		.4byte	.LASF47
+ 324 0221 03       		.byte	0x3
+ 325 0222 56       		.byte	0x56
+ 326 0223 A4000000 		.4byte	0xa4
+ 327 0227 3D       		.byte	0x3d
+ 328 0228 06       		.uleb128 0x6
+ 329 0229 8C070000 		.4byte	.LASF48
+ 330 022d 03       		.byte	0x3
+ 331 022e 57       		.byte	0x57
+ 332 022f A4000000 		.4byte	0xa4
+ 333 0233 3E       		.byte	0x3e
+ 334 0234 06       		.uleb128 0x6
+ 335 0235 5B000000 		.4byte	.LASF49
+ 336 0239 03       		.byte	0x3
+ 337 023a 58       		.byte	0x58
+ 338 023b A4000000 		.4byte	0xa4
+ 339 023f 3F       		.byte	0x3f
+ 340 0240 06       		.uleb128 0x6
+ 341 0241 32060000 		.4byte	.LASF50
+ 342 0245 03       		.byte	0x3
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 7
+
+
+ 343 0246 59       		.byte	0x59
+ 344 0247 A4000000 		.4byte	0xa4
+ 345 024b 40       		.byte	0x40
+ 346 024c 06       		.uleb128 0x6
+ 347 024d DA020000 		.4byte	.LASF51
+ 348 0251 03       		.byte	0x3
+ 349 0252 5A       		.byte	0x5a
+ 350 0253 A4000000 		.4byte	0xa4
+ 351 0257 41       		.byte	0x41
+ 352 0258 06       		.uleb128 0x6
+ 353 0259 79040000 		.4byte	.LASF52
+ 354 025d 03       		.byte	0x3
+ 355 025e 5B       		.byte	0x5b
+ 356 025f A4000000 		.4byte	0xa4
+ 357 0263 42       		.byte	0x42
+ 358 0264 06       		.uleb128 0x6
+ 359 0265 F7050000 		.4byte	.LASF53
+ 360 0269 03       		.byte	0x3
+ 361 026a 5C       		.byte	0x5c
+ 362 026b A4000000 		.4byte	0xa4
+ 363 026f 43       		.byte	0x43
+ 364 0270 06       		.uleb128 0x6
+ 365 0271 22020000 		.4byte	.LASF54
+ 366 0275 03       		.byte	0x3
+ 367 0276 5D       		.byte	0x5d
+ 368 0277 A4000000 		.4byte	0xa4
+ 369 027b 44       		.byte	0x44
+ 370 027c 06       		.uleb128 0x6
+ 371 027d 00000000 		.4byte	.LASF55
+ 372 0281 03       		.byte	0x3
+ 373 0282 5E       		.byte	0x5e
+ 374 0283 C5000000 		.4byte	0xc5
+ 375 0287 48       		.byte	0x48
+ 376 0288 06       		.uleb128 0x6
+ 377 0289 F5010000 		.4byte	.LASF56
+ 378 028d 03       		.byte	0x3
+ 379 028e 5F       		.byte	0x5f
+ 380 028f C5000000 		.4byte	0xc5
+ 381 0293 4C       		.byte	0x4c
+ 382 0294 06       		.uleb128 0x6
+ 383 0295 7C0A0000 		.4byte	.LASF57
+ 384 0299 03       		.byte	0x3
+ 385 029a 60       		.byte	0x60
+ 386 029b A4000000 		.4byte	0xa4
+ 387 029f 50       		.byte	0x50
+ 388 02a0 06       		.uleb128 0x6
+ 389 02a1 25010000 		.4byte	.LASF58
+ 390 02a5 03       		.byte	0x3
+ 391 02a6 61       		.byte	0x61
+ 392 02a7 A4000000 		.4byte	0xa4
+ 393 02ab 51       		.byte	0x51
+ 394 02ac 06       		.uleb128 0x6
+ 395 02ad 3F060000 		.4byte	.LASF59
+ 396 02b1 03       		.byte	0x3
+ 397 02b2 62       		.byte	0x62
+ 398 02b3 A4000000 		.4byte	0xa4
+ 399 02b7 52       		.byte	0x52
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 8
+
+
+ 400 02b8 06       		.uleb128 0x6
+ 401 02b9 240A0000 		.4byte	.LASF60
+ 402 02bd 03       		.byte	0x3
+ 403 02be 63       		.byte	0x63
+ 404 02bf A4000000 		.4byte	0xa4
+ 405 02c3 53       		.byte	0x53
+ 406 02c4 06       		.uleb128 0x6
+ 407 02c5 9A070000 		.4byte	.LASF61
+ 408 02c9 03       		.byte	0x3
+ 409 02ca 64       		.byte	0x64
+ 410 02cb A4000000 		.4byte	0xa4
+ 411 02cf 54       		.byte	0x54
+ 412 02d0 06       		.uleb128 0x6
+ 413 02d1 37010000 		.4byte	.LASF62
+ 414 02d5 03       		.byte	0x3
+ 415 02d6 65       		.byte	0x65
+ 416 02d7 A4000000 		.4byte	0xa4
+ 417 02db 55       		.byte	0x55
+ 418 02dc 06       		.uleb128 0x6
+ 419 02dd C4080000 		.4byte	.LASF63
+ 420 02e1 03       		.byte	0x3
+ 421 02e2 66       		.byte	0x66
+ 422 02e3 A4000000 		.4byte	0xa4
+ 423 02e7 56       		.byte	0x56
+ 424 02e8 06       		.uleb128 0x6
+ 425 02e9 48070000 		.4byte	.LASF64
+ 426 02ed 03       		.byte	0x3
+ 427 02ee 67       		.byte	0x67
+ 428 02ef A4000000 		.4byte	0xa4
+ 429 02f3 57       		.byte	0x57
+ 430 02f4 06       		.uleb128 0x6
+ 431 02f5 12000000 		.4byte	.LASF65
+ 432 02f9 03       		.byte	0x3
+ 433 02fa 68       		.byte	0x68
+ 434 02fb A4000000 		.4byte	0xa4
+ 435 02ff 58       		.byte	0x58
+ 436 0300 06       		.uleb128 0x6
+ 437 0301 FC060000 		.4byte	.LASF66
+ 438 0305 03       		.byte	0x3
+ 439 0306 69       		.byte	0x69
+ 440 0307 A4000000 		.4byte	0xa4
+ 441 030b 59       		.byte	0x59
+ 442 030c 06       		.uleb128 0x6
+ 443 030d 72050000 		.4byte	.LASF67
+ 444 0311 03       		.byte	0x3
+ 445 0312 6E       		.byte	0x6e
+ 446 0313 BA000000 		.4byte	0xba
+ 447 0317 5A       		.byte	0x5a
+ 448 0318 06       		.uleb128 0x6
+ 449 0319 EB080000 		.4byte	.LASF68
+ 450 031d 03       		.byte	0x3
+ 451 031e 6F       		.byte	0x6f
+ 452 031f BA000000 		.4byte	0xba
+ 453 0323 5C       		.byte	0x5c
+ 454 0324 06       		.uleb128 0x6
+ 455 0325 D9000000 		.4byte	.LASF69
+ 456 0329 03       		.byte	0x3
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 9
+
+
+ 457 032a 70       		.byte	0x70
+ 458 032b A4000000 		.4byte	0xa4
+ 459 032f 5E       		.byte	0x5e
+ 460 0330 06       		.uleb128 0x6
+ 461 0331 A0060000 		.4byte	.LASF70
+ 462 0335 03       		.byte	0x3
+ 463 0336 71       		.byte	0x71
+ 464 0337 A4000000 		.4byte	0xa4
+ 465 033b 5F       		.byte	0x5f
+ 466 033c 06       		.uleb128 0x6
+ 467 033d E6050000 		.4byte	.LASF71
+ 468 0341 03       		.byte	0x3
+ 469 0342 72       		.byte	0x72
+ 470 0343 A4000000 		.4byte	0xa4
+ 471 0347 60       		.byte	0x60
+ 472 0348 06       		.uleb128 0x6
+ 473 0349 79060000 		.4byte	.LASF72
+ 474 034d 03       		.byte	0x3
+ 475 034e 73       		.byte	0x73
+ 476 034f C5000000 		.4byte	0xc5
+ 477 0353 64       		.byte	0x64
+ 478 0354 06       		.uleb128 0x6
+ 479 0355 FF000000 		.4byte	.LASF73
+ 480 0359 03       		.byte	0x3
+ 481 035a 76       		.byte	0x76
+ 482 035b BA000000 		.4byte	0xba
+ 483 035f 68       		.byte	0x68
+ 484 0360 06       		.uleb128 0x6
+ 485 0361 B0030000 		.4byte	.LASF74
+ 486 0365 03       		.byte	0x3
+ 487 0366 77       		.byte	0x77
+ 488 0367 BA000000 		.4byte	0xba
+ 489 036b 6A       		.byte	0x6a
+ 490 036c 06       		.uleb128 0x6
+ 491 036d 13040000 		.4byte	.LASF75
+ 492 0371 03       		.byte	0x3
+ 493 0372 78       		.byte	0x78
+ 494 0373 BA000000 		.4byte	0xba
+ 495 0377 6C       		.byte	0x6c
+ 496 0378 06       		.uleb128 0x6
+ 497 0379 50040000 		.4byte	.LASF76
+ 498 037d 03       		.byte	0x3
+ 499 037e 79       		.byte	0x79
+ 500 037f BA000000 		.4byte	0xba
+ 501 0383 6E       		.byte	0x6e
+ 502 0384 06       		.uleb128 0x6
+ 503 0385 34070000 		.4byte	.LASF77
+ 504 0389 03       		.byte	0x3
+ 505 038a 7B       		.byte	0x7b
+ 506 038b A4000000 		.4byte	0xa4
+ 507 038f 70       		.byte	0x70
+ 508 0390 06       		.uleb128 0x6
+ 509 0391 6D010000 		.4byte	.LASF78
+ 510 0395 03       		.byte	0x3
+ 511 0396 7C       		.byte	0x7c
+ 512 0397 A4000000 		.4byte	0xa4
+ 513 039b 71       		.byte	0x71
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 10
+
+
+ 514 039c 06       		.uleb128 0x6
+ 515 039d 0E0A0000 		.4byte	.LASF79
+ 516 03a1 03       		.byte	0x3
+ 517 03a2 7D       		.byte	0x7d
+ 518 03a3 A4000000 		.4byte	0xa4
+ 519 03a7 72       		.byte	0x72
+ 520 03a8 06       		.uleb128 0x6
+ 521 03a9 AD050000 		.4byte	.LASF80
+ 522 03ad 03       		.byte	0x3
+ 523 03ae 7E       		.byte	0x7e
+ 524 03af A4000000 		.4byte	0xa4
+ 525 03b3 73       		.byte	0x73
+ 526 03b4 06       		.uleb128 0x6
+ 527 03b5 65020000 		.4byte	.LASF81
+ 528 03b9 03       		.byte	0x3
+ 529 03ba 80       		.byte	0x80
+ 530 03bb BA000000 		.4byte	0xba
+ 531 03bf 74       		.byte	0x74
+ 532 03c0 06       		.uleb128 0x6
+ 533 03c1 94080000 		.4byte	.LASF82
+ 534 03c5 03       		.byte	0x3
+ 535 03c6 81       		.byte	0x81
+ 536 03c7 BA000000 		.4byte	0xba
+ 537 03cb 76       		.byte	0x76
+ 538 03cc 06       		.uleb128 0x6
+ 539 03cd 45020000 		.4byte	.LASF83
+ 540 03d1 03       		.byte	0x3
+ 541 03d2 82       		.byte	0x82
+ 542 03d3 BA000000 		.4byte	0xba
+ 543 03d7 78       		.byte	0x78
+ 544 03d8 06       		.uleb128 0x6
+ 545 03d9 90000000 		.4byte	.LASF84
+ 546 03dd 03       		.byte	0x3
+ 547 03de 83       		.byte	0x83
+ 548 03df BA000000 		.4byte	0xba
+ 549 03e3 7A       		.byte	0x7a
+ 550 03e4 06       		.uleb128 0x6
+ 551 03e5 B9090000 		.4byte	.LASF85
+ 552 03e9 03       		.byte	0x3
+ 553 03ea 86       		.byte	0x86
+ 554 03eb A4000000 		.4byte	0xa4
+ 555 03ef 7C       		.byte	0x7c
+ 556 03f0 06       		.uleb128 0x6
+ 557 03f1 0F090000 		.4byte	.LASF86
+ 558 03f5 03       		.byte	0x3
+ 559 03f6 87       		.byte	0x87
+ 560 03f7 A4000000 		.4byte	0xa4
+ 561 03fb 7D       		.byte	0x7d
+ 562 03fc 06       		.uleb128 0x6
+ 563 03fd 26000000 		.4byte	.LASF87
+ 564 0401 03       		.byte	0x3
+ 565 0402 88       		.byte	0x88
+ 566 0403 A4000000 		.4byte	0xa4
+ 567 0407 7E       		.byte	0x7e
+ 568 0408 06       		.uleb128 0x6
+ 569 0409 A1020000 		.4byte	.LASF88
+ 570 040d 03       		.byte	0x3
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 11
+
+
+ 571 040e 89       		.byte	0x89
+ 572 040f A4000000 		.4byte	0xa4
+ 573 0413 7F       		.byte	0x7f
+ 574 0414 06       		.uleb128 0x6
+ 575 0415 33030000 		.4byte	.LASF89
+ 576 0419 03       		.byte	0x3
+ 577 041a 8A       		.byte	0x8a
+ 578 041b A4000000 		.4byte	0xa4
+ 579 041f 80       		.byte	0x80
+ 580 0420 06       		.uleb128 0x6
+ 581 0421 B0040000 		.4byte	.LASF90
+ 582 0425 03       		.byte	0x3
+ 583 0426 8D       		.byte	0x8d
+ 584 0427 C5000000 		.4byte	0xc5
+ 585 042b 84       		.byte	0x84
+ 586 042c 06       		.uleb128 0x6
+ 587 042d DE010000 		.4byte	.LASF91
+ 588 0431 03       		.byte	0x3
+ 589 0432 8E       		.byte	0x8e
+ 590 0433 C5000000 		.4byte	0xc5
+ 591 0437 88       		.byte	0x88
+ 592 0438 06       		.uleb128 0x6
+ 593 0439 A4090000 		.4byte	.LASF92
+ 594 043d 03       		.byte	0x3
+ 595 043e 8F       		.byte	0x8f
+ 596 043f C5000000 		.4byte	0xc5
+ 597 0443 8C       		.byte	0x8c
+ 598 0444 06       		.uleb128 0x6
+ 599 0445 54050000 		.4byte	.LASF93
+ 600 0449 03       		.byte	0x3
+ 601 044a 90       		.byte	0x90
+ 602 044b C5000000 		.4byte	0xc5
+ 603 044f 90       		.byte	0x90
+ 604 0450 06       		.uleb128 0x6
+ 605 0451 F4020000 		.4byte	.LASF94
+ 606 0455 03       		.byte	0x3
+ 607 0456 91       		.byte	0x91
+ 608 0457 C5000000 		.4byte	0xc5
+ 609 045b 94       		.byte	0x94
+ 610 045c 06       		.uleb128 0x6
+ 611 045d 9A040000 		.4byte	.LASF95
+ 612 0461 03       		.byte	0x3
+ 613 0462 92       		.byte	0x92
+ 614 0463 C5000000 		.4byte	0xc5
+ 615 0467 98       		.byte	0x98
+ 616 0468 06       		.uleb128 0x6
+ 617 0469 CE090000 		.4byte	.LASF96
+ 618 046d 03       		.byte	0x3
+ 619 046e 93       		.byte	0x93
+ 620 046f C5000000 		.4byte	0xc5
+ 621 0473 9C       		.byte	0x9c
+ 622 0474 06       		.uleb128 0x6
+ 623 0475 0F010000 		.4byte	.LASF97
+ 624 0479 03       		.byte	0x3
+ 625 047a 94       		.byte	0x94
+ 626 047b C5000000 		.4byte	0xc5
+ 627 047f A0       		.byte	0xa0
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 12
+
+
+ 628 0480 06       		.uleb128 0x6
+ 629 0481 96010000 		.4byte	.LASF98
+ 630 0485 03       		.byte	0x3
+ 631 0486 95       		.byte	0x95
+ 632 0487 BA000000 		.4byte	0xba
+ 633 048b A4       		.byte	0xa4
+ 634 048c 06       		.uleb128 0x6
+ 635 048d 85040000 		.4byte	.LASF99
+ 636 0491 03       		.byte	0x3
+ 637 0492 96       		.byte	0x96
+ 638 0493 BA000000 		.4byte	0xba
+ 639 0497 A6       		.byte	0xa6
+ 640 0498 06       		.uleb128 0x6
+ 641 0499 94060000 		.4byte	.LASF100
+ 642 049d 03       		.byte	0x3
+ 643 049e 97       		.byte	0x97
+ 644 049f BA000000 		.4byte	0xba
+ 645 04a3 A8       		.byte	0xa8
+ 646 04a4 06       		.uleb128 0x6
+ 647 04a5 62080000 		.4byte	.LASF101
+ 648 04a9 03       		.byte	0x3
+ 649 04aa 98       		.byte	0x98
+ 650 04ab BA000000 		.4byte	0xba
+ 651 04af AA       		.byte	0xaa
+ 652 04b0 06       		.uleb128 0x6
+ 653 04b1 22040000 		.4byte	.LASF102
+ 654 04b5 03       		.byte	0x3
+ 655 04b6 99       		.byte	0x99
+ 656 04b7 BA000000 		.4byte	0xba
+ 657 04bb AC       		.byte	0xac
+ 658 04bc 06       		.uleb128 0x6
+ 659 04bd C4050000 		.4byte	.LASF103
+ 660 04c1 03       		.byte	0x3
+ 661 04c2 9A       		.byte	0x9a
+ 662 04c3 BA000000 		.4byte	0xba
+ 663 04c7 AE       		.byte	0xae
+ 664 04c8 06       		.uleb128 0x6
+ 665 04c9 F4080000 		.4byte	.LASF104
+ 666 04cd 03       		.byte	0x3
+ 667 04ce 9D       		.byte	0x9d
+ 668 04cf BA000000 		.4byte	0xba
+ 669 04d3 B0       		.byte	0xb0
+ 670 04d4 06       		.uleb128 0x6
+ 671 04d5 39000000 		.4byte	.LASF105
+ 672 04d9 03       		.byte	0x3
+ 673 04da 9E       		.byte	0x9e
+ 674 04db C5000000 		.4byte	0xc5
+ 675 04df B4       		.byte	0xb4
+ 676 04e0 00       		.byte	0
+ 677 04e1 04       		.uleb128 0x4
+ 678 04e2 69040000 		.4byte	.LASF106
+ 679 04e6 03       		.byte	0x3
+ 680 04e7 9F       		.byte	0x9f
+ 681 04e8 D0000000 		.4byte	0xd0
+ 682 04ec 03       		.uleb128 0x3
+ 683 04ed 04       		.byte	0x4
+ 684 04ee 04       		.byte	0x4
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 13
+
+
+ 685 04ef 73060000 		.4byte	.LASF107
+ 686 04f3 03       		.uleb128 0x3
+ 687 04f4 08       		.byte	0x8
+ 688 04f5 04       		.byte	0x4
+ 689 04f6 3E020000 		.4byte	.LASF108
+ 690 04fa 07       		.uleb128 0x7
+ 691 04fb 02       		.byte	0x2
+ 692 04fc 04       		.byte	0x4
+ 693 04fd 6401     		.2byte	0x164
+ 694 04ff 1E050000 		.4byte	0x51e
+ 695 0503 08       		.uleb128 0x8
+ 696 0504 E4090000 		.4byte	.LASF109
+ 697 0508 04       		.byte	0x4
+ 698 0509 6E01     		.2byte	0x16e
+ 699 050b A4000000 		.4byte	0xa4
+ 700 050f 00       		.byte	0
+ 701 0510 08       		.uleb128 0x8
+ 702 0511 18050000 		.4byte	.LASF110
+ 703 0515 04       		.byte	0x4
+ 704 0516 7201     		.2byte	0x172
+ 705 0518 A4000000 		.4byte	0xa4
+ 706 051c 01       		.byte	0x1
+ 707 051d 00       		.byte	0
+ 708 051e 09       		.uleb128 0x9
+ 709 051f A5000000 		.4byte	.LASF111
+ 710 0523 04       		.byte	0x4
+ 711 0524 7401     		.2byte	0x174
+ 712 0526 FA040000 		.4byte	0x4fa
+ 713 052a 09       		.uleb128 0x9
+ 714 052b 2B050000 		.4byte	.LASF112
+ 715 052f 05       		.byte	0x5
+ 716 0530 7F01     		.2byte	0x17f
+ 717 0532 BA000000 		.4byte	0xba
+ 718 0536 0A       		.uleb128 0xa
+ 719 0537 01       		.byte	0x1
+ 720 0538 4B000000 		.4byte	0x4b
+ 721 053c 06       		.byte	0x6
+ 722 053d 7E       		.byte	0x7e
+ 723 053e 5B050000 		.4byte	0x55b
+ 724 0542 0B       		.uleb128 0xb
+ 725 0543 83090000 		.4byte	.LASF113
+ 726 0547 00       		.byte	0
+ 727 0548 0B       		.uleb128 0xb
+ 728 0549 8E050000 		.4byte	.LASF114
+ 729 054d 01       		.byte	0x1
+ 730 054e 0B       		.uleb128 0xb
+ 731 054f 66090000 		.4byte	.LASF115
+ 732 0553 02       		.byte	0x2
+ 733 0554 0B       		.uleb128 0xb
+ 734 0555 AB010000 		.4byte	.LASF116
+ 735 0559 03       		.byte	0x3
+ 736 055a 00       		.byte	0
+ 737 055b 04       		.uleb128 0x4
+ 738 055c 03020000 		.4byte	.LASF117
+ 739 0560 06       		.byte	0x6
+ 740 0561 83       		.byte	0x83
+ 741 0562 36050000 		.4byte	0x536
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 14
+
+
+ 742 0566 0A       		.uleb128 0xa
+ 743 0567 01       		.byte	0x1
+ 744 0568 4B000000 		.4byte	0x4b
+ 745 056c 06       		.byte	0x6
+ 746 056d 87       		.byte	0x87
+ 747 056e A3050000 		.4byte	0x5a3
+ 748 0572 0B       		.uleb128 0xb
+ 749 0573 20090000 		.4byte	.LASF118
+ 750 0577 00       		.byte	0
+ 751 0578 0B       		.uleb128 0xb
+ 752 0579 4B0A0000 		.4byte	.LASF119
+ 753 057d 01       		.byte	0x1
+ 754 057e 0B       		.uleb128 0xb
+ 755 057f 60030000 		.4byte	.LASF120
+ 756 0583 02       		.byte	0x2
+ 757 0584 0B       		.uleb128 0xb
+ 758 0585 09030000 		.4byte	.LASF121
+ 759 0589 03       		.byte	0x3
+ 760 058a 0B       		.uleb128 0xb
+ 761 058b 77020000 		.4byte	.LASF122
+ 762 058f 04       		.byte	0x4
+ 763 0590 0B       		.uleb128 0xb
+ 764 0591 BE060000 		.4byte	.LASF123
+ 765 0595 05       		.byte	0x5
+ 766 0596 0B       		.uleb128 0xb
+ 767 0597 7C030000 		.4byte	.LASF124
+ 768 059b 06       		.byte	0x6
+ 769 059c 0B       		.uleb128 0xb
+ 770 059d 4F060000 		.4byte	.LASF125
+ 771 05a1 07       		.byte	0x7
+ 772 05a2 00       		.byte	0
+ 773 05a3 04       		.uleb128 0x4
+ 774 05a4 02060000 		.4byte	.LASF126
+ 775 05a8 06       		.byte	0x6
+ 776 05a9 90       		.byte	0x90
+ 777 05aa 66050000 		.4byte	0x566
+ 778 05ae 03       		.uleb128 0x3
+ 779 05af 01       		.byte	0x1
+ 780 05b0 02       		.byte	0x2
+ 781 05b1 E8060000 		.4byte	.LASF127
+ 782 05b5 05       		.uleb128 0x5
+ 783 05b6 06       		.byte	0x6
+ 784 05b7 07       		.byte	0x7
+ 785 05b8 3B       		.byte	0x3b
+ 786 05b9 D6050000 		.4byte	0x5d6
+ 787 05bd 06       		.uleb128 0x6
+ 788 05be 360A0000 		.4byte	.LASF128
+ 789 05c2 07       		.byte	0x7
+ 790 05c3 3E       		.byte	0x3e
+ 791 05c4 2A050000 		.4byte	0x52a
+ 792 05c8 00       		.byte	0
+ 793 05c9 06       		.uleb128 0x6
+ 794 05ca 8D0A0000 		.4byte	.LASF129
+ 795 05ce 07       		.byte	0x7
+ 796 05cf 41       		.byte	0x41
+ 797 05d0 D6050000 		.4byte	0x5d6
+ 798 05d4 02       		.byte	0x2
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 15
+
+
+ 799 05d5 00       		.byte	0
+ 800 05d6 0C       		.uleb128 0xc
+ 801 05d7 2A050000 		.4byte	0x52a
+ 802 05db E6050000 		.4byte	0x5e6
+ 803 05df 0D       		.uleb128 0xd
+ 804 05e0 96000000 		.4byte	0x96
+ 805 05e4 01       		.byte	0x1
+ 806 05e5 00       		.byte	0
+ 807 05e6 04       		.uleb128 0x4
+ 808 05e7 1A070000 		.4byte	.LASF130
+ 809 05eb 07       		.byte	0x7
+ 810 05ec 43       		.byte	0x43
+ 811 05ed B5050000 		.4byte	0x5b5
+ 812 05f1 05       		.uleb128 0x5
+ 813 05f2 14       		.byte	0x14
+ 814 05f3 07       		.byte	0x7
+ 815 05f4 46       		.byte	0x46
+ 816 05f5 12060000 		.4byte	0x612
+ 817 05f9 06       		.uleb128 0x6
+ 818 05fa BE000000 		.4byte	.LASF131
+ 819 05fe 07       		.byte	0x7
+ 820 05ff 49       		.byte	0x49
+ 821 0600 2A050000 		.4byte	0x52a
+ 822 0604 00       		.byte	0
+ 823 0605 06       		.uleb128 0x6
+ 824 0606 CB020000 		.4byte	.LASF132
+ 825 060a 07       		.byte	0x7
+ 826 060b 4C       		.byte	0x4c
+ 827 060c 12060000 		.4byte	0x612
+ 828 0610 02       		.byte	0x2
+ 829 0611 00       		.byte	0
+ 830 0612 0C       		.uleb128 0xc
+ 831 0613 E6050000 		.4byte	0x5e6
+ 832 0617 22060000 		.4byte	0x622
+ 833 061b 0D       		.uleb128 0xd
+ 834 061c 96000000 		.4byte	0x96
+ 835 0620 02       		.byte	0x2
+ 836 0621 00       		.byte	0
+ 837 0622 04       		.uleb128 0x4
+ 838 0623 77070000 		.4byte	.LASF133
+ 839 0627 07       		.byte	0x7
+ 840 0628 4E       		.byte	0x4e
+ 841 0629 F1050000 		.4byte	0x5f1
+ 842 062d 05       		.uleb128 0x5
+ 843 062e 04       		.byte	0x4
+ 844 062f 07       		.byte	0x7
+ 845 0630 90       		.byte	0x90
+ 846 0631 42060000 		.4byte	0x642
+ 847 0635 06       		.uleb128 0x6
+ 848 0636 70000000 		.4byte	.LASF134
+ 849 063a 07       		.byte	0x7
+ 850 063b 94       		.byte	0x94
+ 851 063c 42060000 		.4byte	0x642
+ 852 0640 00       		.byte	0
+ 853 0641 00       		.byte	0
+ 854 0642 0E       		.uleb128 0xe
+ 855 0643 04       		.byte	0x4
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 16
+
+
+ 856 0644 48060000 		.4byte	0x648
+ 857 0648 0F       		.uleb128 0xf
+ 858 0649 22060000 		.4byte	0x622
+ 859 064d 04       		.uleb128 0x4
+ 860 064e 5C070000 		.4byte	.LASF135
+ 861 0652 07       		.byte	0x7
+ 862 0653 9B       		.byte	0x9b
+ 863 0654 2D060000 		.4byte	0x62d
+ 864 0658 0C       		.uleb128 0xc
+ 865 0659 48060000 		.4byte	0x648
+ 866 065d 68060000 		.4byte	0x668
+ 867 0661 0D       		.uleb128 0xd
+ 868 0662 96000000 		.4byte	0x96
+ 869 0666 00       		.byte	0
+ 870 0667 00       		.byte	0
+ 871 0668 10       		.uleb128 0x10
+ 872 0669 41040000 		.4byte	.LASF145
+ 873 066d 08       		.byte	0x8
+ 874 066e 1A       		.byte	0x1a
+ 875 066f 79060000 		.4byte	0x679
+ 876 0673 05       		.uleb128 0x5
+ 877 0674 03       		.byte	0x3
+ 878 0675 00000000 		.4byte	cy_ble_customs
+ 879 0679 0F       		.uleb128 0xf
+ 880 067a 58060000 		.4byte	0x658
+ 881 067e 11       		.uleb128 0x11
+ 882 067f 8A060000 		.4byte	.LASF136
+ 883 0683 03       		.byte	0x3
+ 884 0684 A7       		.byte	0xa7
+ 885 0685 89060000 		.4byte	0x689
+ 886 0689 0E       		.uleb128 0xe
+ 887 068a 04       		.byte	0x4
+ 888 068b 8F060000 		.4byte	0x68f
+ 889 068f 0F       		.uleb128 0xf
+ 890 0690 E1040000 		.4byte	0x4e1
+ 891 0694 12       		.uleb128 0x12
+ 892 0695 A7080000 		.4byte	.LASF137
+ 893 0699 06       		.byte	0x6
+ 894 069a 2202     		.2byte	0x222
+ 895 069c 5B050000 		.4byte	0x55b
+ 896 06a0 0C       		.uleb128 0xc
+ 897 06a1 1E050000 		.4byte	0x51e
+ 898 06a5 B0060000 		.4byte	0x6b0
+ 899 06a9 0D       		.uleb128 0xd
+ 900 06aa 96000000 		.4byte	0x96
+ 901 06ae 00       		.byte	0
+ 902 06af 00       		.byte	0
+ 903 06b0 12       		.uleb128 0x12
+ 904 06b1 3F090000 		.4byte	.LASF138
+ 905 06b5 06       		.byte	0x6
+ 906 06b6 2C02     		.2byte	0x22c
+ 907 06b8 A0060000 		.4byte	0x6a0
+ 908 06bc 0C       		.uleb128 0xc
+ 909 06bd A3050000 		.4byte	0x5a3
+ 910 06c1 CC060000 		.4byte	0x6cc
+ 911 06c5 0D       		.uleb128 0xd
+ 912 06c6 96000000 		.4byte	0x96
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 17
+
+
+ 913 06ca 00       		.byte	0
+ 914 06cb 00       		.byte	0
+ 915 06cc 12       		.uleb128 0x12
+ 916 06cd 30040000 		.4byte	.LASF139
+ 917 06d1 06       		.byte	0x6
+ 918 06d2 2D02     		.2byte	0x22d
+ 919 06d4 BC060000 		.4byte	0x6bc
+ 920 06d8 12       		.uleb128 0x12
+ 921 06d9 7B080000 		.4byte	.LASF140
+ 922 06dd 06       		.byte	0x6
+ 923 06de 5202     		.2byte	0x252
+ 924 06e0 A4000000 		.4byte	0xa4
+ 925 06e4 13       		.uleb128 0x13
+ 926 06e5 D2050000 		.4byte	.LASF141
+ 927 06e9 08       		.byte	0x8
+ 928 06ea 53       		.byte	0x53
+ 929 06eb 4D060000 		.4byte	0x64d
+ 930 06ef 05       		.uleb128 0x5
+ 931 06f0 03       		.byte	0x3
+ 932 06f1 00000000 		.4byte	cy_ble_customConfig
+ 933 06f5 00       		.byte	0
+ 934              		.section	.debug_abbrev,"",%progbits
+ 935              	.Ldebug_abbrev0:
+ 936 0000 01       		.uleb128 0x1
+ 937 0001 11       		.uleb128 0x11
+ 938 0002 01       		.byte	0x1
+ 939 0003 25       		.uleb128 0x25
+ 940 0004 0E       		.uleb128 0xe
+ 941 0005 13       		.uleb128 0x13
+ 942 0006 0B       		.uleb128 0xb
+ 943 0007 03       		.uleb128 0x3
+ 944 0008 0E       		.uleb128 0xe
+ 945 0009 1B       		.uleb128 0x1b
+ 946 000a 0E       		.uleb128 0xe
+ 947 000b 10       		.uleb128 0x10
+ 948 000c 17       		.uleb128 0x17
+ 949 000d 00       		.byte	0
+ 950 000e 00       		.byte	0
+ 951 000f 02       		.uleb128 0x2
+ 952 0010 24       		.uleb128 0x24
+ 953 0011 00       		.byte	0
+ 954 0012 0B       		.uleb128 0xb
+ 955 0013 0B       		.uleb128 0xb
+ 956 0014 3E       		.uleb128 0x3e
+ 957 0015 0B       		.uleb128 0xb
+ 958 0016 03       		.uleb128 0x3
+ 959 0017 08       		.uleb128 0x8
+ 960 0018 00       		.byte	0
+ 961 0019 00       		.byte	0
+ 962 001a 03       		.uleb128 0x3
+ 963 001b 24       		.uleb128 0x24
+ 964 001c 00       		.byte	0
+ 965 001d 0B       		.uleb128 0xb
+ 966 001e 0B       		.uleb128 0xb
+ 967 001f 3E       		.uleb128 0x3e
+ 968 0020 0B       		.uleb128 0xb
+ 969 0021 03       		.uleb128 0x3
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 18
+
+
+ 970 0022 0E       		.uleb128 0xe
+ 971 0023 00       		.byte	0
+ 972 0024 00       		.byte	0
+ 973 0025 04       		.uleb128 0x4
+ 974 0026 16       		.uleb128 0x16
+ 975 0027 00       		.byte	0
+ 976 0028 03       		.uleb128 0x3
+ 977 0029 0E       		.uleb128 0xe
+ 978 002a 3A       		.uleb128 0x3a
+ 979 002b 0B       		.uleb128 0xb
+ 980 002c 3B       		.uleb128 0x3b
+ 981 002d 0B       		.uleb128 0xb
+ 982 002e 49       		.uleb128 0x49
+ 983 002f 13       		.uleb128 0x13
+ 984 0030 00       		.byte	0
+ 985 0031 00       		.byte	0
+ 986 0032 05       		.uleb128 0x5
+ 987 0033 13       		.uleb128 0x13
+ 988 0034 01       		.byte	0x1
+ 989 0035 0B       		.uleb128 0xb
+ 990 0036 0B       		.uleb128 0xb
+ 991 0037 3A       		.uleb128 0x3a
+ 992 0038 0B       		.uleb128 0xb
+ 993 0039 3B       		.uleb128 0x3b
+ 994 003a 0B       		.uleb128 0xb
+ 995 003b 01       		.uleb128 0x1
+ 996 003c 13       		.uleb128 0x13
+ 997 003d 00       		.byte	0
+ 998 003e 00       		.byte	0
+ 999 003f 06       		.uleb128 0x6
+ 1000 0040 0D       		.uleb128 0xd
+ 1001 0041 00       		.byte	0
+ 1002 0042 03       		.uleb128 0x3
+ 1003 0043 0E       		.uleb128 0xe
+ 1004 0044 3A       		.uleb128 0x3a
+ 1005 0045 0B       		.uleb128 0xb
+ 1006 0046 3B       		.uleb128 0x3b
+ 1007 0047 0B       		.uleb128 0xb
+ 1008 0048 49       		.uleb128 0x49
+ 1009 0049 13       		.uleb128 0x13
+ 1010 004a 38       		.uleb128 0x38
+ 1011 004b 0B       		.uleb128 0xb
+ 1012 004c 00       		.byte	0
+ 1013 004d 00       		.byte	0
+ 1014 004e 07       		.uleb128 0x7
+ 1015 004f 13       		.uleb128 0x13
+ 1016 0050 01       		.byte	0x1
+ 1017 0051 0B       		.uleb128 0xb
+ 1018 0052 0B       		.uleb128 0xb
+ 1019 0053 3A       		.uleb128 0x3a
+ 1020 0054 0B       		.uleb128 0xb
+ 1021 0055 3B       		.uleb128 0x3b
+ 1022 0056 05       		.uleb128 0x5
+ 1023 0057 01       		.uleb128 0x1
+ 1024 0058 13       		.uleb128 0x13
+ 1025 0059 00       		.byte	0
+ 1026 005a 00       		.byte	0
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 19
+
+
+ 1027 005b 08       		.uleb128 0x8
+ 1028 005c 0D       		.uleb128 0xd
+ 1029 005d 00       		.byte	0
+ 1030 005e 03       		.uleb128 0x3
+ 1031 005f 0E       		.uleb128 0xe
+ 1032 0060 3A       		.uleb128 0x3a
+ 1033 0061 0B       		.uleb128 0xb
+ 1034 0062 3B       		.uleb128 0x3b
+ 1035 0063 05       		.uleb128 0x5
+ 1036 0064 49       		.uleb128 0x49
+ 1037 0065 13       		.uleb128 0x13
+ 1038 0066 38       		.uleb128 0x38
+ 1039 0067 0B       		.uleb128 0xb
+ 1040 0068 00       		.byte	0
+ 1041 0069 00       		.byte	0
+ 1042 006a 09       		.uleb128 0x9
+ 1043 006b 16       		.uleb128 0x16
+ 1044 006c 00       		.byte	0
+ 1045 006d 03       		.uleb128 0x3
+ 1046 006e 0E       		.uleb128 0xe
+ 1047 006f 3A       		.uleb128 0x3a
+ 1048 0070 0B       		.uleb128 0xb
+ 1049 0071 3B       		.uleb128 0x3b
+ 1050 0072 05       		.uleb128 0x5
+ 1051 0073 49       		.uleb128 0x49
+ 1052 0074 13       		.uleb128 0x13
+ 1053 0075 00       		.byte	0
+ 1054 0076 00       		.byte	0
+ 1055 0077 0A       		.uleb128 0xa
+ 1056 0078 04       		.uleb128 0x4
+ 1057 0079 01       		.byte	0x1
+ 1058 007a 0B       		.uleb128 0xb
+ 1059 007b 0B       		.uleb128 0xb
+ 1060 007c 49       		.uleb128 0x49
+ 1061 007d 13       		.uleb128 0x13
+ 1062 007e 3A       		.uleb128 0x3a
+ 1063 007f 0B       		.uleb128 0xb
+ 1064 0080 3B       		.uleb128 0x3b
+ 1065 0081 0B       		.uleb128 0xb
+ 1066 0082 01       		.uleb128 0x1
+ 1067 0083 13       		.uleb128 0x13
+ 1068 0084 00       		.byte	0
+ 1069 0085 00       		.byte	0
+ 1070 0086 0B       		.uleb128 0xb
+ 1071 0087 28       		.uleb128 0x28
+ 1072 0088 00       		.byte	0
+ 1073 0089 03       		.uleb128 0x3
+ 1074 008a 0E       		.uleb128 0xe
+ 1075 008b 1C       		.uleb128 0x1c
+ 1076 008c 0B       		.uleb128 0xb
+ 1077 008d 00       		.byte	0
+ 1078 008e 00       		.byte	0
+ 1079 008f 0C       		.uleb128 0xc
+ 1080 0090 01       		.uleb128 0x1
+ 1081 0091 01       		.byte	0x1
+ 1082 0092 49       		.uleb128 0x49
+ 1083 0093 13       		.uleb128 0x13
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 20
+
+
+ 1084 0094 01       		.uleb128 0x1
+ 1085 0095 13       		.uleb128 0x13
+ 1086 0096 00       		.byte	0
+ 1087 0097 00       		.byte	0
+ 1088 0098 0D       		.uleb128 0xd
+ 1089 0099 21       		.uleb128 0x21
+ 1090 009a 00       		.byte	0
+ 1091 009b 49       		.uleb128 0x49
+ 1092 009c 13       		.uleb128 0x13
+ 1093 009d 2F       		.uleb128 0x2f
+ 1094 009e 0B       		.uleb128 0xb
+ 1095 009f 00       		.byte	0
+ 1096 00a0 00       		.byte	0
+ 1097 00a1 0E       		.uleb128 0xe
+ 1098 00a2 0F       		.uleb128 0xf
+ 1099 00a3 00       		.byte	0
+ 1100 00a4 0B       		.uleb128 0xb
+ 1101 00a5 0B       		.uleb128 0xb
+ 1102 00a6 49       		.uleb128 0x49
+ 1103 00a7 13       		.uleb128 0x13
+ 1104 00a8 00       		.byte	0
+ 1105 00a9 00       		.byte	0
+ 1106 00aa 0F       		.uleb128 0xf
+ 1107 00ab 26       		.uleb128 0x26
+ 1108 00ac 00       		.byte	0
+ 1109 00ad 49       		.uleb128 0x49
+ 1110 00ae 13       		.uleb128 0x13
+ 1111 00af 00       		.byte	0
+ 1112 00b0 00       		.byte	0
+ 1113 00b1 10       		.uleb128 0x10
+ 1114 00b2 34       		.uleb128 0x34
+ 1115 00b3 00       		.byte	0
+ 1116 00b4 03       		.uleb128 0x3
+ 1117 00b5 0E       		.uleb128 0xe
+ 1118 00b6 3A       		.uleb128 0x3a
+ 1119 00b7 0B       		.uleb128 0xb
+ 1120 00b8 3B       		.uleb128 0x3b
+ 1121 00b9 0B       		.uleb128 0xb
+ 1122 00ba 49       		.uleb128 0x49
+ 1123 00bb 13       		.uleb128 0x13
+ 1124 00bc 02       		.uleb128 0x2
+ 1125 00bd 18       		.uleb128 0x18
+ 1126 00be 00       		.byte	0
+ 1127 00bf 00       		.byte	0
+ 1128 00c0 11       		.uleb128 0x11
+ 1129 00c1 34       		.uleb128 0x34
+ 1130 00c2 00       		.byte	0
+ 1131 00c3 03       		.uleb128 0x3
+ 1132 00c4 0E       		.uleb128 0xe
+ 1133 00c5 3A       		.uleb128 0x3a
+ 1134 00c6 0B       		.uleb128 0xb
+ 1135 00c7 3B       		.uleb128 0x3b
+ 1136 00c8 0B       		.uleb128 0xb
+ 1137 00c9 49       		.uleb128 0x49
+ 1138 00ca 13       		.uleb128 0x13
+ 1139 00cb 3F       		.uleb128 0x3f
+ 1140 00cc 19       		.uleb128 0x19
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 21
+
+
+ 1141 00cd 3C       		.uleb128 0x3c
+ 1142 00ce 19       		.uleb128 0x19
+ 1143 00cf 00       		.byte	0
+ 1144 00d0 00       		.byte	0
+ 1145 00d1 12       		.uleb128 0x12
+ 1146 00d2 34       		.uleb128 0x34
+ 1147 00d3 00       		.byte	0
+ 1148 00d4 03       		.uleb128 0x3
+ 1149 00d5 0E       		.uleb128 0xe
+ 1150 00d6 3A       		.uleb128 0x3a
+ 1151 00d7 0B       		.uleb128 0xb
+ 1152 00d8 3B       		.uleb128 0x3b
+ 1153 00d9 05       		.uleb128 0x5
+ 1154 00da 49       		.uleb128 0x49
+ 1155 00db 13       		.uleb128 0x13
+ 1156 00dc 3F       		.uleb128 0x3f
+ 1157 00dd 19       		.uleb128 0x19
+ 1158 00de 3C       		.uleb128 0x3c
+ 1159 00df 19       		.uleb128 0x19
+ 1160 00e0 00       		.byte	0
+ 1161 00e1 00       		.byte	0
+ 1162 00e2 13       		.uleb128 0x13
+ 1163 00e3 34       		.uleb128 0x34
+ 1164 00e4 00       		.byte	0
+ 1165 00e5 03       		.uleb128 0x3
+ 1166 00e6 0E       		.uleb128 0xe
+ 1167 00e7 3A       		.uleb128 0x3a
+ 1168 00e8 0B       		.uleb128 0xb
+ 1169 00e9 3B       		.uleb128 0x3b
+ 1170 00ea 0B       		.uleb128 0xb
+ 1171 00eb 49       		.uleb128 0x49
+ 1172 00ec 13       		.uleb128 0x13
+ 1173 00ed 3F       		.uleb128 0x3f
+ 1174 00ee 19       		.uleb128 0x19
+ 1175 00ef 02       		.uleb128 0x2
+ 1176 00f0 18       		.uleb128 0x18
+ 1177 00f1 00       		.byte	0
+ 1178 00f2 00       		.byte	0
+ 1179 00f3 00       		.byte	0
+ 1180              		.section	.debug_aranges,"",%progbits
+ 1181 0000 14000000 		.4byte	0x14
+ 1182 0004 0200     		.2byte	0x2
+ 1183 0006 00000000 		.4byte	.Ldebug_info0
+ 1184 000a 04       		.byte	0x4
+ 1185 000b 00       		.byte	0
+ 1186 000c 0000     		.2byte	0
+ 1187 000e 0000     		.2byte	0
+ 1188 0010 00000000 		.4byte	0
+ 1189 0014 00000000 		.4byte	0
+ 1190              		.section	.debug_line,"",%progbits
+ 1191              	.Ldebug_line0:
+ 1192 0000 08020000 		.section	.debug_str,"MS",%progbits,1
+ 1192      02000202 
+ 1192      00000201 
+ 1192      FB0E0D00 
+ 1192      01010101 
+ 1193              	.LASF55:
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 22
+
+
+ 1194 0000 70726F74 		.ascii	"protBusMasterMask\000"
+ 1194      4275734D 
+ 1194      61737465 
+ 1194      724D6173 
+ 1194      6B00
+ 1195              	.LASF65:
+ 1196 0012 666C6173 		.ascii	"flashCtlMainWs3Freq\000"
+ 1196      6843746C 
+ 1196      4D61696E 
+ 1196      57733346 
+ 1196      72657100 
+ 1197              	.LASF87:
+ 1198 0026 6770696F 		.ascii	"gpioPrtCfgInOffset\000"
+ 1198      50727443 
+ 1198      6667496E 
+ 1198      4F666673 
+ 1198      657400
+ 1199              	.LASF105:
+ 1200 0039 6970634C 		.ascii	"ipcLockStatusOffset\000"
+ 1200      6F636B53 
+ 1200      74617475 
+ 1200      734F6666 
+ 1200      73657400 
+ 1201              	.LASF31:
+ 1202 004d 63727970 		.ascii	"cryptoVersion\000"
+ 1202      746F5665 
+ 1202      7273696F 
+ 1202      6E00
+ 1203              	.LASF49:
+ 1204 005b 70657269 		.ascii	"periClockNr\000"
+ 1204      436C6F63 
+ 1204      6B4E7200 
+ 1205              	.LASF27:
+ 1206 0067 70617373 		.ascii	"passBase\000"
+ 1206      42617365 
+ 1206      00
+ 1207              	.LASF134:
+ 1208 0070 63757374 		.ascii	"customs\000"
+ 1208      6F6D7300 
+ 1209              	.LASF40:
+ 1210 0078 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 1210      73497063 
+ 1210      4972714E 
+ 1210      7200
+ 1211              	.LASF5:
+ 1212 0086 5F5F7569 		.ascii	"__uint8_t\000"
+ 1212      6E74385F 
+ 1212      7400
+ 1213              	.LASF84:
+ 1214 0090 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 1214      44697632 
+ 1214      345F3543 
+ 1214      746C4F66 
+ 1214      66736574 
+ 1215              	.LASF111:
+ 1216 00a5 63795F73 		.ascii	"cy_stc_ble_conn_handle_t\000"
+ 1216      74635F62 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 23
+
+
+ 1216      6C655F63 
+ 1216      6F6E6E5F 
+ 1216      68616E64 
+ 1217              	.LASF131:
+ 1218 00be 63757374 		.ascii	"customServHandle\000"
+ 1218      6F6D5365 
+ 1218      72764861 
+ 1218      6E646C65 
+ 1218      00
+ 1219              	.LASF20:
+ 1220 00cf 63707573 		.ascii	"cpussBase\000"
+ 1220      73426173 
+ 1220      6500
+ 1221              	.LASF69:
+ 1222 00d9 64774368 		.ascii	"dwChCtlPrioPos\000"
+ 1222      43746C50 
+ 1222      72696F50 
+ 1222      6F7300
+ 1223              	.LASF13:
+ 1224 00e8 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1224      206C6F6E 
+ 1224      6720756E 
+ 1224      7369676E 
+ 1224      65642069 
+ 1225              	.LASF73:
+ 1226 00ff 70657269 		.ascii	"periTrCmdOffset\000"
+ 1226      5472436D 
+ 1226      644F6666 
+ 1226      73657400 
+ 1227              	.LASF97:
+ 1228 010f 63707573 		.ascii	"cpussSysTickCtlOffset\000"
+ 1228      73537973 
+ 1228      5469636B 
+ 1228      43746C4F 
+ 1228      66667365 
+ 1229              	.LASF58:
+ 1230 0125 666C6173 		.ascii	"flashPipeRequired\000"
+ 1230      68506970 
+ 1230      65526571 
+ 1230      75697265 
+ 1230      6400
+ 1231              	.LASF62:
+ 1232 0137 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
+ 1232      6843746C 
+ 1232      4D61696E 
+ 1232      57733046 
+ 1232      72657100 
+ 1233              	.LASF17:
+ 1234 014b 696E7431 		.ascii	"int16_t\000"
+ 1234      365F7400 
+ 1235              	.LASF1:
+ 1236 0153 6C6F6E67 		.ascii	"long long int\000"
+ 1236      206C6F6E 
+ 1236      6720696E 
+ 1236      7400
+ 1237              	.LASF3:
+ 1238 0161 7369676E 		.ascii	"signed char\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 24
+
+
+ 1238      65642063 
+ 1238      68617200 
+ 1239              	.LASF78:
+ 1240 016d 70657269 		.ascii	"periDivCmdTypeSelPos\000"
+ 1240      44697643 
+ 1240      6D645479 
+ 1240      70655365 
+ 1240      6C506F73 
+ 1241              	.LASF24:
+ 1242 0182 70726F74 		.ascii	"protBase\000"
+ 1242      42617365 
+ 1242      00
+ 1243              	.LASF36:
+ 1244 018b 69706356 		.ascii	"ipcVersion\000"
+ 1244      65727369 
+ 1244      6F6E00
+ 1245              	.LASF98:
+ 1246 0196 63707573 		.ascii	"cpussCm0NmiCtlOffset\000"
+ 1246      73436D30 
+ 1246      4E6D6943 
+ 1246      746C4F66 
+ 1246      66736574 
+ 1247              	.LASF116:
+ 1248 01ab 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOP_INITIATED\000"
+ 1248      4C455F41 
+ 1248      44565F53 
+ 1248      54415445 
+ 1248      5F53544F 
+ 1249              	.LASF25:
+ 1250 01cb 6873696F 		.ascii	"hsiomBase\000"
+ 1250      6D426173 
+ 1250      6500
+ 1251              	.LASF10:
+ 1252 01d5 6C6F6E67 		.ascii	"long int\000"
+ 1252      20696E74 
+ 1252      00
+ 1253              	.LASF91:
+ 1254 01de 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
+ 1254      73436D34 
+ 1254      436C6F63 
+ 1254      6B43746C 
+ 1254      4F666673 
+ 1255              	.LASF56:
+ 1256 01f5 63727970 		.ascii	"cryptoMemSize\000"
+ 1256      746F4D65 
+ 1256      6D53697A 
+ 1256      6500
+ 1257              	.LASF117:
+ 1258 0203 63795F65 		.ascii	"cy_en_ble_adv_state_t\000"
+ 1258      6E5F626C 
+ 1258      655F6164 
+ 1258      765F7374 
+ 1258      6174655F 
+ 1259              	.LASF22:
+ 1260 0219 70657269 		.ascii	"periBase\000"
+ 1260      42617365 
+ 1260      00
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 25
+
+
+ 1261              	.LASF54:
+ 1262 0222 73797350 		.ascii	"sysPmSimoPresent\000"
+ 1262      6D53696D 
+ 1262      6F507265 
+ 1262      73656E74 
+ 1262      00
+ 1263              	.LASF44:
+ 1264 0233 63707573 		.ascii	"cpussFmIrq\000"
+ 1264      73466D49 
+ 1264      727100
+ 1265              	.LASF108:
+ 1266 023e 646F7562 		.ascii	"double\000"
+ 1266      6C6500
+ 1267              	.LASF83:
+ 1268 0245 70657269 		.ascii	"periDiv16_5CtlOffset\000"
+ 1268      44697631 
+ 1268      365F3543 
+ 1268      746C4F66 
+ 1268      66736574 
+ 1269              	.LASF47:
+ 1270 025a 73727373 		.ascii	"srssNumPll\000"
+ 1270      4E756D50 
+ 1270      6C6C00
+ 1271              	.LASF81:
+ 1272 0265 70657269 		.ascii	"periDiv8CtlOffset\000"
+ 1272      44697638 
+ 1272      43746C4F 
+ 1272      66667365 
+ 1272      7400
+ 1273              	.LASF122:
+ 1274 0277 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_INCL_DISCOVERING\000"
+ 1274      4C455F43 
+ 1274      4F4E4E5F 
+ 1274      53544154 
+ 1274      455F434C 
+ 1275              	.LASF88:
+ 1276 02a1 6770696F 		.ascii	"gpioPrtCfgOutOffset\000"
+ 1276      50727443 
+ 1276      66674F75 
+ 1276      744F6666 
+ 1276      73657400 
+ 1277              	.LASF21:
+ 1278 02b5 666C6173 		.ascii	"flashcBase\000"
+ 1278      68634261 
+ 1278      736500
+ 1279              	.LASF11:
+ 1280 02c0 5F5F7569 		.ascii	"__uint32_t\000"
+ 1280      6E743332 
+ 1280      5F7400
+ 1281              	.LASF132:
+ 1282 02cb 63757374 		.ascii	"customServInfo\000"
+ 1282      6F6D5365 
+ 1282      7276496E 
+ 1282      666F00
+ 1283              	.LASF51:
+ 1284 02da 70617373 		.ascii	"passSarChannels\000"
+ 1284      53617243 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 26
+
+
+ 1284      68616E6E 
+ 1284      656C7300 
+ 1285              	.LASF6:
+ 1286 02ea 5F5F696E 		.ascii	"__int16_t\000"
+ 1286      7431365F 
+ 1286      7400
+ 1287              	.LASF94:
+ 1288 02f4 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 1288      73436D34 
+ 1288      50777243 
+ 1288      746C4F66 
+ 1288      66736574 
+ 1289              	.LASF121:
+ 1290 0309 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_SRVC_DISCOVERING\000"
+ 1290      4C455F43 
+ 1290      4F4E4E5F 
+ 1290      53544154 
+ 1290      455F434C 
+ 1291              	.LASF89:
+ 1292 0333 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
+ 1292      50727443 
+ 1292      66675369 
+ 1292      6F4F6666 
+ 1292      73657400 
+ 1293              	.LASF41:
+ 1294 0347 63707573 		.ascii	"cpussDwChNr\000"
+ 1294      73447743 
+ 1294      684E7200 
+ 1295              	.LASF0:
+ 1296 0353 756E7369 		.ascii	"unsigned int\000"
+ 1296      676E6564 
+ 1296      20696E74 
+ 1296      00
+ 1297              	.LASF120:
+ 1298 0360 43595F42 		.ascii	"CY_BLE_CONN_STATE_CONNECTED\000"
+ 1298      4C455F43 
+ 1298      4F4E4E5F 
+ 1298      53544154 
+ 1298      455F434F 
+ 1299              	.LASF124:
+ 1300 037c 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DESCR_DISCOVERING\000"
+ 1300      4C455F43 
+ 1300      4F4E4E5F 
+ 1300      53544154 
+ 1300      455F434C 
+ 1301              	.LASF18:
+ 1302 03a7 75696E74 		.ascii	"uint16_t\000"
+ 1302      31365F74 
+ 1302      00
+ 1303              	.LASF74:
+ 1304 03b0 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 1304      5472436D 
+ 1304      64477253 
+ 1304      656C4D73 
+ 1304      6B00
+ 1305              	.LASF12:
+ 1306 03c2 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 27
+
+
+ 1306      20756E73 
+ 1306      69676E65 
+ 1306      6420696E 
+ 1306      7400
+ 1307              	.LASF39:
+ 1308 03d4 63707573 		.ascii	"cpussIpcNr\000"
+ 1308      73497063 
+ 1308      4E7200
+ 1309              	.LASF26:
+ 1310 03df 6770696F 		.ascii	"gpioBase\000"
+ 1310      42617365 
+ 1310      00
+ 1311              	.LASF143:
+ 1312 03e8 47656E65 		.ascii	"Generated_Source\\PSoC6\\BLE_custom_config.c\000"
+ 1312      72617465 
+ 1312      645F536F 
+ 1312      75726365 
+ 1312      5C50536F 
+ 1313              	.LASF75:
+ 1314 0413 70657269 		.ascii	"periTrGrOffset\000"
+ 1314      54724772 
+ 1314      4F666673 
+ 1314      657400
+ 1315              	.LASF102:
+ 1316 0422 63707573 		.ascii	"cpussRam1Ctl0\000"
+ 1316      7352616D 
+ 1316      3143746C 
+ 1316      3000
+ 1317              	.LASF139:
+ 1318 0430 63795F62 		.ascii	"cy_ble_connState\000"
+ 1318      6C655F63 
+ 1318      6F6E6E53 
+ 1318      74617465 
+ 1318      00
+ 1319              	.LASF145:
+ 1320 0441 63795F62 		.ascii	"cy_ble_customs\000"
+ 1320      6C655F63 
+ 1320      7573746F 
+ 1320      6D7300
+ 1321              	.LASF76:
+ 1322 0450 70657269 		.ascii	"periTrGrSize\000"
+ 1322      54724772 
+ 1322      53697A65 
+ 1322      00
+ 1323              	.LASF34:
+ 1324 045d 6770696F 		.ascii	"gpioVersion\000"
+ 1324      56657273 
+ 1324      696F6E00 
+ 1325              	.LASF106:
+ 1326 0469 63795F73 		.ascii	"cy_stc_device_t\000"
+ 1326      74635F64 
+ 1326      65766963 
+ 1326      655F7400 
+ 1327              	.LASF52:
+ 1328 0479 65704D6F 		.ascii	"epMonitorNr\000"
+ 1328      6E69746F 
+ 1328      724E7200 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 28
+
+
+ 1329              	.LASF99:
+ 1330 0485 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 1330      73436D34 
+ 1330      4E6D6943 
+ 1330      746C4F66 
+ 1330      66736574 
+ 1331              	.LASF95:
+ 1332 049a 63707573 		.ascii	"cpussTrimRamCtlOffset\000"
+ 1332      73547269 
+ 1332      6D52616D 
+ 1332      43746C4F 
+ 1332      66667365 
+ 1333              	.LASF90:
+ 1334 04b0 63707573 		.ascii	"cpussCm0ClockCtlOffset\000"
+ 1334      73436D30 
+ 1334      436C6F63 
+ 1334      6B43746C 
+ 1334      4F666673 
+ 1335              	.LASF144:
+ 1336 04c7 433A5C55 		.ascii	"C:\\Users\\atril\\Documents\\ULB-Studies\\MA2\\PSOC"
+ 1336      73657273 
+ 1336      5C617472 
+ 1336      696C5C44 
+ 1336      6F63756D 
+ 1337 04f4 5C426C75 		.ascii	"\\Bluetooth-3\\Bluetooth\\BLEled.cydsn\000"
+ 1337      65746F6F 
+ 1337      74682D33 
+ 1337      5C426C75 
+ 1337      65746F6F 
+ 1338              	.LASF110:
+ 1339 0518 61747449 		.ascii	"attId\000"
+ 1339      6400
+ 1340              	.LASF30:
+ 1341 051e 63707573 		.ascii	"cpussVersion\000"
+ 1341      73566572 
+ 1341      73696F6E 
+ 1341      00
+ 1342              	.LASF112:
+ 1343 052b 63795F62 		.ascii	"cy_ble_gatt_db_attr_handle_t\000"
+ 1343      6C655F67 
+ 1343      6174745F 
+ 1343      64625F61 
+ 1343      7474725F 
+ 1344              	.LASF37:
+ 1345 0548 70657269 		.ascii	"periVersion\000"
+ 1345      56657273 
+ 1345      696F6E00 
+ 1346              	.LASF93:
+ 1347 0554 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 1347      73436D30 
+ 1347      53746174 
+ 1347      75734F66 
+ 1347      66736574 
+ 1348              	.LASF14:
+ 1349 0569 73697A65 		.ascii	"sizetype\000"
+ 1349      74797065 
+ 1349      00
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 29
+
+
+ 1350              	.LASF67:
+ 1351 0572 64774368 		.ascii	"dwChOffset\000"
+ 1351      4F666673 
+ 1351      657400
+ 1352              	.LASF42:
+ 1353 057d 63707573 		.ascii	"cpussFlashPaSize\000"
+ 1353      73466C61 
+ 1353      73685061 
+ 1353      53697A65 
+ 1353      00
+ 1354              	.LASF114:
+ 1355 058e 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADV_INITIATED\000"
+ 1355      4C455F41 
+ 1355      44565F53 
+ 1355      54415445 
+ 1355      5F414456 
+ 1356              	.LASF80:
+ 1357 05ad 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
+ 1357      44697643 
+ 1357      6D645061 
+ 1357      54797065 
+ 1357      53656C50 
+ 1358              	.LASF103:
+ 1359 05c4 63707573 		.ascii	"cpussRam2Ctl0\000"
+ 1359      7352616D 
+ 1359      3243746C 
+ 1359      3000
+ 1360              	.LASF141:
+ 1361 05d2 63795F62 		.ascii	"cy_ble_customConfig\000"
+ 1361      6C655F63 
+ 1361      7573746F 
+ 1361      6D436F6E 
+ 1361      66696700 
+ 1362              	.LASF71:
+ 1363 05e6 64775374 		.ascii	"dwStatusChIdxPos\000"
+ 1363      61747573 
+ 1363      43684964 
+ 1363      78506F73 
+ 1363      00
+ 1364              	.LASF53:
+ 1365 05f7 75646250 		.ascii	"udbPresent\000"
+ 1365      72657365 
+ 1365      6E7400
+ 1366              	.LASF126:
+ 1367 0602 63795F65 		.ascii	"cy_en_ble_conn_state_t\000"
+ 1367      6E5F626C 
+ 1367      655F636F 
+ 1367      6E6E5F73 
+ 1367      74617465 
+ 1368              	.LASF33:
+ 1369 0619 666C6173 		.ascii	"flashcVersion\000"
+ 1369      68635665 
+ 1369      7273696F 
+ 1369      6E00
+ 1370              	.LASF29:
+ 1371 0627 63727970 		.ascii	"cryptoBase\000"
+ 1371      746F4261 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 30
+
+
+ 1371      736500
+ 1372              	.LASF50:
+ 1373 0632 736D6966 		.ascii	"smifDeviceNr\000"
+ 1373      44657669 
+ 1373      63654E72 
+ 1373      00
+ 1374              	.LASF59:
+ 1375 063f 666C6173 		.ascii	"flashWriteDelay\000"
+ 1375      68577269 
+ 1375      74654465 
+ 1375      6C617900 
+ 1376              	.LASF125:
+ 1377 064f 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCOVERED\000"
+ 1377      4C455F43 
+ 1377      4F4E4E5F 
+ 1377      53544154 
+ 1377      455F434C 
+ 1378              	.LASF107:
+ 1379 0673 666C6F61 		.ascii	"float\000"
+ 1379      7400
+ 1380              	.LASF72:
+ 1381 0679 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 1381      61747573 
+ 1381      43684964 
+ 1381      784D736B 
+ 1381      00
+ 1382              	.LASF136:
+ 1383 068a 63795F64 		.ascii	"cy_device\000"
+ 1383      65766963 
+ 1383      6500
+ 1384              	.LASF100:
+ 1385 0694 63707573 		.ascii	"cpussRomCtl\000"
+ 1385      73526F6D 
+ 1385      43746C00 
+ 1386              	.LASF70:
+ 1387 06a0 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 1387      43746C50 
+ 1387      7265656D 
+ 1387      70746162 
+ 1387      6C65506F 
+ 1388              	.LASF23:
+ 1389 06b6 75646242 		.ascii	"udbBase\000"
+ 1389      61736500 
+ 1390              	.LASF123:
+ 1391 06be 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_CHAR_DISCOVERING\000"
+ 1391      4C455F43 
+ 1391      4F4E4E5F 
+ 1391      53544154 
+ 1391      455F434C 
+ 1392              	.LASF127:
+ 1393 06e8 5F426F6F 		.ascii	"_Bool\000"
+ 1393      6C00
+ 1394              	.LASF4:
+ 1395 06ee 756E7369 		.ascii	"unsigned char\000"
+ 1395      676E6564 
+ 1395      20636861 
+ 1395      7200
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 31
+
+
+ 1396              	.LASF66:
+ 1397 06fc 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 1397      6843746C 
+ 1397      4D61696E 
+ 1397      57733446 
+ 1397      72657100 
+ 1398              	.LASF7:
+ 1399 0710 73686F72 		.ascii	"short int\000"
+ 1399      7420696E 
+ 1399      7400
+ 1400              	.LASF130:
+ 1401 071a 63795F73 		.ascii	"cy_stc_ble_customs_info_t\000"
+ 1401      74635F62 
+ 1401      6C655F63 
+ 1401      7573746F 
+ 1401      6D735F69 
+ 1402              	.LASF77:
+ 1403 0734 70657269 		.ascii	"periDivCmdDivSelMsk\000"
+ 1403      44697643 
+ 1403      6D644469 
+ 1403      7653656C 
+ 1403      4D736B00 
+ 1404              	.LASF64:
+ 1405 0748 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 1405      6843746C 
+ 1405      4D61696E 
+ 1405      57733246 
+ 1405      72657100 
+ 1406              	.LASF135:
+ 1407 075c 63795F73 		.ascii	"cy_stc_ble_custom_config_t\000"
+ 1407      74635F62 
+ 1407      6C655F63 
+ 1407      7573746F 
+ 1407      6D5F636F 
+ 1408              	.LASF133:
+ 1409 0777 63795F73 		.ascii	"cy_stc_ble_customs_t\000"
+ 1409      74635F62 
+ 1409      6C655F63 
+ 1409      7573746F 
+ 1409      6D735F74 
+ 1410              	.LASF48:
+ 1411 078c 73727373 		.ascii	"srssNumHfroot\000"
+ 1411      4E756D48 
+ 1411      66726F6F 
+ 1411      7400
+ 1412              	.LASF61:
+ 1413 079a 666C6173 		.ascii	"flashEraseDelay\000"
+ 1413      68457261 
+ 1413      73654465 
+ 1413      6C617900 
+ 1414              	.LASF19:
+ 1415 07aa 75696E74 		.ascii	"uint32_t\000"
+ 1415      33325F74 
+ 1415      00
+ 1416              	.LASF142:
+ 1417 07b3 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1417      43313120 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 32
+
+
+ 1417      352E342E 
+ 1417      31203230 
+ 1417      31363036 
+ 1418 07e6 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 1418      20726576 
+ 1418      6973696F 
+ 1418      6E203233 
+ 1418      37373135 
+ 1419 0819 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 1419      67202D66 
+ 1419      66756E63 
+ 1419      74696F6E 
+ 1419      2D736563 
+ 1420              	.LASF2:
+ 1421 0845 6C6F6E67 		.ascii	"long double\000"
+ 1421      20646F75 
+ 1421      626C6500 
+ 1422              	.LASF15:
+ 1423 0851 63686172 		.ascii	"char\000"
+ 1423      00
+ 1424              	.LASF38:
+ 1425 0856 70726F74 		.ascii	"protVersion\000"
+ 1425      56657273 
+ 1425      696F6E00 
+ 1426              	.LASF101:
+ 1427 0862 63707573 		.ascii	"cpussRam0Ctl0\000"
+ 1427      7352616D 
+ 1427      3043746C 
+ 1427      3000
+ 1428              	.LASF8:
+ 1429 0870 5F5F7569 		.ascii	"__uint16_t\000"
+ 1429      6E743136 
+ 1429      5F7400
+ 1430              	.LASF140:
+ 1431 087b 63795F62 		.ascii	"cy_ble_pendingFlashWrite\000"
+ 1431      6C655F70 
+ 1431      656E6469 
+ 1431      6E67466C 
+ 1431      61736857 
+ 1432              	.LASF82:
+ 1433 0894 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 1433      44697631 
+ 1433      3643746C 
+ 1433      4F666673 
+ 1433      657400
+ 1434              	.LASF137:
+ 1435 08a7 63795F62 		.ascii	"cy_ble_advState\000"
+ 1435      6C655F61 
+ 1435      64765374 
+ 1435      61746500 
+ 1436              	.LASF35:
+ 1437 08b7 6873696F 		.ascii	"hsiomVersion\000"
+ 1437      6D566572 
+ 1437      73696F6E 
+ 1437      00
+ 1438              	.LASF63:
+ 1439 08c4 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 33
+
+
+ 1439      6843746C 
+ 1439      4D61696E 
+ 1439      57733146 
+ 1439      72657100 
+ 1440              	.LASF9:
+ 1441 08d8 73686F72 		.ascii	"short unsigned int\000"
+ 1441      7420756E 
+ 1441      7369676E 
+ 1441      65642069 
+ 1441      6E7400
+ 1442              	.LASF68:
+ 1443 08eb 64774368 		.ascii	"dwChSize\000"
+ 1443      53697A65 
+ 1443      00
+ 1444              	.LASF104:
+ 1445 08f4 69706353 		.ascii	"ipcStructSize\000"
+ 1445      74727563 
+ 1445      7453697A 
+ 1445      6500
+ 1446              	.LASF43:
+ 1447 0902 63707573 		.ascii	"cpussIpc0Irq\000"
+ 1447      73497063 
+ 1447      30497271 
+ 1447      00
+ 1448              	.LASF86:
+ 1449 090f 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 1449      50727443 
+ 1449      66674F66 
+ 1449      66736574 
+ 1449      00
+ 1450              	.LASF118:
+ 1451 0920 43595F42 		.ascii	"CY_BLE_CONN_STATE_DISCONNECTED\000"
+ 1451      4C455F43 
+ 1451      4F4E4E5F 
+ 1451      53544154 
+ 1451      455F4449 
+ 1452              	.LASF138:
+ 1453 093f 63795F62 		.ascii	"cy_ble_connHandle\000"
+ 1453      6C655F63 
+ 1453      6F6E6E48 
+ 1453      616E646C 
+ 1453      6500
+ 1454              	.LASF45:
+ 1455 0951 63707573 		.ascii	"cpussNotConnectedIrq\000"
+ 1455      734E6F74 
+ 1455      436F6E6E 
+ 1455      65637465 
+ 1455      64497271 
+ 1456              	.LASF115:
+ 1457 0966 43595F42 		.ascii	"CY_BLE_ADV_STATE_ADVERTISING\000"
+ 1457      4C455F41 
+ 1457      44565F53 
+ 1457      54415445 
+ 1457      5F414456 
+ 1458              	.LASF113:
+ 1459 0983 43595F42 		.ascii	"CY_BLE_ADV_STATE_STOPPED\000"
+ 1459      4C455F41 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 34
+
+
+ 1459      44565F53 
+ 1459      54415445 
+ 1459      5F53544F 
+ 1460              	.LASF16:
+ 1461 099c 75696E74 		.ascii	"uint8_t\000"
+ 1461      385F7400 
+ 1462              	.LASF92:
+ 1463 09a4 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 1463      73436D34 
+ 1463      53746174 
+ 1463      75734F66 
+ 1463      66736574 
+ 1464              	.LASF85:
+ 1465 09b9 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 1465      50727449 
+ 1465      6E747243 
+ 1465      66674F66 
+ 1465      66736574 
+ 1466              	.LASF96:
+ 1467 09ce 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 1467      73547269 
+ 1467      6D526F6D 
+ 1467      43746C4F 
+ 1467      66667365 
+ 1468              	.LASF109:
+ 1469 09e4 62644861 		.ascii	"bdHandle\000"
+ 1469      6E646C65 
+ 1469      00
+ 1470              	.LASF46:
+ 1471 09ed 73727373 		.ascii	"srssNumClkpath\000"
+ 1471      4E756D43 
+ 1471      6C6B7061 
+ 1471      746800
+ 1472              	.LASF32:
+ 1473 09fc 64775665 		.ascii	"dwVersion\000"
+ 1473      7273696F 
+ 1473      6E00
+ 1474              	.LASF28:
+ 1475 0a06 69706342 		.ascii	"ipcBase\000"
+ 1475      61736500 
+ 1476              	.LASF79:
+ 1477 0a0e 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
+ 1477      44697643 
+ 1477      6D645061 
+ 1477      44697653 
+ 1477      656C506F 
+ 1478              	.LASF60:
+ 1479 0a24 666C6173 		.ascii	"flashProgramDelay\000"
+ 1479      6850726F 
+ 1479      6772616D 
+ 1479      44656C61 
+ 1479      7900
+ 1480              	.LASF128:
+ 1481 0a36 63757374 		.ascii	"customServCharHandle\000"
+ 1481      6F6D5365 
+ 1481      72764368 
+ 1481      61724861 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccgdzluy.s 			page 35
+
+
+ 1481      6E646C65 
+ 1482              	.LASF119:
+ 1483 0a4b 43595F42 		.ascii	"CY_BLE_CONN_STATE_CLIENT_DISCONNECTED_DISCOVERED\000"
+ 1483      4C455F43 
+ 1483      4F4E4E5F 
+ 1483      53544154 
+ 1483      455F434C 
+ 1484              	.LASF57:
+ 1485 0a7c 666C6173 		.ascii	"flashRwwRequired\000"
+ 1485      68527777 
+ 1485      52657175 
+ 1485      69726564 
+ 1485      00
+ 1486              	.LASF129:
+ 1487 0a8d 63757374 		.ascii	"customServCharDesc\000"
+ 1487      6F6D5365 
+ 1487      72764368 
+ 1487      61724465 
+ 1487      736300
+ 1488              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
