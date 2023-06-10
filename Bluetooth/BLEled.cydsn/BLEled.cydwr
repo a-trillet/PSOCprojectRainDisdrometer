@@ -18,11 +18,13 @@
     <Group key="Pin">
       <Data key="4cca878b-77b5-471d-8aeb-ad6925202455" value="Button" />
       <Data key="206f4099-2ed0-4d88-b20d-069a71bf9679" value="LED_GREEN" />
-      <Data key="0113321b-4a37-46f6-8407-2f8646c68756" value="Vin" />
+      <Data key="282aaed2-d463-4c6d-af85-be33f1e98849" value="VPLUS" />
+      <Data key="0113321b-4a37-46f6-8407-2f8646c68756" value="VMIN" />
       <Data key="672491ed-ee16-4a11-a198-f0a60a1ca746" value="PinAmp" />
       <Data key="a61270bc-07ec-447d-ac9e-34cfe85c30e9" value="LED_RED" />
       <Data key="b23f92bd-7bcf-43ed-9bfc-b57238cb8e04/65f3af6c-759b-4ccb-8c66-5c95ba1f5f4f" value="UART_tx" />
       <Data key="b23f92bd-7bcf-43ed-9bfc-b57238cb8e04/b7e8018e-1ef7-49c0-b5a5-61641a03e31c" value="UART_rx" />
+      <Data key="f6da831e-6764-40cf-8b6e-8e0ec1d9b507" value="VFEED" />
     </Group>
   </Group>
   <Group key="Interrupt">
@@ -752,9 +754,14 @@
         <Data key="Port Format" value="7,1" />
       </Group>
     </Group>
+    <Group key="282aaed2-d463-4c6d-af85-be33f1e98849">
+      <Group key="0">
+        <Data key="Port Format" value="10,1" />
+      </Group>
+    </Group>
     <Group key="0113321b-4a37-46f6-8407-2f8646c68756">
       <Group key="0">
-        <Data key="Port Format" value="10,3" />
+        <Data key="Port Format" value="9,1" />
       </Group>
     </Group>
     <Group key="672491ed-ee16-4a11-a198-f0a60a1ca746">
@@ -765,6 +772,11 @@
     <Group key="a61270bc-07ec-447d-ac9e-34cfe85c30e9">
       <Group key="0">
         <Data key="Port Format" value="6,3" />
+      </Group>
+    </Group>
+    <Group key="f6da831e-6764-40cf-8b6e-8e0ec1d9b507">
+      <Group key="0">
+        <Data key="Port Format" value="10,0" />
       </Group>
     </Group>
   </Group>
