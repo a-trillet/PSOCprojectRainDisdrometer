@@ -41,6 +41,7 @@ bool sharePastDrop = false;
 uint32_t past_drop = 0;
 uint8_t arrayPastDrop[4] = {0}; 
 
+
 // enable set this to false to disable uart
 #define uart_enabled 1
 
@@ -87,12 +88,19 @@ int main(void)
     
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     
-    ADC_Start();
-    Cy_SAR_StartConvert(SAR,CY_SAR_START_CONVERT_CONTINUOUS);
     
+    ADC_Start();
+    Opamp_Start();
+    Opamp2_Start();
+    Opamp_Enable();
+    
+    Cy_SAR_StartConvert(SAR,CY_SAR_START_CONVERT_CONTINUOUS);
+   
     #if (uart_enabled)
     UART_Start();
     #endif
+    
+    int16_t tempmax = 0; 
     
     int16_t value = 0;
     int16_t volts = 0;
@@ -111,8 +119,7 @@ int main(void)
     printf("Jean mmichel pif paf pouf\r\n");
     
     
-    //feed the amplifier
-    Cy_GPIO_Clr(PinAmp_0_PORT, PinAmp_0_NUM );
+   
     
     for(;;)
     {
@@ -128,13 +135,15 @@ int main(void)
            
             
             #if (uart_enabled)
+            if (volts > tempmax){
+                   tempmax = volts;}
             
             for( int i =0; i<2; ++i){
                     
-                    UART_Put(bug>>8*i);
+                //UART_Put(bug>>8*i);
                     
                     
-                }
+            }
             
             #endif
             
@@ -163,10 +172,24 @@ int main(void)
                 //Send number of drops in the last packet though UART
                 //printf("past number of drops = \r");
                 //sprintf(string,"%d, ",past_drop);
+                #if 0
+                for( int i =0; i<2; ++i){
+                    
+                    UART_Put(bug>>8*i);
+                    
+                }
+                 for( int i =0; i<2; ++i){
+                    
+                    UART_Put(tempmax>>8*i);
+                    
+                }
+                #endif
+                
+                sprintf(string,"%d\n",tempmax);
+                UART_PutString(string);
                 
                 
-                
-                
+                tempmax = 0 ;
                 
                 //send past drop to CM0 and trigger an IPC interrupt 
                 //while(Cy_IPC_Drv_SendMsgWord(IPC_STRUCT10,(1<<10),past_drop) != CY_IPC_DRV_SUCCESS ){
@@ -176,7 +199,7 @@ int main(void)
                 if (past_drop == 0){
                     emptyPacketCounter ++;
                     if (emptyPacketCounter == NB_PACKET_GO_SLEEP){
-                        switch2deepsleep = true;
+                        //switch2deepsleep = true;
                         emptyPacketCounter = 0;
                     }
                 }
@@ -294,7 +317,7 @@ cy_en_syspm_status_t TCPWM_DeepSleepCallback(
 			Cy_GPIO_Set(LED_RED_PORT, LED_RED_NUM);
 
             //stop feeding the amplifier
-            Cy_GPIO_Clr(PinAmp_0_PORT, PinAmp_0_NUM );
+            
             
 			/* Disable the ADC counter */
 			Cy_TCPWM_Counter_Disable(Timer_HW, Timer_CNT_NUM);
@@ -305,7 +328,7 @@ cy_en_syspm_status_t TCPWM_DeepSleepCallback(
 		case CY_SYSPM_AFTER_TRANSITION:
             
             //feed the amplifier
-            Cy_GPIO_Clr(PinAmp_0_PORT, PinAmp_0_NUM );
+            
     
 			/* Re-enable Timer for ADC */
             

@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="us-ascii"?>
 
-<fileSet version="1" anchorPath="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp" xsi:schemaLocation="http://cypress.com/xsd/cypathdictionary cypathdictionary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypathdictionary">
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_cfg.h" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_sysint_cfg.h" value="HEADER;;;;;Pins and Interrupts" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_sysint_cfg.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Pins and Interrupts" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_cfg.c" value="SOURCE_C;CortexM0p;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cymetadata.c" value="SOURCE_C;CortexM0p,CortexM4;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cydevice_trm.h" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cydevicegnu_trm.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cydevicerv_trm.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cydeviceiar_trm.inc" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_gpio.h" value="HEADER;;;;;Pins and Interrupts" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_sysint.h" value="HEADER;;;;;Pins and Interrupts" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\BLE.h" value="HEADER;;;;;BLE" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\BLE.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\BLE_config.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\BLE_config.h" value="HEADER;;;;;BLE" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\BLE_custom_config.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM0p,CortexM4;;;;UART" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\ADC.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\ADC.h" value="HEADER;;;;;ADC" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\ADC_INT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\ADC_INIT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\ADC_PM.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\Clock.h" value="HEADER;;;;;Clock" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\Timer.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Timer" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\Timer.h" value="HEADER;;;;;Timer" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\MCWDT_1_PDL.c" value="SOURCE_C;CortexM0p,CortexM4;;;;MCWDT_1" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\MCWDT_1_PDL.h" value="HEADER;;;;;MCWDT_1" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\ADC_intSarClock.h" value="HEADER;;;;;ADC_intSarClock" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />
-  <file name="C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\codegentemp\cycodeshareimport.scat" value="OTHER;;;;;" />
+<fileSet version="1" anchorPath="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp" xsi:schemaLocation="http://cypress.com/xsd/cypathdictionary cypathdictionary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://cypress.com/xsd/cypathdictionary">
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_cfg.h" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_sysint_cfg.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_sysint_cfg.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Pins and Interrupts" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_cfg.c" value="SOURCE_C;CortexM0p;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cymetadata.c" value="SOURCE_C;CortexM0p,CortexM4;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cydevice_trm.h" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cydevicegnu_trm.inc" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cydevicerv_trm.inc" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cydeviceiar_trm.inc" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_gpio.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cyfitter_sysint.h" value="HEADER;;;;;Pins and Interrupts" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\BLE.h" value="HEADER;;;;;BLE" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\BLE.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\BLE_config.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\BLE_config.h" value="HEADER;;;;;BLE" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\BLE_custom_config.c" value="SOURCE_C;CortexM0p,CortexM4;;;;BLE" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\UART.c" value="SOURCE_C;CortexM0p,CortexM4;;;;UART" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\UART.h" value="HEADER;;;;;UART" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\ADC.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\ADC.h" value="HEADER;;;;;ADC" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\ADC_INT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\ADC_INIT.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\ADC_PM.c" value="SOURCE_C;CortexM0p,CortexM4;;;;ADC" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Clock.h" value="HEADER;;;;;Clock" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Timer.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Timer" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Timer.h" value="HEADER;;;;;Timer" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\MCWDT_1_PDL.c" value="SOURCE_C;CortexM0p,CortexM4;;;;MCWDT_1" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\MCWDT_1_PDL.h" value="HEADER;;;;;MCWDT_1" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Opamp.h" value="HEADER;;;;;Opamp" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Opamp.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Opamp" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Opamp2.h" value="HEADER;;;;;Opamp2" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\Opamp2.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Opamp2" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\ADC_intSarClock.h" value="HEADER;;;;;ADC_intSarClock" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\project.h" value="OTHER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cycodeshareimport.ld" value="OTHER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cycodeshareexport.ld" value="OTHER;;;;;" />
+  <file name="E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\codegentemp\cycodeshareimport.scat" value="OTHER;;;;;" />
 </fileSet>

@@ -1,4 +1,4 @@
-C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\TopDesign\TopDesign.cysch
+E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\TopDesign\TopDesign.cysch
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\GPIO_PDL_v1_0\GPIO_PDL_v1_0.cysym
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\GPIO_PDL_v1_0\GPIO_PDL_v1_0.cystate
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\GPIO_PDL_v1_0\GPIO_PDL_v1_0.cyprimitive
@@ -126,6 +126,9 @@ C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrim
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_scb_v1_10\cy_mxs40_scb_v1_10.cysym
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_scb_v1_10\version.cypatch
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_scb_v1_10\PSoC6\cy_mxs40_scb_v1_10.cyprimitive
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Resistor_v1_0\Resistor_v1_0.cysym
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Resistor_v1_0\Resistor_v1_0.pdf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Resistor_v1_0\version.cypatch
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Scan_ADC_v3_10\Scan_ADC_v3_10.cysym
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Scan_ADC_v3_10\Scan_ADC_v3_10.cystate
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Scan_ADC_v3_10\Scan_ADC_v3_10.dll
@@ -206,4 +209,17 @@ C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComp
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\MCWDT_PDL_v1_10\Custom\Resources.resx
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_mcwdt_v1_0\cy_mxs40_mcwdt_v1_0.cysym
 C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_mcwdt_v1_0\PSoC6\cy_mxs40_mcwdt_v1_0.cyprimitive
-C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\Bluetooth\BLEled.cydsn\BLEled.cydwr
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\OpAmp_PDL_v1_0.cysym
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\OpAmp_PDL_v1_0.cystate
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\OpAmp_PDL_v1_0.pdf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\OpAmp_PDL_v1_0.cycdx
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\version.cypatch
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\PSoC6\API\OpAmp_PDL.h
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\PSoC6\API\OpAmp_PDL.c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\OpAmp_PDL_v1_0\PSoC6\OpAmp_PDL_v1_0.cysch
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_opamp_v1_0\cy_mxs40_opamp_v1_0.cysym
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_mxs40_opamp_v1_0\PSoC6\cy_mxs40_opamp_v1_0.cyprimitive
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Gnd_v1_0\Gnd_v1_0.cysym
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Gnd_v1_0\Gnd_v1_0.pdf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\Gnd_v1_0\version.cypatch
+E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\BLEled.cydwr
