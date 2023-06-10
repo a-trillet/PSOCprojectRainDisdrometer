@@ -48,11 +48,21 @@
 #define Clock__DIV_NUM 0
 #define Clock__DIV_TYPE CY_SYSCLK_DIV_8_BIT
 
+/* Opamp */
+#define Opamp_cy_mxs40_opamp__HW CTBM0
+#define Opamp_cy_mxs40_opamp__IDX 1
+#define Opamp_cy_mxs40_opamp__OA_IDX 1u
+
 /* Timer */
 #define Timer_TCPWM__CNT_HW TCPWM0_CNT0
 #define Timer_TCPWM__CNT_IDX 0u
 #define Timer_TCPWM__HW TCPWM0
 #define Timer_TCPWM__IDX 0u
+
+/* Opamp2 */
+#define Opamp2_cy_mxs40_opamp__HW CTBM0
+#define Opamp2_cy_mxs40_opamp__IDX 0
+#define Opamp2_cy_mxs40_opamp__OA_IDX 0u
 
 /* MCWDT_1 */
 #define MCWDT_1_MCWDT__HW MCWDT_STRUCT0

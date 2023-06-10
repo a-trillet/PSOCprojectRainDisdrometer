@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2023-06-08T10:27:34Z")
+ (DATE "2023-06-10T13:43:30Z")
  (DESIGN "BLEled")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -36,7 +36,6 @@
     (INTERCONNECT \\UART\:tx\(0\)\\.pad_out \\UART\:tx\(0\)_PAD\\ (0.000:0.000:0.000))
     (INTERCONNECT \\UART\:tx\(0\)_PAD\\ \\UART\:tx\(0\)\\.pad_in (0.000:0.000:0.000))
     (INTERCONNECT \\UART\:rx\(0\)_PAD\\ \\UART\:rx\(0\)\\.pad_in (0.000:0.000:0.000))
-    (INTERCONNECT PinAmp\(0\)_PAD PinAmp\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

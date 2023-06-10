@@ -163,7 +163,7 @@ The parameters that are set in the customizer are redefined as constants here.
 #define ADC_CFG0_AVGERAGING_MODE         (1uL)
 #define ADC_CFG0_LOW_LIMIT               (512u)
 #define ADC_CFG0_HIGH_LIMIT              (3584u)
-#define ADC_CFG0_RANGE_COND              (0uL)
+#define ADC_CFG0_RANGE_COND              (3uL)
 #define ADC_CFG0_USE_SOC                 (0uL)
 #define ADC_CFG0_VREF_PWR                (3uL)
 #define ADC_CFG0_COMP_PWR                (3uL)

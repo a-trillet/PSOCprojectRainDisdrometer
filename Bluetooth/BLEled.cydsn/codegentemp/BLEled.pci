@@ -1,5 +1,5 @@
 # BLEled
-# 2023-06-08 10:27:24Z
+# 2023-06-10 13:43:22Z
 
 dont_use_location SMIF -1 -1 0
 dont_use_location p4usbcell -1 -1 0
@@ -14,6 +14,11 @@ set_io "CY_SRSS_WCO_OUT(0)" iocell 0 1
 set_io "LED_RED(0)" iocell 6 3
 set_io "LED_GREEN(0)" iocell 7 1
 set_io "Button(0)" iocell 0 4
-set_io "Vin(0)" iocell 10 3
-set_io "PinAmp(0)" iocell 9 3
+set_io "vplus1(0)" iocell 9 5
+set_io "vmin1(0)" iocell 9 4
+set_io "vout1(0)" iocell 9 3
+set_io "vmin2(0)" iocell 9 1
+set_io "vout2(0)" iocell 9 2
 set_location "\ADC:SAR\" SARADC -1 -1 0
+set_location "\Opamp:cy_mxs40_opamp\" OA -1 -1 1
+set_location "\Opamp2:cy_mxs40_opamp\" OA -1 -1 0
