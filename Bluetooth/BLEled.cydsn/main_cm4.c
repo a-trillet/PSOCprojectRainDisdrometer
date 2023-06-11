@@ -33,7 +33,6 @@ int debugCounter = 0;
 bool ADCupdateFlag = false;
 
 
-
 bool IOAmp = false; // GND first 
 
 
@@ -100,7 +99,7 @@ int main(void)
     UART_Start();
     #endif
     
-    int16_t tempmax = 0; 
+    
     
     int16_t value = 0;
     int16_t volts = 0;
@@ -116,6 +115,14 @@ int main(void)
     int packet_counter = 0;
     int current_drop =0;
    
+    
+    int divider =0 ; 
+    int dividerFreq = 20;
+    
+    int16_t tempmax = 0; 
+    int8_t tempmax2[packet_size*2];
+    
+    
     printf("Jean mmichel pif paf pouf\r\n");
     
     
@@ -136,15 +143,33 @@ int main(void)
             
             #if (uart_enabled)
             if (volts > tempmax){
-                   tempmax = volts;}
+                   tempmax = volts;
+                    }
+            tempmax = -5;
+            //tempmax2[packet_counter] = tempmax; 
+            //tempmax2[packet_counter+1] = tempmax>>8;
+            int N =2;
+            if(!(divider < dividerFreq)){
+            for( int i =0; i<N; ++i){
+                    
+                    //UART_Put(tempmax>>8*(i));
+                    
+                    
+                }
             
-            for( int i =0; i<2; ++i){
-                    
-                //UART_Put(bug>>8*i);
-                    
-                    
+            
+            CyDelayUs(1);
+            
+            UART_Put(tempmax);
+            CyDelayUs(1);
+            
+            UART_Put(tempmax>>8);
+            //CyDelayUs(1);
+            divider = 0;
             }
-            
+            else{
+            divider++;
+            }
             #endif
             
             //send voltage value through UART
@@ -184,14 +209,21 @@ int main(void)
                     
                 }
                 #endif
+                tempmax = -5;
+                #if uart_enabled 
+                //sprintf(string,"%d\n",tempmax);
+                //UART_PutArray(string);
                 
-                sprintf(string,"%d\n",tempmax);
-                UART_PutString(string);
+                    
+                uint16_t bytecount = 48000; 
+                //UART_PutArray(&tempmax2, bytecount );
+                    
+                    
                 
-                
+                #endif
                 tempmax = 0 ;
                 
-                //send past drop to CM0 and trigger an IPC interrupt 
+                
                 //while(Cy_IPC_Drv_SendMsgWord(IPC_STRUCT10,(1<<10),past_drop) != CY_IPC_DRV_SUCCESS ){
                 //}
                 
@@ -225,6 +257,7 @@ int main(void)
             Cy_SysPm_CpuEnterDeepSleep(CY_SYSPM_WAIT_FOR_INTERRUPT);
         }
         if(sharePastDrop){
+            //send past drop to CM0 and trigger an IPC interrupt 
             if(Cy_IPC_Drv_SendMsgWord(IPC_STRUCT10,(1<<10),past_drop) == CY_IPC_DRV_SUCCESS ){
                 sharePastDrop = false;
             }

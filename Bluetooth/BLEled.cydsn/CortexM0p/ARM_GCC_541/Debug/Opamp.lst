@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
   28:Generated_Source\PSoC6/Opamp.c ****     .oaPower        = CY_CTB_POWER_HIGH,
   29:Generated_Source\PSoC6/Opamp.c ****     .oaMode         = CY_CTB_MODE_OPAMP10X,
   30:Generated_Source\PSoC6/Opamp.c ****     .oaPump         = Opamp_OPAMP_CHARGEPUMP,
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 2
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 2
 
 
   31:Generated_Source\PSoC6/Opamp.c ****     .oaCompEdge     = CY_CTB_COMP_EDGE_DISABLE,
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
   13:Generated_Source\PSoC6/Opamp.h **** * Copyright 2017, Cypress Semiconductor Corporation.  All rights reserved.
   14:Generated_Source\PSoC6/Opamp.h **** * You may use this file only in accordance with the license, terms, conditions,
   15:Generated_Source\PSoC6/Opamp.h **** * disclaimers, and limitations in the end user license agreement accompanying
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 3
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 3
 
 
   16:Generated_Source\PSoC6/Opamp.h **** * the software package with which this file was provided.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
   70:Generated_Source\PSoC6/Opamp.h **** __STATIC_INLINE void Opamp_Enable(void);
   71:Generated_Source\PSoC6/Opamp.h **** __STATIC_INLINE void Opamp_Stop(void);
   72:Generated_Source\PSoC6/Opamp.h **** __STATIC_INLINE void Opamp_SetPower(cy_en_ctb_power_t power);
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 4
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 4
 
 
   73:Generated_Source\PSoC6/Opamp.h **** __STATIC_INLINE void Opamp_SetDeepSleepMode(cy_en_ctb_deep_sleep_t deepSleep);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
   15:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** /**
   16:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \addtogroup group_ctb
   17:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \{
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 5
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 5
 
 
   18:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * This driver provides API functions to configure and use the analog CTB.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
   72:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * - \ref Cy_CTB_Fast_Opamp1_Diffamp
   73:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * - \ref Cy_CTB_Fast_Opamp1_Vdac_Ref_Aref
   74:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * - \ref Cy_CTB_Fast_Opamp1_Vdac_Ref_Pin5
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 6
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 6
 
 
   75:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  129:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   <tr>
  130:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *     <th>Charge Pump</th>
  131:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *     <th>Input Range</th></tr>
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 7
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 7
 
 
  132:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *     <th>Output Range</th></tr>
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  186:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
  187:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *      \snippet ctb_sut_01.cydsn/main_cm4.c CTB_SNIPPET_SET_CLK_PUMP_SOURCE_PERI
  188:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 8
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 8
 
 
  189:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * When the charge pump is enabled, the clock frequency should be set as follows:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  243:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   </tr>
  244:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * </table>
  245:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 9
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 9
 
 
  246:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * The first configuration provides low offset and drift with maximum input range
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  300:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \defgroup group_ctb_macros Macros
  301:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \defgroup group_ctb_functions Functions
  302:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   \{
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 10
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 10
 
 
  303:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *       \defgroup group_ctb_functions_init          Initialization Functions
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  357:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****                                             | CTBM_OA0_SW_CLEAR_OA0M_A81_Msk \
  358:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****                                             | CTBM_OA0_SW_CLEAR_OA0O_D51_Msk \
  359:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****                                             | CTBM_OA0_SW_CLEAR_OA0O_D81_Msk)
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 11
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 11
 
 
  360:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  414:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** #define CY_CTB_SWITCHSELECT(select)         (((select) == CY_CTB_SWITCH_OA0_SW) \
  415:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****                                             || ((select) == CY_CTB_SWITCH_OA1_SW) \
  416:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****                                             || ((select) == CY_CTB_SWITCH_CTD_SW))
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 12
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 12
 
 
  417:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** #define CY_CTB_SWITCHSTATE(state)           (((state) == CY_CTB_SWITCH_OPEN) || ((state) == CY_CTB_
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  471:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   </tr>
  472:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   <tr>
  473:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *     <td>LOW</td>
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 13
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 13
 
 
  474:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *     <td>350 uA</td>
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  528:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     CY_CTB_PUMP_DISABLE   = 0uL,                                           /**< Charge pump is disa
  529:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     CY_CTB_PUMP_ENABLE    = CTBM_OA_RES0_CTRL_OA0_PUMP_EN_Msk,            /**< Charge pump is enabl
  530:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** }cy_en_ctb_pump_t;
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 14
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 14
 
 
  531:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  585:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** */
  586:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** typedef enum
  587:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** {
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 15
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 15
 
 
  588:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     CY_CTB_SW_OA0_POS_AMUXBUSA_MASK     = CTBM_OA0_SW_OA0P_A00_Msk,       /**< Switch A00: Opamp0 n
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  642:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** typedef enum
  643:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** {
  644:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     CY_CTB_SW_SEQ_CTRL_D51_MASK            = CTBM_CTB_SW_SQ_CTRL_P2_SQ_CTRL23_Msk,  /**< Enable SAR
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 16
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 16
 
 
  645:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     CY_CTB_SW_SEQ_CTRL_D52_D62_MASK        = CTBM_CTB_SW_SQ_CTRL_P3_SQ_CTRL23_Msk,  /**< Enable SAR
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  699:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** /** CTB charge pump clock sources
  700:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
  701:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * The CTB pump clock can come from:
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 17
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 17
 
 
  702:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   - a dedicated divider clock in the SRSS
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  756:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     cy_en_ctb_comp_edge_t       oa1CompEdge;    /**< Opamp1 comparator edge detection: disable, ris
  757:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     cy_en_ctb_comp_level_t      oa1CompLevel;   /**< Opamp1 comparator DSI (trigger) output: pulse 
  758:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     cy_en_ctb_comp_bypass_t     oa1CompBypass;  /**< Opamp1 comparator DSI (trigger) output synchro
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 18
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 18
 
 
  759:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     cy_en_ctb_comp_hyst_t       oa1CompHyst;    /**< Opamp1 comparator hysteresis: enable for 10 mV
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  813:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *   - .oa1CompIntrEn = true
  814:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** */
  815:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** typedef struct
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 19
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 19
 
 
  816:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  870:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
  871:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * To be used with \ref Cy_CTB_FastInit and \ref Cy_CTB_Fast_Opamp1_Diffamp.
  872:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** */
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 20
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 20
 
 
  873:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** extern const cy_stc_ctb_fast_config_oa0_t Cy_CTB_Fast_Opamp0_Diffamp;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  927:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \image latex ctb_fast_config_opamp10x.png width=100px
  928:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** *
  929:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * See \ref Cy_CTB_FastInit.
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 21
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 21
 
 
  930:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  984:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** */
  985:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** 
  986:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** /**
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 22
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 22
 
 
  987:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \addtogroup group_ctb_functions_init
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
 1041:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \addtogroup group_ctb_functions_switches
 1042:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * This set of functions is for controlling routing switches.
 1043:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** * \{
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 23
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 23
 
 
 1044:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
 1098:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** __STATIC_INLINE void Cy_CTB_Enable(CTBM_Type *base)
 1099:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h **** {
 1100:Generated_Source\PSoC6\pdl\drivers/peripheral/ctb/cy_ctb.h ****     CTBM_CTB_CTRL(base) |= CTBM_CTB_CTRL_ENABLED_Msk;
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 24
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 24
 
 
   63              		.loc 3 1100 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
   95              		.size	Opamp_Start, .-Opamp_Start
   96              		.global	Opamp_opampConfig
   97              		.global	Opamp_opampPower
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 25
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 25
 
 
   98              		.global	Opamp_initVar
@@ -1484,68 +1484,68 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  138 0006 00000000 		.4byte	.Ldebug_abbrev0
  139 000a 04       		.byte	0x4
  140 000b 01       		.uleb128 0x1
- 141 000c 9F090000 		.4byte	.LASF191
+ 141 000c 97090000 		.4byte	.LASF191
  142 0010 0C       		.byte	0xc
- 143 0011 440C0000 		.4byte	.LASF192
- 144 0015 8E000000 		.4byte	.LASF193
+ 143 0011 3C0C0000 		.4byte	.LASF192
+ 144 0015 5F040000 		.4byte	.LASF193
  145 0019 00000000 		.4byte	.Ldebug_ranges0+0
  146 001d 00000000 		.4byte	0
  147 0021 00000000 		.4byte	.Ldebug_line0
  148 0025 02       		.uleb128 0x2
  149 0026 02       		.byte	0x2
  150 0027 05       		.byte	0x5
- 151 0028 A0080000 		.4byte	.LASF0
+ 151 0028 98080000 		.4byte	.LASF0
  152 002c 02       		.uleb128 0x2
  153 002d 01       		.byte	0x1
  154 002e 08       		.byte	0x8
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 26
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 26
 
 
- 155 002f 2C080000 		.4byte	.LASF1
+ 155 002f 24080000 		.4byte	.LASF1
  156 0033 02       		.uleb128 0x2
  157 0034 01       		.byte	0x1
  158 0035 06       		.byte	0x6
- 159 0036 96020000 		.4byte	.LASF2
+ 159 0036 19020000 		.4byte	.LASF2
  160 003a 03       		.uleb128 0x3
- 161 003b 5C010000 		.4byte	.LASF3
+ 161 003b EB000000 		.4byte	.LASF3
  162 003f 04       		.byte	0x4
  163 0040 1D       		.byte	0x1d
  164 0041 2C000000 		.4byte	0x2c
  165 0045 03       		.uleb128 0x3
- 166 0046 29040000 		.4byte	.LASF4
+ 166 0046 AC030000 		.4byte	.LASF4
  167 004a 04       		.byte	0x4
  168 004b 29       		.byte	0x29
  169 004c 25000000 		.4byte	0x25
  170 0050 03       		.uleb128 0x3
- 171 0051 680A0000 		.4byte	.LASF5
+ 171 0051 600A0000 		.4byte	.LASF5
  172 0055 04       		.byte	0x4
  173 0056 2B       		.byte	0x2b
  174 0057 5B000000 		.4byte	0x5b
  175 005b 02       		.uleb128 0x2
  176 005c 02       		.byte	0x2
  177 005d 07       		.byte	0x7
- 178 005e 010B0000 		.4byte	.LASF6
+ 178 005e F90A0000 		.4byte	.LASF6
  179 0062 02       		.uleb128 0x2
  180 0063 04       		.byte	0x4
  181 0064 05       		.byte	0x5
- 182 0065 2D030000 		.4byte	.LASF7
+ 182 0065 B0020000 		.4byte	.LASF7
  183 0069 03       		.uleb128 0x3
- 184 006a 0E040000 		.4byte	.LASF8
+ 184 006a 91030000 		.4byte	.LASF8
  185 006e 04       		.byte	0x4
  186 006f 41       		.byte	0x41
  187 0070 74000000 		.4byte	0x74
  188 0074 02       		.uleb128 0x2
  189 0075 04       		.byte	0x4
  190 0076 07       		.byte	0x7
- 191 0077 DC040000 		.4byte	.LASF9
+ 191 0077 D4040000 		.4byte	.LASF9
  192 007b 02       		.uleb128 0x2
  193 007c 08       		.byte	0x8
  194 007d 05       		.byte	0x5
- 195 007e 88020000 		.4byte	.LASF10
+ 195 007e 0B020000 		.4byte	.LASF10
  196 0082 02       		.uleb128 0x2
  197 0083 08       		.byte	0x8
  198 0084 07       		.byte	0x7
- 199 0085 EF010000 		.4byte	.LASF11
+ 199 0085 72010000 		.4byte	.LASF11
  200 0089 04       		.uleb128 0x4
  201 008a 04       		.byte	0x4
  202 008b 05       		.byte	0x5
@@ -1553,34 +1553,34 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  204 0090 02       		.uleb128 0x2
  205 0091 04       		.byte	0x4
  206 0092 07       		.byte	0x7
- 207 0093 7E040000 		.4byte	.LASF12
+ 207 0093 01040000 		.4byte	.LASF12
  208 0097 03       		.uleb128 0x3
- 209 0098 9F0B0000 		.4byte	.LASF13
+ 209 0098 970B0000 		.4byte	.LASF13
  210 009c 05       		.byte	0x5
  211 009d 18       		.byte	0x18
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 27
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 27
 
 
  212 009e 3A000000 		.4byte	0x3a
  213 00a2 03       		.uleb128 0x3
- 214 00a3 700C0000 		.4byte	.LASF14
+ 214 00a3 680C0000 		.4byte	.LASF14
  215 00a7 05       		.byte	0x5
  216 00a8 20       		.byte	0x20
  217 00a9 45000000 		.4byte	0x45
  218 00ad 03       		.uleb128 0x3
- 219 00ae A9050000 		.4byte	.LASF15
+ 219 00ae A1050000 		.4byte	.LASF15
  220 00b2 05       		.byte	0x5
  221 00b3 24       		.byte	0x24
  222 00b4 50000000 		.4byte	0x50
  223 00b8 03       		.uleb128 0x3
- 224 00b9 96090000 		.4byte	.LASF16
+ 224 00b9 8E090000 		.4byte	.LASF16
  225 00bd 05       		.byte	0x5
  226 00be 30       		.byte	0x30
  227 00bf 69000000 		.4byte	0x69
  228 00c3 02       		.uleb128 0x2
  229 00c4 04       		.byte	0x4
  230 00c5 07       		.byte	0x7
- 231 00c6 8B040000 		.4byte	.LASF17
+ 231 00c6 0E040000 		.4byte	.LASF17
  232 00ca 05       		.uleb128 0x5
  233 00cb B8000000 		.4byte	0xb8
  234 00cf 06       		.uleb128 0x6
@@ -1612,178 +1612,178 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  260 0108 21       		.byte	0x21
  261 0109 64020000 		.4byte	0x264
  262 010d 0A       		.uleb128 0xa
- 263 010e 7F020000 		.4byte	.LASF18
+ 263 010e 02020000 		.4byte	.LASF18
  264 0112 06       		.byte	0x6
  265 0113 22       		.byte	0x22
  266 0114 CA000000 		.4byte	0xca
  267 0118 00       		.byte	0
  268 0119 0A       		.uleb128 0xa
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 28
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 28
 
 
- 269 011a 000C0000 		.4byte	.LASF19
+ 269 011a F80B0000 		.4byte	.LASF19
  270 011e 06       		.byte	0x6
  271 011f 23       		.byte	0x23
  272 0120 CA000000 		.4byte	0xca
  273 0124 04       		.byte	0x4
  274 0125 0A       		.uleb128 0xa
- 275 0126 BA0C0000 		.4byte	.LASF20
+ 275 0126 B20C0000 		.4byte	.LASF20
  276 012a 06       		.byte	0x6
  277 012b 24       		.byte	0x24
  278 012c CA000000 		.4byte	0xca
  279 0130 08       		.byte	0x8
  280 0131 0A       		.uleb128 0xa
- 281 0132 64070000 		.4byte	.LASF21
+ 281 0132 5C070000 		.4byte	.LASF21
  282 0136 06       		.byte	0x6
  283 0137 25       		.byte	0x25
  284 0138 CF000000 		.4byte	0xcf
  285 013c 0C       		.byte	0xc
  286 013d 0A       		.uleb128 0xa
- 287 013e AA080000 		.4byte	.LASF22
+ 287 013e A2080000 		.4byte	.LASF22
  288 0142 06       		.byte	0x6
  289 0143 26       		.byte	0x26
  290 0144 69020000 		.4byte	0x269
  291 0148 10       		.byte	0x10
  292 0149 0A       		.uleb128 0xa
- 293 014a D40A0000 		.4byte	.LASF23
+ 293 014a CC0A0000 		.4byte	.LASF23
  294 014e 06       		.byte	0x6
  295 014f 27       		.byte	0x27
  296 0150 CA000000 		.4byte	0xca
  297 0154 20       		.byte	0x20
  298 0155 0A       		.uleb128 0xa
- 299 0156 2F060000 		.4byte	.LASF24
+ 299 0156 27060000 		.4byte	.LASF24
  300 015a 06       		.byte	0x6
  301 015b 28       		.byte	0x28
  302 015c CA000000 		.4byte	0xca
  303 0160 24       		.byte	0x24
  304 0161 0A       		.uleb128 0xa
- 305 0162 E10B0000 		.4byte	.LASF25
+ 305 0162 D90B0000 		.4byte	.LASF25
  306 0166 06       		.byte	0x6
  307 0167 29       		.byte	0x29
  308 0168 CA000000 		.4byte	0xca
  309 016c 28       		.byte	0x28
  310 016d 0A       		.uleb128 0xa
- 311 016e 6E070000 		.4byte	.LASF26
+ 311 016e 66070000 		.4byte	.LASF26
  312 0172 06       		.byte	0x6
  313 0173 2A       		.byte	0x2a
  314 0174 CF000000 		.4byte	0xcf
  315 0178 2C       		.byte	0x2c
  316 0179 0A       		.uleb128 0xa
- 317 017a AD070000 		.4byte	.LASF27
+ 317 017a A5070000 		.4byte	.LASF27
  318 017e 06       		.byte	0x6
  319 017f 2B       		.byte	0x2b
  320 0180 73020000 		.4byte	0x273
  321 0184 30       		.byte	0x30
  322 0185 0A       		.uleb128 0xa
- 323 0186 420A0000 		.4byte	.LASF28
+ 323 0186 3A0A0000 		.4byte	.LASF28
  324 018a 06       		.byte	0x6
  325 018b 2C       		.byte	0x2c
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 29
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 29
 
 
  326 018c CA000000 		.4byte	0xca
  327 0190 80       		.byte	0x80
  328 0191 0A       		.uleb128 0xa
- 329 0192 37020000 		.4byte	.LASF29
+ 329 0192 BA010000 		.4byte	.LASF29
  330 0196 06       		.byte	0x6
  331 0197 2D       		.byte	0x2d
  332 0198 CA000000 		.4byte	0xca
  333 019c 84       		.byte	0x84
  334 019d 0A       		.uleb128 0xa
- 335 019e 3A080000 		.4byte	.LASF30
+ 335 019e 32080000 		.4byte	.LASF30
  336 01a2 06       		.byte	0x6
  337 01a3 2E       		.byte	0x2e
  338 01a4 CA000000 		.4byte	0xca
  339 01a8 88       		.byte	0x88
  340 01a9 0A       		.uleb128 0xa
- 341 01aa 44020000 		.4byte	.LASF31
+ 341 01aa C7010000 		.4byte	.LASF31
  342 01ae 06       		.byte	0x6
  343 01af 2F       		.byte	0x2f
  344 01b0 CA000000 		.4byte	0xca
  345 01b4 8C       		.byte	0x8c
  346 01b5 0A       		.uleb128 0xa
- 347 01b6 41090000 		.4byte	.LASF32
+ 347 01b6 39090000 		.4byte	.LASF32
  348 01ba 06       		.byte	0x6
  349 01bb 30       		.byte	0x30
  350 01bc 7D020000 		.4byte	0x27d
  351 01c0 90       		.byte	0x90
  352 01c1 0A       		.uleb128 0xa
- 353 01c2 1D0B0000 		.4byte	.LASF33
+ 353 01c2 150B0000 		.4byte	.LASF33
  354 01c6 06       		.byte	0x6
  355 01c7 31       		.byte	0x31
  356 01c8 CA000000 		.4byte	0xca
  357 01cc A0       		.byte	0xa0
  358 01cd 0A       		.uleb128 0xa
- 359 01ce C2050000 		.4byte	.LASF34
+ 359 01ce BA050000 		.4byte	.LASF34
  360 01d2 06       		.byte	0x6
  361 01d3 32       		.byte	0x32
  362 01d4 CA000000 		.4byte	0xca
  363 01d8 A4       		.byte	0xa4
  364 01d9 0A       		.uleb128 0xa
- 365 01da C1070000 		.4byte	.LASF35
+ 365 01da B9070000 		.4byte	.LASF35
  366 01de 06       		.byte	0x6
  367 01df 33       		.byte	0x33
  368 01e0 87020000 		.4byte	0x287
  369 01e4 A8       		.byte	0xa8
  370 01e5 0A       		.uleb128 0xa
- 371 01e6 900B0000 		.4byte	.LASF36
+ 371 01e6 880B0000 		.4byte	.LASF36
  372 01ea 06       		.byte	0x6
  373 01eb 34       		.byte	0x34
  374 01ec CA000000 		.4byte	0xca
  375 01f0 C0       		.byte	0xc0
  376 01f1 0A       		.uleb128 0xa
- 377 01f2 3F0B0000 		.4byte	.LASF37
+ 377 01f2 370B0000 		.4byte	.LASF37
  378 01f6 06       		.byte	0x6
  379 01f7 35       		.byte	0x35
  380 01f8 CA000000 		.4byte	0xca
  381 01fc C4       		.byte	0xc4
  382 01fd 0A       		.uleb128 0xa
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 30
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 30
 
 
- 383 01fe 6C050000 		.4byte	.LASF38
+ 383 01fe 64050000 		.4byte	.LASF38
  384 0202 06       		.byte	0x6
  385 0203 36       		.byte	0x36
  386 0204 CF000000 		.4byte	0xcf
  387 0208 C8       		.byte	0xc8
  388 0209 0A       		.uleb128 0xa
- 389 020a 6F090000 		.4byte	.LASF39
+ 389 020a 67090000 		.4byte	.LASF39
  390 020e 06       		.byte	0x6
  391 020f 37       		.byte	0x37
  392 0210 A2020000 		.4byte	0x2a2
  393 0214 CC       		.byte	0xcc
  394 0215 0B       		.uleb128 0xb
- 395 0216 DF010000 		.4byte	.LASF40
+ 395 0216 62010000 		.4byte	.LASF40
  396 021a 06       		.byte	0x6
  397 021b 38       		.byte	0x38
  398 021c CA000000 		.4byte	0xca
  399 0220 000F     		.2byte	0xf00
  400 0222 0B       		.uleb128 0xb
- 401 0223 4B090000 		.4byte	.LASF41
+ 401 0223 43090000 		.4byte	.LASF41
  402 0227 06       		.byte	0x6
  403 0228 39       		.byte	0x39
  404 0229 CA000000 		.4byte	0xca
  405 022d 040F     		.2byte	0xf04
  406 022f 0B       		.uleb128 0xb
- 407 0230 F9040000 		.4byte	.LASF42
+ 407 0230 F1040000 		.4byte	.LASF42
  408 0234 06       		.byte	0x6
  409 0235 3A       		.byte	0x3a
  410 0236 CA000000 		.4byte	0xca
  411 023a 080F     		.2byte	0xf08
  412 023c 0B       		.uleb128 0xb
- 413 023d 94040000 		.4byte	.LASF43
+ 413 023d 17040000 		.4byte	.LASF43
  414 0241 06       		.byte	0x6
  415 0242 3B       		.byte	0x3b
  416 0243 CA000000 		.4byte	0xca
  417 0247 0C0F     		.2byte	0xf0c
  418 0249 0B       		.uleb128 0xb
- 419 024a F3080000 		.4byte	.LASF44
+ 419 024a EB080000 		.4byte	.LASF44
  420 024e 06       		.byte	0x6
  421 024f 3C       		.byte	0x3c
  422 0250 CA000000 		.4byte	0xca
  423 0254 100F     		.2byte	0xf10
  424 0256 0B       		.uleb128 0xb
- 425 0257 1D090000 		.4byte	.LASF45
+ 425 0257 15090000 		.4byte	.LASF45
  426 025b 06       		.byte	0x6
  427 025c 3D       		.byte	0x3d
  428 025d CA000000 		.4byte	0xca
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  437 0273 06       		.uleb128 0x6
  438 0274 6E020000 		.4byte	0x26e
  439 0278 05       		.uleb128 0x5
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 31
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 31
 
 
  440 0279 E4000000 		.4byte	0xe4
@@ -1820,45 +1820,45 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  456 02a2 06       		.uleb128 0x6
  457 02a3 9D020000 		.4byte	0x29d
  458 02a7 03       		.uleb128 0x3
- 459 02a8 24050000 		.4byte	.LASF46
+ 459 02a8 1C050000 		.4byte	.LASF46
  460 02ac 06       		.byte	0x6
  461 02ad 3E       		.byte	0x3e
  462 02ae 04010000 		.4byte	0x104
  463 02b2 0D       		.uleb128 0xd
- 464 02b3 B7020000 		.4byte	.LASF47
+ 464 02b3 3A020000 		.4byte	.LASF47
  465 02b7 07       		.byte	0x7
  466 02b8 5006     		.2byte	0x650
  467 02ba A7020000 		.4byte	0x2a7
  468 02be 02       		.uleb128 0x2
  469 02bf 08       		.byte	0x8
  470 02c0 04       		.byte	0x4
- 471 02c1 310A0000 		.4byte	.LASF48
+ 471 02c1 290A0000 		.4byte	.LASF48
  472 02c5 0E       		.uleb128 0xe
  473 02c6 B8       		.byte	0xb8
  474 02c7 08       		.byte	0x8
  475 02c8 34       		.byte	0x34
  476 02c9 D6060000 		.4byte	0x6d6
  477 02cd 0A       		.uleb128 0xa
- 478 02ce BA010000 		.4byte	.LASF49
+ 478 02ce 49010000 		.4byte	.LASF49
  479 02d2 08       		.byte	0x8
  480 02d3 37       		.byte	0x37
  481 02d4 B8000000 		.4byte	0xb8
  482 02d8 00       		.byte	0
  483 02d9 0A       		.uleb128 0xa
- 484 02da 03040000 		.4byte	.LASF50
+ 484 02da 86030000 		.4byte	.LASF50
  485 02de 08       		.byte	0x8
  486 02df 38       		.byte	0x38
  487 02e0 B8000000 		.4byte	0xb8
  488 02e4 04       		.byte	0x4
  489 02e5 0A       		.uleb128 0xa
- 490 02e6 59030000 		.4byte	.LASF51
+ 490 02e6 DC020000 		.4byte	.LASF51
  491 02ea 08       		.byte	0x8
  492 02eb 39       		.byte	0x39
  493 02ec B8000000 		.4byte	0xb8
  494 02f0 08       		.byte	0x8
  495 02f1 0A       		.uleb128 0xa
- 496 02f2 63020000 		.4byte	.LASF52
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 32
+ 496 02f2 E6010000 		.4byte	.LASF52
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 32
 
 
  497 02f6 08       		.byte	0x8
@@ -1866,43 +1866,43 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  499 02f8 B8000000 		.4byte	0xb8
  500 02fc 0C       		.byte	0xc
  501 02fd 0A       		.uleb128 0xa
- 502 02fe C1020000 		.4byte	.LASF53
+ 502 02fe 44020000 		.4byte	.LASF53
  503 0302 08       		.byte	0x8
  504 0303 3B       		.byte	0x3b
  505 0304 B8000000 		.4byte	0xb8
  506 0308 10       		.byte	0x10
  507 0309 0A       		.uleb128 0xa
- 508 030a EA020000 		.4byte	.LASF54
+ 508 030a 6D020000 		.4byte	.LASF54
  509 030e 08       		.byte	0x8
  510 030f 3C       		.byte	0x3c
  511 0310 B8000000 		.4byte	0xb8
  512 0314 14       		.byte	0x14
  513 0315 0A       		.uleb128 0xa
- 514 0316 07050000 		.4byte	.LASF55
+ 514 0316 FF040000 		.4byte	.LASF55
  515 031a 08       		.byte	0x8
  516 031b 3D       		.byte	0x3d
  517 031c B8000000 		.4byte	0xb8
  518 0320 18       		.byte	0x18
  519 0321 0A       		.uleb128 0xa
- 520 0322 23010000 		.4byte	.LASF56
+ 520 0322 B2000000 		.4byte	.LASF56
  521 0326 08       		.byte	0x8
  522 0327 3E       		.byte	0x3e
  523 0328 B8000000 		.4byte	0xb8
  524 032c 1C       		.byte	0x1c
  525 032d 0A       		.uleb128 0xa
- 526 032e 3C0C0000 		.4byte	.LASF57
+ 526 032e 340C0000 		.4byte	.LASF57
  527 0332 08       		.byte	0x8
  528 0333 3F       		.byte	0x3f
  529 0334 B8000000 		.4byte	0xb8
  530 0338 20       		.byte	0x20
  531 0339 0A       		.uleb128 0xa
- 532 033a 38060000 		.4byte	.LASF58
+ 532 033a 30060000 		.4byte	.LASF58
  533 033e 08       		.byte	0x8
  534 033f 40       		.byte	0x40
  535 0340 B8000000 		.4byte	0xb8
  536 0344 24       		.byte	0x24
  537 0345 0A       		.uleb128 0xa
- 538 0346 630C0000 		.4byte	.LASF59
+ 538 0346 5B0C0000 		.4byte	.LASF59
  539 034a 08       		.byte	0x8
  540 034b 43       		.byte	0x43
  541 034c 97000000 		.4byte	0x97
@@ -1914,71 +1914,71 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  547 0358 97000000 		.4byte	0x97
  548 035c 29       		.byte	0x29
  549 035d 0A       		.uleb128 0xa
- 550 035e 320C0000 		.4byte	.LASF61
+ 550 035e 2A0C0000 		.4byte	.LASF61
  551 0362 08       		.byte	0x8
  552 0363 45       		.byte	0x45
  553 0364 97000000 		.4byte	0x97
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 33
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 33
 
 
  554 0368 2A       		.byte	0x2a
  555 0369 0A       		.uleb128 0xa
- 556 036a 49070000 		.4byte	.LASF62
+ 556 036a 41070000 		.4byte	.LASF62
  557 036e 08       		.byte	0x8
  558 036f 46       		.byte	0x46
  559 0370 97000000 		.4byte	0x97
  560 0374 2B       		.byte	0x2b
  561 0375 0A       		.uleb128 0xa
- 562 0376 9D050000 		.4byte	.LASF63
+ 562 0376 95050000 		.4byte	.LASF63
  563 037a 08       		.byte	0x8
  564 037b 47       		.byte	0x47
  565 037c 97000000 		.4byte	0x97
  566 0380 2C       		.byte	0x2c
  567 0381 0A       		.uleb128 0xa
- 568 0382 9F0A0000 		.4byte	.LASF64
+ 568 0382 970A0000 		.4byte	.LASF64
  569 0386 08       		.byte	0x8
  570 0387 48       		.byte	0x48
  571 0388 97000000 		.4byte	0x97
  572 038c 2D       		.byte	0x2d
  573 038d 0A       		.uleb128 0xa
- 574 038e CA020000 		.4byte	.LASF65
+ 574 038e 4D020000 		.4byte	.LASF65
  575 0392 08       		.byte	0x8
  576 0393 49       		.byte	0x49
  577 0394 97000000 		.4byte	0x97
  578 0398 2E       		.byte	0x2e
  579 0399 0A       		.uleb128 0xa
- 580 039a 53060000 		.4byte	.LASF66
+ 580 039a 4B060000 		.4byte	.LASF66
  581 039e 08       		.byte	0x8
  582 039f 4A       		.byte	0x4a
  583 03a0 97000000 		.4byte	0x97
  584 03a4 2F       		.byte	0x2f
  585 03a5 0A       		.uleb128 0xa
- 586 03a6 08070000 		.4byte	.LASF67
+ 586 03a6 00070000 		.4byte	.LASF67
  587 03aa 08       		.byte	0x8
  588 03ab 4B       		.byte	0x4b
  589 03ac 97000000 		.4byte	0x97
  590 03b0 30       		.byte	0x30
  591 03b1 0A       		.uleb128 0xa
- 592 03b2 EE040000 		.4byte	.LASF68
+ 592 03b2 E6040000 		.4byte	.LASF68
  593 03b6 08       		.byte	0x8
  594 03b7 4E       		.byte	0x4e
  595 03b8 97000000 		.4byte	0x97
  596 03bc 31       		.byte	0x31
  597 03bd 0A       		.uleb128 0xa
- 598 03be 4E010000 		.4byte	.LASF69
+ 598 03be DD000000 		.4byte	.LASF69
  599 03c2 08       		.byte	0x8
  600 03c3 4F       		.byte	0x4f
  601 03c4 97000000 		.4byte	0x97
  602 03c8 32       		.byte	0x32
  603 03c9 0A       		.uleb128 0xa
- 604 03ca 72040000 		.4byte	.LASF70
+ 604 03ca F5030000 		.4byte	.LASF70
  605 03ce 08       		.byte	0x8
  606 03cf 50       		.byte	0x50
  607 03d0 97000000 		.4byte	0x97
  608 03d4 33       		.byte	0x33
  609 03d5 0A       		.uleb128 0xa
- 610 03d6 A7060000 		.4byte	.LASF71
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 34
+ 610 03d6 9F060000 		.4byte	.LASF71
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 34
 
 
  611 03da 08       		.byte	0x8
@@ -1986,76 +1986,76 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  613 03dc 97000000 		.4byte	0x97
  614 03e0 34       		.byte	0x34
  615 03e1 0A       		.uleb128 0xa
- 616 03e2 320B0000 		.4byte	.LASF72
+ 616 03e2 2A0B0000 		.4byte	.LASF72
  617 03e6 08       		.byte	0x8
  618 03e7 52       		.byte	0x52
  619 03e8 A2000000 		.4byte	0xa2
  620 03ec 36       		.byte	0x36
  621 03ed 0A       		.uleb128 0xa
- 622 03ee 84030000 		.4byte	.LASF73
+ 622 03ee 07030000 		.4byte	.LASF73
  623 03f2 08       		.byte	0x8
  624 03f3 53       		.byte	0x53
  625 03f4 A2000000 		.4byte	0xa2
  626 03f8 38       		.byte	0x38
  627 03f9 0A       		.uleb128 0xa
- 628 03fa 6B0B0000 		.4byte	.LASF74
+ 628 03fa 630B0000 		.4byte	.LASF74
  629 03fe 08       		.byte	0x8
  630 03ff 54       		.byte	0x54
  631 0400 A2000000 		.4byte	0xa2
  632 0404 3A       		.byte	0x3a
  633 0405 0A       		.uleb128 0xa
- 634 0406 230C0000 		.4byte	.LASF75
+ 634 0406 1B0C0000 		.4byte	.LASF75
  635 040a 08       		.byte	0x8
  636 040b 55       		.byte	0x55
  637 040c 97000000 		.4byte	0x97
  638 0410 3C       		.byte	0x3c
  639 0411 0A       		.uleb128 0xa
- 640 0412 B9030000 		.4byte	.LASF76
+ 640 0412 3C030000 		.4byte	.LASF76
  641 0416 08       		.byte	0x8
  642 0417 56       		.byte	0x56
  643 0418 97000000 		.4byte	0x97
  644 041c 3D       		.byte	0x3d
  645 041d 0A       		.uleb128 0xa
- 646 041e 61090000 		.4byte	.LASF77
+ 646 041e 59090000 		.4byte	.LASF77
  647 0422 08       		.byte	0x8
  648 0423 57       		.byte	0x57
  649 0424 97000000 		.4byte	0x97
  650 0428 3E       		.byte	0x3e
  651 0429 0A       		.uleb128 0xa
- 652 042a D3010000 		.4byte	.LASF78
+ 652 042a 8E000000 		.4byte	.LASF78
  653 042e 08       		.byte	0x8
  654 042f 58       		.byte	0x58
  655 0430 97000000 		.4byte	0x97
  656 0434 3F       		.byte	0x3f
  657 0435 0A       		.uleb128 0xa
- 658 0436 57070000 		.4byte	.LASF79
+ 658 0436 4F070000 		.4byte	.LASF79
  659 043a 08       		.byte	0x8
  660 043b 59       		.byte	0x59
  661 043c 97000000 		.4byte	0x97
  662 0440 40       		.byte	0x40
  663 0441 0A       		.uleb128 0xa
- 664 0442 19040000 		.4byte	.LASF80
+ 664 0442 9C030000 		.4byte	.LASF80
  665 0446 08       		.byte	0x8
  666 0447 5A       		.byte	0x5a
  667 0448 97000000 		.4byte	0x97
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 35
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 35
 
 
  668 044c 41       		.byte	0x41
  669 044d 0A       		.uleb128 0xa
- 670 044e E1050000 		.4byte	.LASF81
+ 670 044e D9050000 		.4byte	.LASF81
  671 0452 08       		.byte	0x8
  672 0453 5B       		.byte	0x5b
  673 0454 97000000 		.4byte	0x97
  674 0458 42       		.byte	0x42
  675 0459 0A       		.uleb128 0xa
- 676 045a 25070000 		.4byte	.LASF82
+ 676 045a 1D070000 		.4byte	.LASF82
  677 045e 08       		.byte	0x8
  678 045f 5C       		.byte	0x5c
  679 0460 97000000 		.4byte	0x97
  680 0464 43       		.byte	0x43
  681 0465 0A       		.uleb128 0xa
- 682 0466 73030000 		.4byte	.LASF83
+ 682 0466 F6020000 		.4byte	.LASF83
  683 046a 08       		.byte	0x8
  684 046b 5D       		.byte	0x5d
  685 046c 97000000 		.4byte	0x97
@@ -2067,38 +2067,38 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  691 0478 B8000000 		.4byte	0xb8
  692 047c 48       		.byte	0x48
  693 047d 0A       		.uleb128 0xa
- 694 047e 36030000 		.4byte	.LASF85
+ 694 047e B9020000 		.4byte	.LASF85
  695 0482 08       		.byte	0x8
  696 0483 5F       		.byte	0x5f
  697 0484 B8000000 		.4byte	0xb8
  698 0488 4C       		.byte	0x4c
  699 0489 0A       		.uleb128 0xa
- 700 048a 980C0000 		.4byte	.LASF86
+ 700 048a 900C0000 		.4byte	.LASF86
  701 048e 08       		.byte	0x8
  702 048f 60       		.byte	0x60
  703 0490 97000000 		.4byte	0x97
  704 0494 50       		.byte	0x50
  705 0495 0A       		.uleb128 0xa
- 706 0496 51020000 		.4byte	.LASF87
+ 706 0496 D4010000 		.4byte	.LASF87
  707 049a 08       		.byte	0x8
  708 049b 61       		.byte	0x61
  709 049c 97000000 		.4byte	0x97
  710 04a0 51       		.byte	0x51
  711 04a1 0A       		.uleb128 0xa
- 712 04a2 800B0000 		.4byte	.LASF88
+ 712 04a2 780B0000 		.4byte	.LASF88
  713 04a6 08       		.byte	0x8
  714 04a7 62       		.byte	0x62
  715 04a8 97000000 		.4byte	0x97
  716 04ac 52       		.byte	0x52
  717 04ad 0A       		.uleb128 0xa
- 718 04ae C20A0000 		.4byte	.LASF89
+ 718 04ae BA0A0000 		.4byte	.LASF89
  719 04b2 08       		.byte	0x8
  720 04b3 63       		.byte	0x63
  721 04b4 97000000 		.4byte	0x97
  722 04b8 53       		.byte	0x53
  723 04b9 0A       		.uleb128 0xa
- 724 04ba 79090000 		.4byte	.LASF90
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 36
+ 724 04ba 71090000 		.4byte	.LASF90
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 36
 
 
  725 04be 08       		.byte	0x8
@@ -2106,19 +2106,19 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  727 04c0 97000000 		.4byte	0x97
  728 04c4 54       		.byte	0x54
  729 04c5 0A       		.uleb128 0xa
- 730 04c6 6B020000 		.4byte	.LASF91
+ 730 04c6 EE010000 		.4byte	.LASF91
  731 04ca 08       		.byte	0x8
  732 04cb 65       		.byte	0x65
  733 04cc 97000000 		.4byte	0x97
  734 04d0 55       		.byte	0x55
  735 04d1 0A       		.uleb128 0xa
- 736 04d2 C8040000 		.4byte	.LASF92
+ 736 04d2 4B040000 		.4byte	.LASF92
  737 04d6 08       		.byte	0x8
  738 04d7 66       		.byte	0x66
  739 04d8 97000000 		.4byte	0x97
  740 04dc 56       		.byte	0x56
  741 04dd 0A       		.uleb128 0xa
- 742 04de 10050000 		.4byte	.LASF93
+ 742 04de 08050000 		.4byte	.LASF93
  743 04e2 08       		.byte	0x8
  744 04e3 67       		.byte	0x67
  745 04e4 97000000 		.4byte	0x97
@@ -2130,95 +2130,95 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  751 04f0 97000000 		.4byte	0x97
  752 04f4 58       		.byte	0x58
  753 04f5 0A       		.uleb128 0xa
- 754 04f6 41080000 		.4byte	.LASF95
+ 754 04f6 39080000 		.4byte	.LASF95
  755 04fa 08       		.byte	0x8
  756 04fb 69       		.byte	0x69
  757 04fc 97000000 		.4byte	0x97
  758 0500 59       		.byte	0x59
  759 0501 0A       		.uleb128 0xa
- 760 0502 9C060000 		.4byte	.LASF96
+ 760 0502 94060000 		.4byte	.LASF96
  761 0506 08       		.byte	0x8
  762 0507 6E       		.byte	0x6e
  763 0508 AD000000 		.4byte	0xad
  764 050c 5A       		.byte	0x5a
  765 050d 0A       		.uleb128 0xa
- 766 050e 140B0000 		.4byte	.LASF97
+ 766 050e 0C0B0000 		.4byte	.LASF97
  767 0512 08       		.byte	0x8
  768 0513 6F       		.byte	0x6f
  769 0514 AD000000 		.4byte	0xad
  770 0518 5C       		.byte	0x5c
  771 0519 0A       		.uleb128 0xa
- 772 051a C4010000 		.4byte	.LASF98
+ 772 051a 53010000 		.4byte	.LASF98
  773 051e 08       		.byte	0x8
  774 051f 70       		.byte	0x70
  775 0520 97000000 		.4byte	0x97
  776 0524 5E       		.byte	0x5e
  777 0525 0A       		.uleb128 0xa
- 778 0526 D7070000 		.4byte	.LASF99
+ 778 0526 CF070000 		.4byte	.LASF99
  779 052a 08       		.byte	0x8
  780 052b 71       		.byte	0x71
  781 052c 97000000 		.4byte	0x97
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 37
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 37
 
 
  782 0530 5F       		.byte	0x5f
  783 0531 0A       		.uleb128 0xa
- 784 0532 14070000 		.4byte	.LASF100
+ 784 0532 0C070000 		.4byte	.LASF100
  785 0536 08       		.byte	0x8
  786 0537 72       		.byte	0x72
  787 0538 97000000 		.4byte	0x97
  788 053c 60       		.byte	0x60
  789 053d 0A       		.uleb128 0xa
- 790 053e 8B070000 		.4byte	.LASF101
+ 790 053e 83070000 		.4byte	.LASF101
  791 0542 08       		.byte	0x8
  792 0543 73       		.byte	0x73
  793 0544 B8000000 		.4byte	0xb8
  794 0548 64       		.byte	0x64
  795 0549 0A       		.uleb128 0xa
- 796 054a 06020000 		.4byte	.LASF102
+ 796 054a 89010000 		.4byte	.LASF102
  797 054e 08       		.byte	0x8
  798 054f 76       		.byte	0x76
  799 0550 AD000000 		.4byte	0xad
  800 0554 68       		.byte	0x68
  801 0555 0A       		.uleb128 0xa
- 802 0556 B6040000 		.4byte	.LASF103
+ 802 0556 39040000 		.4byte	.LASF103
  803 055a 08       		.byte	0x8
  804 055b 77       		.byte	0x77
  805 055c AD000000 		.4byte	0xad
  806 0560 6A       		.byte	0x6a
  807 0561 0A       		.uleb128 0xa
- 808 0562 43050000 		.4byte	.LASF104
+ 808 0562 3B050000 		.4byte	.LASF104
  809 0566 08       		.byte	0x8
  810 0567 78       		.byte	0x78
  811 0568 AD000000 		.4byte	0xad
  812 056c 6C       		.byte	0x6c
  813 056d 0A       		.uleb128 0xa
- 814 056e 90050000 		.4byte	.LASF105
+ 814 056e 88050000 		.4byte	.LASF105
  815 0572 08       		.byte	0x8
  816 0573 79       		.byte	0x79
  817 0574 AD000000 		.4byte	0xad
  818 0578 6E       		.byte	0x6e
  819 0579 0A       		.uleb128 0xa
- 820 057a 09090000 		.4byte	.LASF106
+ 820 057a 01090000 		.4byte	.LASF106
  821 057e 08       		.byte	0x8
  822 057f 7B       		.byte	0x7b
  823 0580 97000000 		.4byte	0x97
  824 0584 70       		.byte	0x70
  825 0585 0A       		.uleb128 0xa
- 826 0586 A2020000 		.4byte	.LASF107
+ 826 0586 25020000 		.4byte	.LASF107
  827 058a 08       		.byte	0x8
  828 058b 7C       		.byte	0x7c
  829 058c 97000000 		.4byte	0x97
  830 0590 71       		.byte	0x71
  831 0591 0A       		.uleb128 0xa
- 832 0592 33040000 		.4byte	.LASF108
+ 832 0592 B6030000 		.4byte	.LASF108
  833 0596 08       		.byte	0x8
  834 0597 7D       		.byte	0x7d
  835 0598 97000000 		.4byte	0x97
  836 059c 72       		.byte	0x72
  837 059d 0A       		.uleb128 0xa
- 838 059e B8060000 		.4byte	.LASF109
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 38
+ 838 059e B0060000 		.4byte	.LASF109
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 38
 
 
  839 05a2 08       		.byte	0x8
@@ -2226,37 +2226,37 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  841 05a4 97000000 		.4byte	0x97
  842 05a8 73       		.byte	0x73
  843 05a9 0A       		.uleb128 0xa
- 844 05aa C4030000 		.4byte	.LASF110
+ 844 05aa 47030000 		.4byte	.LASF110
  845 05ae 08       		.byte	0x8
  846 05af 80       		.byte	0x80
  847 05b0 AD000000 		.4byte	0xad
  848 05b4 74       		.byte	0x74
  849 05b5 0A       		.uleb128 0xa
- 850 05b6 730A0000 		.4byte	.LASF111
+ 850 05b6 6B0A0000 		.4byte	.LASF111
  851 05ba 08       		.byte	0x8
  852 05bb 81       		.byte	0x81
  853 05bc AD000000 		.4byte	0xad
  854 05c0 76       		.byte	0x76
  855 05c1 0A       		.uleb128 0xa
- 856 05c2 A4030000 		.4byte	.LASF112
+ 856 05c2 27030000 		.4byte	.LASF112
  857 05c6 08       		.byte	0x8
  858 05c7 82       		.byte	0x82
  859 05c8 AD000000 		.4byte	0xad
  860 05cc 78       		.byte	0x78
  861 05cd 0A       		.uleb128 0xa
- 862 05ce 8B080000 		.4byte	.LASF113
+ 862 05ce 83080000 		.4byte	.LASF113
  863 05d2 08       		.byte	0x8
  864 05d3 83       		.byte	0x83
  865 05d4 AD000000 		.4byte	0xad
  866 05d8 7A       		.byte	0x7a
  867 05d9 0A       		.uleb128 0xa
- 868 05da 44030000 		.4byte	.LASF114
+ 868 05da C7020000 		.4byte	.LASF114
  869 05de 08       		.byte	0x8
  870 05df 86       		.byte	0x86
  871 05e0 97000000 		.4byte	0x97
  872 05e4 7C       		.byte	0x7c
  873 05e5 0A       		.uleb128 0xa
- 874 05e6 4E0B0000 		.4byte	.LASF115
+ 874 05e6 460B0000 		.4byte	.LASF115
  875 05ea 08       		.byte	0x8
  876 05eb 87       		.byte	0x87
  877 05ec 97000000 		.4byte	0x97
@@ -2268,77 +2268,77 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  883 05f8 97000000 		.4byte	0x97
  884 05fc 7E       		.byte	0x7e
  885 05fd 0A       		.uleb128 0xa
- 886 05fe EF030000 		.4byte	.LASF117
+ 886 05fe 72030000 		.4byte	.LASF117
  887 0602 08       		.byte	0x8
  888 0603 89       		.byte	0x89
  889 0604 97000000 		.4byte	0x97
  890 0608 7F       		.byte	0x7f
  891 0609 0A       		.uleb128 0xa
- 892 060a 5E040000 		.4byte	.LASF118
+ 892 060a E1030000 		.4byte	.LASF118
  893 060e 08       		.byte	0x8
  894 060f 8A       		.byte	0x8a
  895 0610 97000000 		.4byte	0x97
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 39
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 39
 
 
  896 0614 80       		.byte	0x80
  897 0615 0A       		.uleb128 0xa
- 898 0616 18060000 		.4byte	.LASF119
+ 898 0616 10060000 		.4byte	.LASF119
  899 061a 08       		.byte	0x8
  900 061b 8D       		.byte	0x8d
  901 061c B8000000 		.4byte	0xb8
  902 0620 84       		.byte	0x84
  903 0621 0A       		.uleb128 0xa
- 904 0622 A3010000 		.4byte	.LASF120
+ 904 0622 32010000 		.4byte	.LASF120
  905 0626 08       		.byte	0x8
  906 0627 8E       		.byte	0x8e
  907 0628 B8000000 		.4byte	0xb8
  908 062c 88       		.byte	0x88
  909 062d 0A       		.uleb128 0xa
- 910 062e B50B0000 		.4byte	.LASF121
+ 910 062e AD0B0000 		.4byte	.LASF121
  911 0632 08       		.byte	0x8
  912 0633 8F       		.byte	0x8f
  913 0634 B8000000 		.4byte	0xb8
  914 0638 8C       		.byte	0x8c
  915 0639 0A       		.uleb128 0xa
- 916 063a 5F060000 		.4byte	.LASF122
+ 916 063a 57060000 		.4byte	.LASF122
  917 063e 08       		.byte	0x8
  918 063f 90       		.byte	0x90
  919 0640 B8000000 		.4byte	0xb8
  920 0644 90       		.byte	0x90
  921 0645 0A       		.uleb128 0xa
- 922 0646 49040000 		.4byte	.LASF123
+ 922 0646 CC030000 		.4byte	.LASF123
  923 064a 08       		.byte	0x8
  924 064b 91       		.byte	0x91
  925 064c B8000000 		.4byte	0xb8
  926 0650 94       		.byte	0x94
  927 0651 0A       		.uleb128 0xa
- 928 0652 02060000 		.4byte	.LASF124
+ 928 0652 FA050000 		.4byte	.LASF124
  929 0656 08       		.byte	0x8
  930 0657 92       		.byte	0x92
  931 0658 B8000000 		.4byte	0xb8
  932 065c 98       		.byte	0x98
  933 065d 0A       		.uleb128 0xa
- 934 065e 0D0C0000 		.4byte	.LASF125
+ 934 065e 050C0000 		.4byte	.LASF125
  935 0662 08       		.byte	0x8
  936 0663 93       		.byte	0x93
  937 0664 B8000000 		.4byte	0xb8
  938 0668 9C       		.byte	0x9c
  939 0669 0A       		.uleb128 0xa
- 940 066a 21020000 		.4byte	.LASF126
+ 940 066a A4010000 		.4byte	.LASF126
  941 066e 08       		.byte	0x8
  942 066f 94       		.byte	0x94
  943 0670 B8000000 		.4byte	0xb8
  944 0674 A0       		.byte	0xa0
  945 0675 0A       		.uleb128 0xa
- 946 0676 D5020000 		.4byte	.LASF127
+ 946 0676 58020000 		.4byte	.LASF127
  947 067a 08       		.byte	0x8
  948 067b 95       		.byte	0x95
  949 067c AD000000 		.4byte	0xad
  950 0680 A4       		.byte	0xa4
  951 0681 0A       		.uleb128 0xa
- 952 0682 ED050000 		.4byte	.LASF128
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 40
+ 952 0682 E5050000 		.4byte	.LASF128
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 40
 
 
  953 0686 08       		.byte	0x8
@@ -2346,31 +2346,31 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  955 0688 AD000000 		.4byte	0xad
  956 068c A6       		.byte	0xa6
  957 068d 0A       		.uleb128 0xa
- 958 068e CB070000 		.4byte	.LASF129
+ 958 068e C3070000 		.4byte	.LASF129
  959 0692 08       		.byte	0x8
  960 0693 97       		.byte	0x97
  961 0694 AD000000 		.4byte	0xad
  962 0698 A8       		.byte	0xa8
  963 0699 0A       		.uleb128 0xa
- 964 069a 530A0000 		.4byte	.LASF130
+ 964 069a 4B0A0000 		.4byte	.LASF130
  965 069e 08       		.byte	0x8
  966 069f 98       		.byte	0x98
  967 06a0 AD000000 		.4byte	0xad
  968 06a4 AA       		.byte	0xaa
  969 06a5 0A       		.uleb128 0xa
- 970 06a6 52050000 		.4byte	.LASF131
+ 970 06a6 4A050000 		.4byte	.LASF131
  971 06aa 08       		.byte	0x8
  972 06ab 99       		.byte	0x99
  973 06ac AD000000 		.4byte	0xad
  974 06b0 AC       		.byte	0xac
  975 06b1 0A       		.uleb128 0xa
- 976 06b2 E0060000 		.4byte	.LASF132
+ 976 06b2 D8060000 		.4byte	.LASF132
  977 06b6 08       		.byte	0x8
  978 06b7 9A       		.byte	0x9a
  979 06b8 AD000000 		.4byte	0xad
  980 06bc AE       		.byte	0xae
  981 06bd 0A       		.uleb128 0xa
- 982 06be 240B0000 		.4byte	.LASF133
+ 982 06be 1C0B0000 		.4byte	.LASF133
  983 06c2 08       		.byte	0x8
  984 06c3 9D       		.byte	0x9d
  985 06c4 AD000000 		.4byte	0xad
@@ -2383,25 +2383,25 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  992 06d4 B4       		.byte	0xb4
  993 06d5 00       		.byte	0
  994 06d6 03       		.uleb128 0x3
- 995 06d7 B2050000 		.4byte	.LASF135
+ 995 06d7 AA050000 		.4byte	.LASF135
  996 06db 08       		.byte	0x8
  997 06dc 9F       		.byte	0x9f
  998 06dd C5020000 		.4byte	0x2c5
  999 06e1 02       		.uleb128 0x2
  1000 06e2 01       		.byte	0x1
  1001 06e3 08       		.byte	0x8
- 1002 06e4 3D0A0000 		.4byte	.LASF136
+ 1002 06e4 350A0000 		.4byte	.LASF136
  1003 06e8 02       		.uleb128 0x2
  1004 06e9 04       		.byte	0x4
  1005 06ea 04       		.byte	0x4
- 1006 06eb 85070000 		.4byte	.LASF137
+ 1006 06eb 7D070000 		.4byte	.LASF137
  1007 06ef 02       		.uleb128 0x2
  1008 06f0 08       		.byte	0x8
  1009 06f1 04       		.byte	0x4
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 41
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 41
 
 
- 1010 06f2 9D030000 		.4byte	.LASF138
+ 1010 06f2 20030000 		.4byte	.LASF138
  1011 06f6 0F       		.uleb128 0xf
  1012 06f7 01       		.byte	0x1
  1013 06f8 2C000000 		.4byte	0x2c
@@ -2409,7 +2409,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1015 06fd BE01     		.2byte	0x1be
  1016 06ff 1C070000 		.4byte	0x71c
  1017 0703 10       		.uleb128 0x10
- 1018 0704 31050000 		.4byte	.LASF139
+ 1018 0704 29050000 		.4byte	.LASF139
  1019 0708 00       		.byte	0
  1020 0709 10       		.uleb128 0x10
  1021 070a 12000000 		.4byte	.LASF140
@@ -2418,7 +2418,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1024 0710 21000000 		.4byte	.LASF141
  1025 0714 02       		.byte	0x2
  1026 0715 10       		.uleb128 0x10
- 1027 0716 8A060000 		.4byte	.LASF142
+ 1027 0716 82060000 		.4byte	.LASF142
  1028 071a 03       		.byte	0x3
  1029 071b 00       		.byte	0
  1030 071c 0F       		.uleb128 0xf
@@ -2428,14 +2428,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1034 0723 C701     		.2byte	0x1c7
  1035 0725 39070000 		.4byte	0x739
  1036 0729 10       		.uleb128 0x10
- 1037 072a 780C0000 		.4byte	.LASF143
+ 1037 072a 700C0000 		.4byte	.LASF143
  1038 072e 00       		.byte	0
  1039 072f 11       		.uleb128 0x11
- 1040 0730 0B010000 		.4byte	.LASF144
+ 1040 0730 9A000000 		.4byte	.LASF144
  1041 0734 00000040 		.4byte	0x40000000
  1042 0738 00       		.byte	0
  1043 0739 0D       		.uleb128 0xd
- 1044 073a D90A0000 		.4byte	.LASF145
+ 1044 073a D10A0000 		.4byte	.LASF145
  1045 073e 03       		.byte	0x3
  1046 073f CA01     		.2byte	0x1ca
  1047 0741 1C070000 		.4byte	0x71c
@@ -2446,23 +2446,23 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1052 074c EA01     		.2byte	0x1ea
  1053 074e 6B070000 		.4byte	0x76b
  1054 0752 10       		.uleb128 0x10
- 1055 0753 92010000 		.4byte	.LASF146
+ 1055 0753 21010000 		.4byte	.LASF146
  1056 0757 00       		.byte	0
  1057 0758 10       		.uleb128 0x10
- 1058 0759 F00A0000 		.4byte	.LASF147
+ 1058 0759 E80A0000 		.4byte	.LASF147
  1059 075d 01       		.byte	0x1
  1060 075e 10       		.uleb128 0x10
- 1061 075f 07030000 		.4byte	.LASF148
+ 1061 075f 8A020000 		.4byte	.LASF148
  1062 0763 02       		.byte	0x2
  1063 0764 10       		.uleb128 0x10
- 1064 0765 CF050000 		.4byte	.LASF149
+ 1064 0765 C7050000 		.4byte	.LASF149
  1065 0769 03       		.byte	0x3
  1066 076a 00       		.byte	0
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 42
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 42
 
 
  1067 076b 0D       		.uleb128 0xd
- 1068 076c 1B030000 		.4byte	.LASF150
+ 1068 076c 9E020000 		.4byte	.LASF150
  1069 0770 03       		.byte	0x3
  1070 0771 EF01     		.2byte	0x1ef
  1071 0773 45070000 		.4byte	0x745
@@ -2473,17 +2473,17 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1076 077e F501     		.2byte	0x1f5
  1077 0780 97070000 		.4byte	0x797
  1078 0784 10       		.uleb128 0x10
- 1079 0785 FA070000 		.4byte	.LASF151
+ 1079 0785 F2070000 		.4byte	.LASF151
  1080 0789 00       		.byte	0
  1081 078a 10       		.uleb128 0x10
- 1082 078b EB0B0000 		.4byte	.LASF152
+ 1082 078b E30B0000 		.4byte	.LASF152
  1083 078f 08       		.byte	0x8
  1084 0790 10       		.uleb128 0x10
- 1085 0791 66010000 		.4byte	.LASF153
+ 1085 0791 F5000000 		.4byte	.LASF153
  1086 0795 10       		.byte	0x10
  1087 0796 00       		.byte	0
  1088 0797 0D       		.uleb128 0xd
- 1089 0798 CF060000 		.4byte	.LASF154
+ 1089 0798 C7060000 		.4byte	.LASF154
  1090 079c 03       		.byte	0x3
  1091 079d F901     		.2byte	0x1f9
  1092 079f 77070000 		.4byte	0x777
@@ -2494,14 +2494,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1097 07aa 0F02     		.2byte	0x20f
  1098 07ac BE070000 		.4byte	0x7be
  1099 07b0 10       		.uleb128 0x10
- 1100 07b1 77080000 		.4byte	.LASF155
+ 1100 07b1 6F080000 		.4byte	.LASF155
  1101 07b5 00       		.byte	0
  1102 07b6 12       		.uleb128 0x12
- 1103 07b7 F4020000 		.4byte	.LASF156
+ 1103 07b7 77020000 		.4byte	.LASF156
  1104 07bb 0008     		.2byte	0x800
  1105 07bd 00       		.byte	0
  1106 07be 0D       		.uleb128 0xd
- 1107 07bf A90C0000 		.4byte	.LASF157
+ 1107 07bf A10C0000 		.4byte	.LASF157
  1108 07c3 03       		.byte	0x3
  1109 07c4 1202     		.2byte	0x212
  1110 07c6 A3070000 		.4byte	0x7a3
@@ -2512,23 +2512,23 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1115 07d1 1902     		.2byte	0x219
  1116 07d3 F3070000 		.4byte	0x7f3
  1117 07d7 10       		.uleb128 0x10
- 1118 07d8 D6030000 		.4byte	.LASF158
+ 1118 07d8 59030000 		.4byte	.LASF158
  1119 07dc 00       		.byte	0
  1120 07dd 12       		.uleb128 0x12
- 1121 07de CB080000 		.4byte	.LASF159
+ 1121 07de C3080000 		.4byte	.LASF159
  1122 07e2 0001     		.2byte	0x100
  1123 07e4 12       		.uleb128 0x12
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 43
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 43
 
 
- 1124 07e5 860A0000 		.4byte	.LASF160
+ 1124 07e5 7E0A0000 		.4byte	.LASF160
  1125 07e9 0002     		.2byte	0x200
  1126 07eb 12       		.uleb128 0x12
- 1127 07ec 2B090000 		.4byte	.LASF161
+ 1127 07ec 23090000 		.4byte	.LASF161
  1128 07f0 0003     		.2byte	0x300
  1129 07f2 00       		.byte	0
  1130 07f3 0D       		.uleb128 0xd
- 1131 07f4 74060000 		.4byte	.LASF162
+ 1131 07f4 6C060000 		.4byte	.LASF162
  1132 07f8 03       		.byte	0x3
  1133 07f9 1E02     		.2byte	0x21e
  1134 07fb CA070000 		.4byte	0x7ca
@@ -2539,14 +2539,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1139 0806 2202     		.2byte	0x222
  1140 0808 19080000 		.4byte	0x819
  1141 080c 10       		.uleb128 0x10
- 1142 080d 2C010000 		.4byte	.LASF163
+ 1142 080d BB000000 		.4byte	.LASF163
  1143 0811 00       		.byte	0
  1144 0812 10       		.uleb128 0x10
- 1145 0813 55080000 		.4byte	.LASF164
+ 1145 0813 4D080000 		.4byte	.LASF164
  1146 0817 80       		.byte	0x80
  1147 0818 00       		.byte	0
  1148 0819 0D       		.uleb128 0xd
- 1149 081a CA0B0000 		.4byte	.LASF165
+ 1149 081a C20B0000 		.4byte	.LASF165
  1150 081e 03       		.byte	0x3
  1151 081f 2502     		.2byte	0x225
  1152 0821 FF070000 		.4byte	0x7ff
@@ -2557,14 +2557,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1157 082c 2902     		.2byte	0x229
  1158 082e 3F080000 		.4byte	0x83f
  1159 0832 10       		.uleb128 0x10
- 1160 0833 B3080000 		.4byte	.LASF166
+ 1160 0833 AB080000 		.4byte	.LASF166
  1161 0837 00       		.byte	0
  1162 0838 10       		.uleb128 0x10
- 1163 0839 77010000 		.4byte	.LASF167
+ 1163 0839 06010000 		.4byte	.LASF167
  1164 083d 40       		.byte	0x40
  1165 083e 00       		.byte	0
  1166 083f 0D       		.uleb128 0xd
- 1167 0840 0E080000 		.4byte	.LASF168
+ 1167 0840 06080000 		.4byte	.LASF168
  1168 0844 03       		.byte	0x3
  1169 0845 2C02     		.2byte	0x22c
  1170 0847 25080000 		.4byte	0x825
@@ -2575,31 +2575,31 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1175 0852 3002     		.2byte	0x230
  1176 0854 65080000 		.4byte	0x865
  1177 0858 10       		.uleb128 0x10
- 1178 0859 30070000 		.4byte	.LASF169
+ 1178 0859 28070000 		.4byte	.LASF169
  1179 085d 00       		.byte	0
  1180 085e 10       		.uleb128 0x10
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 44
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 44
 
 
- 1181 085f AC0A0000 		.4byte	.LASF170
+ 1181 085f A40A0000 		.4byte	.LASF170
  1182 0863 20       		.byte	0x20
  1183 0864 00       		.byte	0
  1184 0865 0D       		.uleb128 0xd
- 1185 0866 7A050000 		.4byte	.LASF171
+ 1185 0866 72050000 		.4byte	.LASF171
  1186 086a 03       		.byte	0x3
  1187 086b 3302     		.2byte	0x233
  1188 086d 4B080000 		.4byte	0x84b
  1189 0871 02       		.uleb128 0x2
  1190 0872 01       		.byte	0x1
  1191 0873 02       		.byte	0x2
- 1192 0874 26080000 		.4byte	.LASF172
+ 1192 0874 1E080000 		.4byte	.LASF172
  1193 0878 13       		.uleb128 0x13
  1194 0879 10       		.byte	0x10
  1195 087a 03       		.byte	0x3
  1196 087b 0503     		.2byte	0x305
  1197 087d F7080000 		.4byte	0x8f7
  1198 0881 14       		.uleb128 0x14
- 1199 0882 490A0000 		.4byte	.LASF173
+ 1199 0882 410A0000 		.4byte	.LASF173
  1200 0886 03       		.byte	0x3
  1201 0887 0603     		.2byte	0x306
  1202 0889 39070000 		.4byte	0x739
@@ -2611,40 +2611,40 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1208 0896 6B070000 		.4byte	0x76b
  1209 089a 04       		.byte	0x4
  1210 089b 14       		.uleb128 0x14
- 1211 089c 910C0000 		.4byte	.LASF175
+ 1211 089c 890C0000 		.4byte	.LASF175
  1212 08a0 03       		.byte	0x3
  1213 08a1 0A03     		.2byte	0x30a
  1214 08a3 97070000 		.4byte	0x797
  1215 08a7 05       		.byte	0x5
  1216 08a8 14       		.uleb128 0x14
- 1217 08a9 610A0000 		.4byte	.LASF176
+ 1217 08a9 590A0000 		.4byte	.LASF176
  1218 08ad 03       		.byte	0x3
  1219 08ae 0B03     		.2byte	0x30b
  1220 08b0 BE070000 		.4byte	0x7be
  1221 08b4 06       		.byte	0x6
  1222 08b5 14       		.uleb128 0x14
- 1223 08b6 16020000 		.4byte	.LASF177
+ 1223 08b6 99010000 		.4byte	.LASF177
  1224 08ba 03       		.byte	0x3
  1225 08bb 0C03     		.2byte	0x30c
  1226 08bd F3070000 		.4byte	0x7f3
  1227 08c1 08       		.byte	0x8
  1228 08c2 14       		.uleb128 0x14
- 1229 08c3 5F0B0000 		.4byte	.LASF178
+ 1229 08c3 570B0000 		.4byte	.LASF178
  1230 08c7 03       		.byte	0x3
  1231 08c8 0D03     		.2byte	0x30d
  1232 08ca 19080000 		.4byte	0x819
  1233 08ce 0A       		.byte	0xa
  1234 08cf 14       		.uleb128 0x14
- 1235 08d0 89090000 		.4byte	.LASF179
+ 1235 08d0 81090000 		.4byte	.LASF179
  1236 08d4 03       		.byte	0x3
  1237 08d5 0E03     		.2byte	0x30e
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 45
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 45
 
 
  1238 08d7 3F080000 		.4byte	0x83f
  1239 08db 0B       		.byte	0xb
  1240 08dc 14       		.uleb128 0x14
- 1241 08dd 7A070000 		.4byte	.LASF180
+ 1241 08dd 72070000 		.4byte	.LASF180
  1242 08e1 03       		.byte	0x3
  1243 08e2 0F03     		.2byte	0x30f
  1244 08e4 65080000 		.4byte	0x865
@@ -2657,18 +2657,18 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1251 08f5 0D       		.byte	0xd
  1252 08f6 00       		.byte	0
  1253 08f7 0D       		.uleb128 0xd
- 1254 08f8 EE060000 		.4byte	.LASF182
+ 1254 08f8 E6060000 		.4byte	.LASF182
  1255 08fc 03       		.byte	0x3
  1256 08fd 1103     		.2byte	0x311
  1257 08ff 78080000 		.4byte	0x878
  1258 0903 15       		.uleb128 0x15
- 1259 0904 8F030000 		.4byte	.LASF194
+ 1259 0904 12030000 		.4byte	.LASF194
  1260 0908 03       		.byte	0x3
  1261 0909 4A04     		.2byte	0x44a
  1262 090b 03       		.byte	0x3
  1263 090c 1D090000 		.4byte	0x91d
  1264 0910 16       		.uleb128 0x16
- 1265 0911 43060000 		.4byte	.LASF195
+ 1265 0911 3B060000 		.4byte	.LASF195
  1266 0915 03       		.byte	0x3
  1267 0916 4A04     		.2byte	0x44a
  1268 0918 1D090000 		.4byte	0x91d
@@ -2677,17 +2677,17 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1271 091e 04       		.byte	0x4
  1272 091f B2020000 		.4byte	0x2b2
  1273 0923 18       		.uleb128 0x18
- 1274 0924 48060000 		.4byte	.LASF183
+ 1274 0924 40060000 		.4byte	.LASF183
  1275 0928 02       		.byte	0x2
  1276 0929 58       		.byte	0x58
  1277 092a 03       		.byte	0x3
  1278 092b 18       		.uleb128 0x18
- 1279 092c ED070000 		.4byte	.LASF184
+ 1279 092c E5070000 		.4byte	.LASF184
  1280 0930 02       		.byte	0x2
  1281 0931 68       		.byte	0x68
  1282 0932 03       		.byte	0x3
  1283 0933 19       		.uleb128 0x19
- 1284 0934 60050000 		.4byte	.LASF196
+ 1284 0934 58050000 		.4byte	.LASF196
  1285 0938 01       		.byte	0x1
  1286 0939 36       		.byte	0x36
  1287 093a 00000000 		.4byte	.LFB108
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1292 0948 1A       		.uleb128 0x1a
  1293 0949 23090000 		.4byte	0x923
  1294 094d 0A000000 		.4byte	.LBB12
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 46
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 46
 
 
  1295 0951 0A000000 		.4byte	.LBE12-.LBB12
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1349 09bd 51       		.byte	0x51
  1350 09be 01       		.uleb128 0x1
  1351 09bf 32       		.byte	0x32
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 47
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 47
 
 
  1352 09c0 1C       		.uleb128 0x1c
@@ -2771,7 +2771,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1359 09c8 00       		.byte	0
  1360 09c9 00       		.byte	0
  1361 09ca 1F       		.uleb128 0x1f
- 1362 09cb B7070000 		.4byte	.LASF185
+ 1362 09cb AF070000 		.4byte	.LASF185
  1363 09cf 08       		.byte	0x8
  1364 09d0 A7       		.byte	0xa7
  1365 09d1 D5090000 		.4byte	0x9d5
@@ -2781,7 +2781,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1369 09db 06       		.uleb128 0x6
  1370 09dc D6060000 		.4byte	0x6d6
  1371 09e0 20       		.uleb128 0x20
- 1372 09e1 A70B0000 		.4byte	.LASF186
+ 1372 09e1 9F0B0000 		.4byte	.LASF186
  1373 09e5 01       		.byte	0x1
  1374 09e6 14       		.byte	0x14
  1375 09e7 97000000 		.4byte	0x97
@@ -2789,7 +2789,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1377 09ec 03       		.byte	0x3
  1378 09ed 00000000 		.4byte	Opamp_initVar
  1379 09f1 20       		.uleb128 0x20
- 1380 09f2 62030000 		.4byte	.LASF187
+ 1380 09f2 E5020000 		.4byte	.LASF187
  1381 09f6 01       		.byte	0x1
  1382 09f7 17       		.byte	0x17
  1383 09f8 6B070000 		.4byte	0x76b
@@ -2797,7 +2797,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1385 09fd 03       		.byte	0x3
  1386 09fe 00000000 		.4byte	Opamp_opampPower
  1387 0a02 20       		.uleb128 0x20
- 1388 0a03 A4040000 		.4byte	.LASF188
+ 1388 0a03 27040000 		.4byte	.LASF188
  1389 0a07 01       		.byte	0x1
  1390 0a08 19       		.byte	0x19
  1391 0a09 130A0000 		.4byte	0xa13
@@ -2807,18 +2807,18 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1395 0a13 06       		.uleb128 0x6
  1396 0a14 F7080000 		.4byte	0x8f7
  1397 0a18 21       		.uleb128 0x21
- 1398 0a19 9C070000 		.4byte	.LASF189
- 1399 0a1d 9C070000 		.4byte	.LASF189
+ 1398 0a19 94070000 		.4byte	.LASF189
+ 1399 0a1d 94070000 		.4byte	.LASF189
  1400 0a21 03       		.byte	0x3
  1401 0a22 E003     		.2byte	0x3e0
  1402 0a24 21       		.uleb128 0x21
- 1403 0a25 E3080000 		.4byte	.LASF190
- 1404 0a29 E3080000 		.4byte	.LASF190
+ 1403 0a25 DB080000 		.4byte	.LASF190
+ 1404 0a29 DB080000 		.4byte	.LASF190
  1405 0a2d 03       		.byte	0x3
  1406 0a2e EE03     		.2byte	0x3ee
  1407 0a30 00       		.byte	0
  1408              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 48
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 48
 
 
  1409              	.Ldebug_abbrev0:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1463 0035 00       		.byte	0
  1464 0036 05       		.uleb128 0x5
  1465 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 49
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 49
 
 
  1466 0038 00       		.byte	0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1520 006e 38       		.uleb128 0x38
  1521 006f 0B       		.uleb128 0xb
  1522 0070 00       		.byte	0
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 50
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 50
 
 
  1523 0071 00       		.byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1577 00a7 0B       		.uleb128 0xb
  1578 00a8 0B       		.uleb128 0xb
  1579 00a9 49       		.uleb128 0x49
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 51
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 51
 
 
  1580 00aa 13       		.uleb128 0x13
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1634 00e0 3A       		.uleb128 0x3a
  1635 00e1 0B       		.uleb128 0xb
  1636 00e2 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 52
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 52
 
 
  1637 00e3 05       		.uleb128 0x5
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1691 0119 0B       		.uleb128 0xb
  1692 011a 27       		.uleb128 0x27
  1693 011b 19       		.uleb128 0x19
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 53
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 53
 
 
  1694 011c 20       		.uleb128 0x20
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1748 0155 00       		.byte	0
  1749 0156 1C       		.uleb128 0x1c
  1750 0157 8A8201   		.uleb128 0x410a
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 54
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 54
 
 
  1751 015a 00       		.byte	0
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1805 0191 0B       		.uleb128 0xb
  1806 0192 3B       		.uleb128 0x3b
  1807 0193 0B       		.uleb128 0xb
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 55
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 55
 
 
  1808 0194 49       		.uleb128 0x49
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1862 000c 00000000 		.4byte	0
  1863              		.section	.debug_line,"",%progbits
  1864              	.Ldebug_line0:
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 56
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 56
 
 
  1865 0000 79020000 		.section	.debug_str,"MS",%progbits,1
@@ -3353,552 +3353,552 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  1883      746F5665 
  1883      7273696F 
  1883      6E00
- 1884              	.LASF193:
- 1885 008e 453A5C4F 		.ascii	"E:\\OneDrive - Universite Libre de Bruxelles\\Docum"
- 1885      6E654472 
- 1885      69766520 
- 1885      2D20556E 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 57
+ 1884              	.LASF78:
+ 1885 008e 70657269 		.ascii	"periClockNr\000"
+ 1885      436C6F63 
+ 1885      6B4E7200 
+ 1886              	.LASF144:
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 57
 
 
- 1885      69766572 
- 1886 00bf 656E7473 		.ascii	"ents\\PSoC Creator\\GitPSOC\\PSOCprojectRainDisdrom"
- 1886      5C50536F 
- 1886      43204372 
- 1886      6561746F 
- 1886      725C4769 
- 1887 00ef 65746572 		.ascii	"eter\\Bluetooth\\BLEled.cydsn\000"
- 1887      5C426C75 
- 1887      65746F6F 
- 1887      74685C42 
- 1887      4C456C65 
- 1888              	.LASF144:
- 1889 010b 43595F43 		.ascii	"CY_CTB_DEEPSLEEP_ENABLE\000"
- 1889      54425F44 
- 1889      45455053 
- 1889      4C454550 
- 1889      5F454E41 
- 1890              	.LASF56:
- 1891 0123 70617373 		.ascii	"passBase\000"
- 1891      42617365 
- 1891      00
- 1892              	.LASF163:
- 1893 012c 43595F43 		.ascii	"CY_CTB_COMP_DSI_TRIGGER_OUT_PULSE\000"
- 1893      54425F43 
- 1893      4F4D505F 
- 1893      4453495F 
- 1893      54524947 
- 1894              	.LASF69:
- 1895 014e 63707573 		.ascii	"cpussIpcIrqNr\000"
- 1895      73497063 
- 1895      4972714E 
- 1895      7200
- 1896              	.LASF3:
- 1897 015c 5F5F7569 		.ascii	"__uint8_t\000"
- 1897      6E74385F 
- 1897      7400
- 1898              	.LASF153:
- 1899 0166 43595F43 		.ascii	"CY_CTB_MODE_COMP\000"
- 1899      54425F4D 
- 1899      4F44455F 
- 1899      434F4D50 
- 1899      00
- 1900              	.LASF167:
- 1901 0177 43595F43 		.ascii	"CY_CTB_COMP_BYPASS_NO_SYNC\000"
- 1901      54425F43 
- 1901      4F4D505F 
- 1901      42595041 
- 1901      53535F4E 
- 1902              	.LASF146:
- 1903 0192 43595F43 		.ascii	"CY_CTB_POWER_OFF\000"
- 1903      54425F50 
- 1903      4F574552 
- 1903      5F4F4646 
- 1903      00
- 1904              	.LASF120:
- 1905 01a3 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
- 1905      73436D34 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 58
+ 1887 009a 43595F43 		.ascii	"CY_CTB_DEEPSLEEP_ENABLE\000"
+ 1887      54425F44 
+ 1887      45455053 
+ 1887      4C454550 
+ 1887      5F454E41 
+ 1888              	.LASF56:
+ 1889 00b2 70617373 		.ascii	"passBase\000"
+ 1889      42617365 
+ 1889      00
+ 1890              	.LASF163:
+ 1891 00bb 43595F43 		.ascii	"CY_CTB_COMP_DSI_TRIGGER_OUT_PULSE\000"
+ 1891      54425F43 
+ 1891      4F4D505F 
+ 1891      4453495F 
+ 1891      54524947 
+ 1892              	.LASF69:
+ 1893 00dd 63707573 		.ascii	"cpussIpcIrqNr\000"
+ 1893      73497063 
+ 1893      4972714E 
+ 1893      7200
+ 1894              	.LASF3:
+ 1895 00eb 5F5F7569 		.ascii	"__uint8_t\000"
+ 1895      6E74385F 
+ 1895      7400
+ 1896              	.LASF153:
+ 1897 00f5 43595F43 		.ascii	"CY_CTB_MODE_COMP\000"
+ 1897      54425F4D 
+ 1897      4F44455F 
+ 1897      434F4D50 
+ 1897      00
+ 1898              	.LASF167:
+ 1899 0106 43595F43 		.ascii	"CY_CTB_COMP_BYPASS_NO_SYNC\000"
+ 1899      54425F43 
+ 1899      4F4D505F 
+ 1899      42595041 
+ 1899      53535F4E 
+ 1900              	.LASF146:
+ 1901 0121 43595F43 		.ascii	"CY_CTB_POWER_OFF\000"
+ 1901      54425F50 
+ 1901      4F574552 
+ 1901      5F4F4646 
+ 1901      00
+ 1902              	.LASF120:
+ 1903 0132 63707573 		.ascii	"cpussCm4ClockCtlOffset\000"
+ 1903      73436D34 
+ 1903      436C6F63 
+ 1903      6B43746C 
+ 1903      4F666673 
+ 1904              	.LASF49:
+ 1905 0149 63707573 		.ascii	"cpussBase\000"
+ 1905      73426173 
+ 1905      6500
+ 1906              	.LASF98:
+ 1907 0153 64774368 		.ascii	"dwChCtlPrioPos\000"
+ 1907      43746C50 
+ 1907      72696F50 
+ 1907      6F7300
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 58
 
 
- 1905      436C6F63 
- 1905      6B43746C 
- 1905      4F666673 
- 1906              	.LASF49:
- 1907 01ba 63707573 		.ascii	"cpussBase\000"
- 1907      73426173 
- 1907      6500
- 1908              	.LASF98:
- 1909 01c4 64774368 		.ascii	"dwChCtlPrioPos\000"
- 1909      43746C50 
- 1909      72696F50 
- 1909      6F7300
- 1910              	.LASF78:
- 1911 01d3 70657269 		.ascii	"periClockNr\000"
- 1911      436C6F63 
- 1911      6B4E7200 
- 1912              	.LASF40:
- 1913 01df 4F41305F 		.ascii	"OA0_OFFSET_TRIM\000"
- 1913      4F464653 
- 1913      45545F54 
- 1913      52494D00 
- 1914              	.LASF11:
- 1915 01ef 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1915      206C6F6E 
- 1915      6720756E 
- 1915      7369676E 
- 1915      65642069 
- 1916              	.LASF102:
- 1917 0206 70657269 		.ascii	"periTrCmdOffset\000"
- 1917      5472436D 
- 1917      644F6666 
- 1917      73657400 
- 1918              	.LASF177:
- 1919 0216 6F61436F 		.ascii	"oaCompEdge\000"
- 1919      6D704564 
- 1919      676500
- 1920              	.LASF126:
- 1921 0221 63707573 		.ascii	"cpussSysTickCtlOffset\000"
- 1921      73537973 
- 1921      5469636B 
- 1921      43746C4F 
- 1921      66667365 
- 1922              	.LASF29:
- 1923 0237 4F41305F 		.ascii	"OA0_SW_CLEAR\000"
- 1923      53575F43 
- 1923      4C454152 
- 1923      00
- 1924              	.LASF31:
- 1925 0244 4F41315F 		.ascii	"OA1_SW_CLEAR\000"
- 1925      53575F43 
- 1925      4C454152 
- 1925      00
- 1926              	.LASF87:
- 1927 0251 666C6173 		.ascii	"flashPipeRequired\000"
- 1927      68506970 
- 1927      65526571 
- 1927      75697265 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 59
+ 1908              	.LASF40:
+ 1909 0162 4F41305F 		.ascii	"OA0_OFFSET_TRIM\000"
+ 1909      4F464653 
+ 1909      45545F54 
+ 1909      52494D00 
+ 1910              	.LASF11:
+ 1911 0172 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1911      206C6F6E 
+ 1911      6720756E 
+ 1911      7369676E 
+ 1911      65642069 
+ 1912              	.LASF102:
+ 1913 0189 70657269 		.ascii	"periTrCmdOffset\000"
+ 1913      5472436D 
+ 1913      644F6666 
+ 1913      73657400 
+ 1914              	.LASF177:
+ 1915 0199 6F61436F 		.ascii	"oaCompEdge\000"
+ 1915      6D704564 
+ 1915      676500
+ 1916              	.LASF126:
+ 1917 01a4 63707573 		.ascii	"cpussSysTickCtlOffset\000"
+ 1917      73537973 
+ 1917      5469636B 
+ 1917      43746C4F 
+ 1917      66667365 
+ 1918              	.LASF29:
+ 1919 01ba 4F41305F 		.ascii	"OA0_SW_CLEAR\000"
+ 1919      53575F43 
+ 1919      4C454152 
+ 1919      00
+ 1920              	.LASF31:
+ 1921 01c7 4F41315F 		.ascii	"OA1_SW_CLEAR\000"
+ 1921      53575F43 
+ 1921      4C454152 
+ 1921      00
+ 1922              	.LASF87:
+ 1923 01d4 666C6173 		.ascii	"flashPipeRequired\000"
+ 1923      68506970 
+ 1923      65526571 
+ 1923      75697265 
+ 1923      6400
+ 1924              	.LASF52:
+ 1925 01e6 75646242 		.ascii	"udbBase\000"
+ 1925      61736500 
+ 1926              	.LASF91:
+ 1927 01ee 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
+ 1927      6843746C 
+ 1927      4D61696E 
+ 1927      57733046 
+ 1927      72657100 
+ 1928              	.LASF18:
+ 1929 0202 4354425F 		.ascii	"CTB_CTRL\000"
+ 1929      4354524C 
+ 1929      00
+ 1930              	.LASF10:
+ 1931 020b 6C6F6E67 		.ascii	"long long int\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 59
 
 
- 1927      6400
- 1928              	.LASF52:
- 1929 0263 75646242 		.ascii	"udbBase\000"
- 1929      61736500 
- 1930              	.LASF91:
- 1931 026b 666C6173 		.ascii	"flashCtlMainWs0Freq\000"
- 1931      6843746C 
- 1931      4D61696E 
- 1931      57733046 
- 1931      72657100 
- 1932              	.LASF18:
- 1933 027f 4354425F 		.ascii	"CTB_CTRL\000"
- 1933      4354524C 
- 1933      00
- 1934              	.LASF10:
- 1935 0288 6C6F6E67 		.ascii	"long long int\000"
- 1935      206C6F6E 
- 1935      6720696E 
- 1935      7400
- 1936              	.LASF2:
- 1937 0296 7369676E 		.ascii	"signed char\000"
- 1937      65642063 
- 1937      68617200 
- 1938              	.LASF107:
- 1939 02a2 70657269 		.ascii	"periDivCmdTypeSelPos\000"
- 1939      44697643 
- 1939      6D645479 
- 1939      70655365 
- 1939      6C506F73 
- 1940              	.LASF47:
- 1941 02b7 4354424D 		.ascii	"CTBM_Type\000"
- 1941      5F547970 
- 1941      6500
- 1942              	.LASF53:
- 1943 02c1 70726F74 		.ascii	"protBase\000"
- 1943      42617365 
- 1943      00
- 1944              	.LASF65:
- 1945 02ca 69706356 		.ascii	"ipcVersion\000"
- 1945      65727369 
- 1945      6F6E00
- 1946              	.LASF127:
- 1947 02d5 63707573 		.ascii	"cpussCm0NmiCtlOffset\000"
- 1947      73436D30 
- 1947      4E6D6943 
- 1947      746C4F66 
- 1947      66736574 
- 1948              	.LASF54:
- 1949 02ea 6873696F 		.ascii	"hsiomBase\000"
- 1949      6D426173 
- 1949      6500
- 1950              	.LASF156:
- 1951 02f4 43595F43 		.ascii	"CY_CTB_PUMP_ENABLE\000"
- 1951      54425F50 
- 1951      554D505F 
- 1951      454E4142 
- 1951      4C4500
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 60
+ 1931      206C6F6E 
+ 1931      6720696E 
+ 1931      7400
+ 1932              	.LASF2:
+ 1933 0219 7369676E 		.ascii	"signed char\000"
+ 1933      65642063 
+ 1933      68617200 
+ 1934              	.LASF107:
+ 1935 0225 70657269 		.ascii	"periDivCmdTypeSelPos\000"
+ 1935      44697643 
+ 1935      6D645479 
+ 1935      70655365 
+ 1935      6C506F73 
+ 1936              	.LASF47:
+ 1937 023a 4354424D 		.ascii	"CTBM_Type\000"
+ 1937      5F547970 
+ 1937      6500
+ 1938              	.LASF53:
+ 1939 0244 70726F74 		.ascii	"protBase\000"
+ 1939      42617365 
+ 1939      00
+ 1940              	.LASF65:
+ 1941 024d 69706356 		.ascii	"ipcVersion\000"
+ 1941      65727369 
+ 1941      6F6E00
+ 1942              	.LASF127:
+ 1943 0258 63707573 		.ascii	"cpussCm0NmiCtlOffset\000"
+ 1943      73436D30 
+ 1943      4E6D6943 
+ 1943      746C4F66 
+ 1943      66736574 
+ 1944              	.LASF54:
+ 1945 026d 6873696F 		.ascii	"hsiomBase\000"
+ 1945      6D426173 
+ 1945      6500
+ 1946              	.LASF156:
+ 1947 0277 43595F43 		.ascii	"CY_CTB_PUMP_ENABLE\000"
+ 1947      54425F50 
+ 1947      554D505F 
+ 1947      454E4142 
+ 1947      4C4500
+ 1948              	.LASF148:
+ 1949 028a 43595F43 		.ascii	"CY_CTB_POWER_MEDIUM\000"
+ 1949      54425F50 
+ 1949      4F574552 
+ 1949      5F4D4544 
+ 1949      49554D00 
+ 1950              	.LASF150:
+ 1951 029e 63795F65 		.ascii	"cy_en_ctb_power_t\000"
+ 1951      6E5F6374 
+ 1951      625F706F 
+ 1951      7765725F 
+ 1951      7400
+ 1952              	.LASF7:
+ 1953 02b0 6C6F6E67 		.ascii	"long int\000"
+ 1953      20696E74 
+ 1953      00
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 60
 
 
- 1952              	.LASF148:
- 1953 0307 43595F43 		.ascii	"CY_CTB_POWER_MEDIUM\000"
- 1953      54425F50 
- 1953      4F574552 
- 1953      5F4D4544 
- 1953      49554D00 
- 1954              	.LASF150:
- 1955 031b 63795F65 		.ascii	"cy_en_ctb_power_t\000"
- 1955      6E5F6374 
- 1955      625F706F 
- 1955      7765725F 
- 1955      7400
- 1956              	.LASF7:
- 1957 032d 6C6F6E67 		.ascii	"long int\000"
- 1957      20696E74 
- 1957      00
- 1958              	.LASF85:
- 1959 0336 63727970 		.ascii	"cryptoMemSize\000"
- 1959      746F4D65 
- 1959      6D53697A 
- 1959      6500
- 1960              	.LASF114:
- 1961 0344 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
- 1961      50727449 
- 1961      6E747243 
- 1961      66674F66 
- 1961      66736574 
- 1962              	.LASF51:
- 1963 0359 70657269 		.ascii	"periBase\000"
- 1963      42617365 
+ 1954              	.LASF85:
+ 1955 02b9 63727970 		.ascii	"cryptoMemSize\000"
+ 1955      746F4D65 
+ 1955      6D53697A 
+ 1955      6500
+ 1956              	.LASF114:
+ 1957 02c7 6770696F 		.ascii	"gpioPrtIntrCfgOffset\000"
+ 1957      50727449 
+ 1957      6E747243 
+ 1957      66674F66 
+ 1957      66736574 
+ 1958              	.LASF51:
+ 1959 02dc 70657269 		.ascii	"periBase\000"
+ 1959      42617365 
+ 1959      00
+ 1960              	.LASF187:
+ 1961 02e5 4F70616D 		.ascii	"Opamp_opampPower\000"
+ 1961      705F6F70 
+ 1961      616D7050 
+ 1961      6F776572 
+ 1961      00
+ 1962              	.LASF83:
+ 1963 02f6 73797350 		.ascii	"sysPmSimoPresent\000"
+ 1963      6D53696D 
+ 1963      6F507265 
+ 1963      73656E74 
  1963      00
- 1964              	.LASF187:
- 1965 0362 4F70616D 		.ascii	"Opamp_opampPower\000"
- 1965      705F6F70 
- 1965      616D7050 
- 1965      6F776572 
- 1965      00
- 1966              	.LASF83:
- 1967 0373 73797350 		.ascii	"sysPmSimoPresent\000"
- 1967      6D53696D 
- 1967      6F507265 
- 1967      73656E74 
- 1967      00
- 1968              	.LASF73:
- 1969 0384 63707573 		.ascii	"cpussFmIrq\000"
- 1969      73466D49 
- 1969      727100
- 1970              	.LASF194:
- 1971 038f 43795F43 		.ascii	"Cy_CTB_Enable\000"
- 1971      54425F45 
- 1971      6E61626C 
- 1971      6500
- 1972              	.LASF138:
- 1973 039d 646F7562 		.ascii	"double\000"
- 1973      6C6500
- 1974              	.LASF112:
- 1975 03a4 70657269 		.ascii	"periDiv16_5CtlOffset\000"
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 61
+ 1964              	.LASF73:
+ 1965 0307 63707573 		.ascii	"cpussFmIrq\000"
+ 1965      73466D49 
+ 1965      727100
+ 1966              	.LASF194:
+ 1967 0312 43795F43 		.ascii	"Cy_CTB_Enable\000"
+ 1967      54425F45 
+ 1967      6E61626C 
+ 1967      6500
+ 1968              	.LASF138:
+ 1969 0320 646F7562 		.ascii	"double\000"
+ 1969      6C6500
+ 1970              	.LASF112:
+ 1971 0327 70657269 		.ascii	"periDiv16_5CtlOffset\000"
+ 1971      44697631 
+ 1971      365F3543 
+ 1971      746C4F66 
+ 1971      66736574 
+ 1972              	.LASF76:
+ 1973 033c 73727373 		.ascii	"srssNumPll\000"
+ 1973      4E756D50 
+ 1973      6C6C00
+ 1974              	.LASF110:
+ 1975 0347 70657269 		.ascii	"periDiv8CtlOffset\000"
+ 1975      44697638 
+ 1975      43746C4F 
+ 1975      66667365 
+ 1975      7400
+ 1976              	.LASF158:
+ 1977 0359 43595F43 		.ascii	"CY_CTB_COMP_EDGE_DISABLE\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 61
 
 
- 1975      44697631 
- 1975      365F3543 
- 1975      746C4F66 
- 1975      66736574 
- 1976              	.LASF76:
- 1977 03b9 73727373 		.ascii	"srssNumPll\000"
- 1977      4E756D50 
- 1977      6C6C00
- 1978              	.LASF110:
- 1979 03c4 70657269 		.ascii	"periDiv8CtlOffset\000"
- 1979      44697638 
- 1979      43746C4F 
- 1979      66667365 
- 1979      7400
- 1980              	.LASF158:
- 1981 03d6 43595F43 		.ascii	"CY_CTB_COMP_EDGE_DISABLE\000"
- 1981      54425F43 
- 1981      4F4D505F 
- 1981      45444745 
- 1981      5F444953 
- 1982              	.LASF117:
- 1983 03ef 6770696F 		.ascii	"gpioPrtCfgOutOffset\000"
- 1983      50727443 
- 1983      66674F75 
- 1983      744F6666 
- 1983      73657400 
- 1984              	.LASF50:
- 1985 0403 666C6173 		.ascii	"flashcBase\000"
- 1985      68634261 
- 1985      736500
- 1986              	.LASF8:
- 1987 040e 5F5F7569 		.ascii	"__uint32_t\000"
- 1987      6E743332 
- 1987      5F7400
- 1988              	.LASF80:
- 1989 0419 70617373 		.ascii	"passSarChannels\000"
- 1989      53617243 
- 1989      68616E6E 
- 1989      656C7300 
- 1990              	.LASF4:
- 1991 0429 5F5F696E 		.ascii	"__int16_t\000"
- 1991      7431365F 
- 1991      7400
- 1992              	.LASF108:
- 1993 0433 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
- 1993      44697643 
- 1993      6D645061 
- 1993      44697653 
- 1993      656C506F 
- 1994              	.LASF123:
- 1995 0449 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
- 1995      73436D34 
- 1995      50777243 
- 1995      746C4F66 
- 1995      66736574 
- 1996              	.LASF118:
- 1997 045e 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 62
+ 1977      54425F43 
+ 1977      4F4D505F 
+ 1977      45444745 
+ 1977      5F444953 
+ 1978              	.LASF117:
+ 1979 0372 6770696F 		.ascii	"gpioPrtCfgOutOffset\000"
+ 1979      50727443 
+ 1979      66674F75 
+ 1979      744F6666 
+ 1979      73657400 
+ 1980              	.LASF50:
+ 1981 0386 666C6173 		.ascii	"flashcBase\000"
+ 1981      68634261 
+ 1981      736500
+ 1982              	.LASF8:
+ 1983 0391 5F5F7569 		.ascii	"__uint32_t\000"
+ 1983      6E743332 
+ 1983      5F7400
+ 1984              	.LASF80:
+ 1985 039c 70617373 		.ascii	"passSarChannels\000"
+ 1985      53617243 
+ 1985      68616E6E 
+ 1985      656C7300 
+ 1986              	.LASF4:
+ 1987 03ac 5F5F696E 		.ascii	"__int16_t\000"
+ 1987      7431365F 
+ 1987      7400
+ 1988              	.LASF108:
+ 1989 03b6 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
+ 1989      44697643 
+ 1989      6D645061 
+ 1989      44697653 
+ 1989      656C506F 
+ 1990              	.LASF123:
+ 1991 03cc 63707573 		.ascii	"cpussCm4PwrCtlOffset\000"
+ 1991      73436D34 
+ 1991      50777243 
+ 1991      746C4F66 
+ 1991      66736574 
+ 1992              	.LASF118:
+ 1993 03e1 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
+ 1993      50727443 
+ 1993      66675369 
+ 1993      6F4F6666 
+ 1993      73657400 
+ 1994              	.LASF70:
+ 1995 03f5 63707573 		.ascii	"cpussDwChNr\000"
+ 1995      73447743 
+ 1995      684E7200 
+ 1996              	.LASF12:
+ 1997 0401 756E7369 		.ascii	"unsigned int\000"
+ 1997      676E6564 
+ 1997      20696E74 
+ 1997      00
+ 1998              	.LASF17:
+ 1999 040e 73697A65 		.ascii	"sizetype\000"
+ 1999      74797065 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 62
 
 
- 1997      50727443 
- 1997      66675369 
- 1997      6F4F6666 
- 1997      73657400 
- 1998              	.LASF70:
- 1999 0472 63707573 		.ascii	"cpussDwChNr\000"
- 1999      73447743 
- 1999      684E7200 
- 2000              	.LASF12:
- 2001 047e 756E7369 		.ascii	"unsigned int\000"
- 2001      676E6564 
- 2001      20696E74 
- 2001      00
- 2002              	.LASF17:
- 2003 048b 73697A65 		.ascii	"sizetype\000"
- 2003      74797065 
- 2003      00
- 2004              	.LASF43:
- 2005 0494 4F41315F 		.ascii	"OA1_OFFSET_TRIM\000"
- 2005      4F464653 
- 2005      45545F54 
- 2005      52494D00 
- 2006              	.LASF188:
- 2007 04a4 4F70616D 		.ascii	"Opamp_opampConfig\000"
- 2007      705F6F70 
- 2007      616D7043 
- 2007      6F6E6669 
- 2007      6700
- 2008              	.LASF103:
- 2009 04b6 70657269 		.ascii	"periTrCmdGrSelMsk\000"
- 2009      5472436D 
- 2009      64477253 
- 2009      656C4D73 
- 2009      6B00
- 2010              	.LASF92:
- 2011 04c8 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
- 2011      6843746C 
- 2011      4D61696E 
- 2011      57733146 
- 2011      72657100 
+ 1999      00
+ 2000              	.LASF43:
+ 2001 0417 4F41315F 		.ascii	"OA1_OFFSET_TRIM\000"
+ 2001      4F464653 
+ 2001      45545F54 
+ 2001      52494D00 
+ 2002              	.LASF188:
+ 2003 0427 4F70616D 		.ascii	"Opamp_opampConfig\000"
+ 2003      705F6F70 
+ 2003      616D7043 
+ 2003      6F6E6669 
+ 2003      6700
+ 2004              	.LASF103:
+ 2005 0439 70657269 		.ascii	"periTrCmdGrSelMsk\000"
+ 2005      5472436D 
+ 2005      64477253 
+ 2005      656C4D73 
+ 2005      6B00
+ 2006              	.LASF92:
+ 2007 044b 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
+ 2007      6843746C 
+ 2007      4D61696E 
+ 2007      57733146 
+ 2007      72657100 
+ 2008              	.LASF193:
+ 2009 045f 433A5C55 		.ascii	"C:\\Users\\atril\\Documents\\ULB-Studies\\MA2\\PSOC"
+ 2009      73657273 
+ 2009      5C617472 
+ 2009      696C5C44 
+ 2009      6F63756D 
+ 2010 048c 5C426C75 		.ascii	"\\Bluetooth-3\\repoPSOC\\PSOCprojectRainDisdrometer"
+ 2010      65746F6F 
+ 2010      74682D33 
+ 2010      5C726570 
+ 2010      6F50534F 
+ 2011 04bc 5C426C75 		.ascii	"\\Bluetooth\\BLEled.cydsn\000"
+ 2011      65746F6F 
+ 2011      74685C42 
+ 2011      4C456C65 
+ 2011      642E6379 
  2012              	.LASF9:
- 2013 04dc 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2013 04d4 6C6F6E67 		.ascii	"long unsigned int\000"
  2013      20756E73 
  2013      69676E65 
  2013      6420696E 
  2013      7400
  2014              	.LASF68:
- 2015 04ee 63707573 		.ascii	"cpussIpcNr\000"
+ 2015 04e6 63707573 		.ascii	"cpussIpcNr\000"
  2015      73497063 
  2015      4E7200
  2016              	.LASF42:
- 2017 04f9 4F41305F 		.ascii	"OA0_COMP_TRIM\000"
+ 2017 04f1 4F41305F 		.ascii	"OA0_COMP_TRIM\000"
  2017      434F4D50 
  2017      5F545249 
  2017      4D00
  2018              	.LASF55:
- 2019 0507 6770696F 		.ascii	"gpioBase\000"
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 63
+ 2019 04ff 6770696F 		.ascii	"gpioBase\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 63
 
 
  2019      42617365 
  2019      00
  2020              	.LASF93:
- 2021 0510 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
+ 2021 0508 666C6173 		.ascii	"flashCtlMainWs2Freq\000"
  2021      6843746C 
  2021      4D61696E 
  2021      57733246 
  2021      72657100 
  2022              	.LASF46:
- 2023 0524 4354424D 		.ascii	"CTBM_V1_Type\000"
+ 2023 051c 4354424D 		.ascii	"CTBM_V1_Type\000"
  2023      5F56315F 
  2023      54797065 
  2023      00
  2024              	.LASF139:
- 2025 0531 43595F43 		.ascii	"CY_CTB_OPAMP_NONE\000"
+ 2025 0529 43595F43 		.ascii	"CY_CTB_OPAMP_NONE\000"
  2025      54425F4F 
  2025      50414D50 
  2025      5F4E4F4E 
  2025      4500
  2026              	.LASF104:
- 2027 0543 70657269 		.ascii	"periTrGrOffset\000"
+ 2027 053b 70657269 		.ascii	"periTrGrOffset\000"
  2027      54724772 
  2027      4F666673 
  2027      657400
  2028              	.LASF131:
- 2029 0552 63707573 		.ascii	"cpussRam1Ctl0\000"
+ 2029 054a 63707573 		.ascii	"cpussRam1Ctl0\000"
  2029      7352616D 
  2029      3143746C 
  2029      3000
  2030              	.LASF196:
- 2031 0560 4F70616D 		.ascii	"Opamp_Start\000"
+ 2031 0558 4F70616D 		.ascii	"Opamp_Start\000"
  2031      705F5374 
  2031      61727400 
  2032              	.LASF38:
- 2033 056c 4354425F 		.ascii	"CTB_SW_STATUS\000"
+ 2033 0564 4354425F 		.ascii	"CTB_SW_STATUS\000"
  2033      53575F53 
  2033      54415455 
  2033      5300
  2034              	.LASF171:
- 2035 057a 63795F65 		.ascii	"cy_en_ctb_comp_hyst_t\000"
+ 2035 0572 63795F65 		.ascii	"cy_en_ctb_comp_hyst_t\000"
  2035      6E5F6374 
  2035      625F636F 
  2035      6D705F68 
  2035      7973745F 
  2036              	.LASF105:
- 2037 0590 70657269 		.ascii	"periTrGrSize\000"
+ 2037 0588 70657269 		.ascii	"periTrGrSize\000"
  2037      54724772 
  2037      53697A65 
  2037      00
  2038              	.LASF63:
- 2039 059d 6770696F 		.ascii	"gpioVersion\000"
+ 2039 0595 6770696F 		.ascii	"gpioVersion\000"
  2039      56657273 
  2039      696F6E00 
  2040              	.LASF15:
- 2041 05a9 75696E74 		.ascii	"uint16_t\000"
+ 2041 05a1 75696E74 		.ascii	"uint16_t\000"
  2041      31365F74 
  2041      00
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 64
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 64
 
 
  2042              	.LASF135:
- 2043 05b2 63795F73 		.ascii	"cy_stc_device_t\000"
+ 2043 05aa 63795F73 		.ascii	"cy_stc_device_t\000"
  2043      74635F64 
  2043      65766963 
  2043      655F7400 
  2044              	.LASF34:
- 2045 05c2 4354445F 		.ascii	"CTD_SW_CLEAR\000"
+ 2045 05ba 4354445F 		.ascii	"CTD_SW_CLEAR\000"
  2045      53575F43 
  2045      4C454152 
  2045      00
  2046              	.LASF149:
- 2047 05cf 43595F43 		.ascii	"CY_CTB_POWER_HIGH\000"
+ 2047 05c7 43595F43 		.ascii	"CY_CTB_POWER_HIGH\000"
  2047      54425F50 
  2047      4F574552 
  2047      5F484947 
  2047      4800
  2048              	.LASF81:
- 2049 05e1 65704D6F 		.ascii	"epMonitorNr\000"
+ 2049 05d9 65704D6F 		.ascii	"epMonitorNr\000"
  2049      6E69746F 
  2049      724E7200 
  2050              	.LASF128:
- 2051 05ed 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 2051 05e5 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
  2051      73436D34 
  2051      4E6D6943 
  2051      746C4F66 
  2051      66736574 
  2052              	.LASF124:
- 2053 0602 63707573 		.ascii	"cpussTrimRamCtlOffset\000"
+ 2053 05fa 63707573 		.ascii	"cpussTrimRamCtlOffset\000"
  2053      73547269 
  2053      6D52616D 
  2053      43746C4F 
  2053      66667365 
  2054              	.LASF119:
- 2055 0618 63707573 		.ascii	"cpussCm0ClockCtlOffset\000"
+ 2055 0610 63707573 		.ascii	"cpussCm0ClockCtlOffset\000"
  2055      73436D30 
  2055      436C6F63 
  2055      6B43746C 
  2055      4F666673 
  2056              	.LASF24:
- 2057 062f 494E5452 		.ascii	"INTR_SET\000"
+ 2057 0627 494E5452 		.ascii	"INTR_SET\000"
  2057      5F534554 
  2057      00
  2058              	.LASF58:
- 2059 0638 63727970 		.ascii	"cryptoBase\000"
+ 2059 0630 63727970 		.ascii	"cryptoBase\000"
  2059      746F4261 
  2059      736500
  2060              	.LASF195:
- 2061 0643 62617365 		.ascii	"base\000"
+ 2061 063b 62617365 		.ascii	"base\000"
  2061      00
  2062              	.LASF183:
- 2063 0648 4F70616D 		.ascii	"Opamp_Init\000"
+ 2063 0640 4F70616D 		.ascii	"Opamp_Init\000"
  2063      705F496E 
  2063      697400
  2064              	.LASF66:
- 2065 0653 70657269 		.ascii	"periVersion\000"
+ 2065 064b 70657269 		.ascii	"periVersion\000"
  2065      56657273 
  2065      696F6E00 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 65
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 65
 
 
  2066              	.LASF122:
- 2067 065f 63707573 		.ascii	"cpussCm0StatusOffset\000"
+ 2067 0657 63707573 		.ascii	"cpussCm0StatusOffset\000"
  2067      73436D30 
  2067      53746174 
  2067      75734F66 
  2067      66736574 
  2068              	.LASF162:
- 2069 0674 63795F65 		.ascii	"cy_en_ctb_comp_edge_t\000"
+ 2069 066c 63795F65 		.ascii	"cy_en_ctb_comp_edge_t\000"
  2069      6E5F6374 
  2069      625F636F 
  2069      6D705F65 
  2069      6467655F 
  2070              	.LASF142:
- 2071 068a 43595F43 		.ascii	"CY_CTB_OPAMP_BOTH\000"
+ 2071 0682 43595F43 		.ascii	"CY_CTB_OPAMP_BOTH\000"
  2071      54425F4F 
  2071      50414D50 
  2071      5F424F54 
  2071      4800
  2072              	.LASF96:
- 2073 069c 64774368 		.ascii	"dwChOffset\000"
+ 2073 0694 64774368 		.ascii	"dwChOffset\000"
  2073      4F666673 
  2073      657400
  2074              	.LASF71:
- 2075 06a7 63707573 		.ascii	"cpussFlashPaSize\000"
+ 2075 069f 63707573 		.ascii	"cpussFlashPaSize\000"
  2075      73466C61 
  2075      73685061 
  2075      53697A65 
  2075      00
  2076              	.LASF109:
- 2077 06b8 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
+ 2077 06b0 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
  2077      44697643 
  2077      6D645061 
  2077      54797065 
  2077      53656C50 
  2078              	.LASF154:
- 2079 06cf 63795F65 		.ascii	"cy_en_ctb_mode_t\000"
+ 2079 06c7 63795F65 		.ascii	"cy_en_ctb_mode_t\000"
  2079      6E5F6374 
  2079      625F6D6F 
  2079      64655F74 
  2079      00
  2080              	.LASF132:
- 2081 06e0 63707573 		.ascii	"cpussRam2Ctl0\000"
+ 2081 06d8 63707573 		.ascii	"cpussRam2Ctl0\000"
  2081      7352616D 
  2081      3243746C 
  2081      3000
  2082              	.LASF182:
- 2083 06ee 63795F73 		.ascii	"cy_stc_ctb_opamp_config_t\000"
+ 2083 06e6 63795F73 		.ascii	"cy_stc_ctb_opamp_config_t\000"
  2083      74635F63 
  2083      74625F6F 
  2083      70616D70 
  2083      5F636F6E 
  2084              	.LASF67:
- 2085 0708 70726F74 		.ascii	"protVersion\000"
+ 2085 0700 70726F74 		.ascii	"protVersion\000"
  2085      56657273 
  2085      696F6E00 
  2086              	.LASF100:
- 2087 0714 64775374 		.ascii	"dwStatusChIdxPos\000"
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 66
+ 2087 070c 64775374 		.ascii	"dwStatusChIdxPos\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 66
 
 
  2087      61747573 
@@ -3906,458 +3906,458 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 1
  2087      78506F73 
  2087      00
  2088              	.LASF82:
- 2089 0725 75646250 		.ascii	"udbPresent\000"
+ 2089 071d 75646250 		.ascii	"udbPresent\000"
  2089      72657365 
  2089      6E7400
  2090              	.LASF169:
- 2091 0730 43595F43 		.ascii	"CY_CTB_COMP_HYST_DISABLE\000"
+ 2091 0728 43595F43 		.ascii	"CY_CTB_COMP_HYST_DISABLE\000"
  2091      54425F43 
  2091      4F4D505F 
  2091      48595354 
  2091      5F444953 
  2092              	.LASF62:
- 2093 0749 666C6173 		.ascii	"flashcVersion\000"
+ 2093 0741 666C6173 		.ascii	"flashcVersion\000"
  2093      68635665 
  2093      7273696F 
  2093      6E00
  2094              	.LASF79:
- 2095 0757 736D6966 		.ascii	"smifDeviceNr\000"
+ 2095 074f 736D6966 		.ascii	"smifDeviceNr\000"
  2095      44657669 
  2095      63654E72 
  2095      00
  2096              	.LASF21:
- 2097 0764 434F4D50 		.ascii	"COMP_STAT\000"
+ 2097 075c 434F4D50 		.ascii	"COMP_STAT\000"
  2097      5F535441 
  2097      5400
  2098              	.LASF26:
- 2099 076e 494E5452 		.ascii	"INTR_MASKED\000"
+ 2099 0766 494E5452 		.ascii	"INTR_MASKED\000"
  2099      5F4D4153 
  2099      4B454400 
  2100              	.LASF180:
- 2101 077a 6F61436F 		.ascii	"oaCompHyst\000"
+ 2101 0772 6F61436F 		.ascii	"oaCompHyst\000"
  2101      6D704879 
  2101      737400
  2102              	.LASF137:
- 2103 0785 666C6F61 		.ascii	"float\000"
+ 2103 077d 666C6F61 		.ascii	"float\000"
  2103      7400
  2104              	.LASF101:
- 2105 078b 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 2105 0783 64775374 		.ascii	"dwStatusChIdxMsk\000"
  2105      61747573 
  2105      43684964 
  2105      784D736B 
  2105      00
  2106              	.LASF189:
- 2107 079c 43795F43 		.ascii	"Cy_CTB_OpampInit\000"
+ 2107 0794 43795F43 		.ascii	"Cy_CTB_OpampInit\000"
  2107      54425F4F 
  2107      70616D70 
  2107      496E6974 
  2107      00
  2108              	.LASF27:
- 2109 07ad 52455345 		.ascii	"RESERVED1\000"
+ 2109 07a5 52455345 		.ascii	"RESERVED1\000"
  2109      52564544 
  2109      3100
  2110              	.LASF185:
- 2111 07b7 63795F64 		.ascii	"cy_device\000"
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 67
+ 2111 07af 63795F64 		.ascii	"cy_device\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 67
 
 
  2111      65766963 
  2111      6500
  2112              	.LASF35:
- 2113 07c1 52455345 		.ascii	"RESERVED3\000"
+ 2113 07b9 52455345 		.ascii	"RESERVED3\000"
  2113      52564544 
  2113      3300
  2114              	.LASF129:
- 2115 07cb 63707573 		.ascii	"cpussRomCtl\000"
+ 2115 07c3 63707573 		.ascii	"cpussRomCtl\000"
  2115      73526F6D 
  2115      43746C00 
  2116              	.LASF99:
- 2117 07d7 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 2117 07cf 64774368 		.ascii	"dwChCtlPreemptablePos\000"
  2117      43746C50 
  2117      7265656D 
  2117      70746162 
  2117      6C65506F 
  2118              	.LASF184:
- 2119 07ed 4F70616D 		.ascii	"Opamp_Enable\000"
+ 2119 07e5 4F70616D 		.ascii	"Opamp_Enable\000"
  2119      705F456E 
  2119      61626C65 
  2119      00
  2120              	.LASF151:
- 2121 07fa 43595F43 		.ascii	"CY_CTB_MODE_OPAMP1X\000"
+ 2121 07f2 43595F43 		.ascii	"CY_CTB_MODE_OPAMP1X\000"
  2121      54425F4D 
  2121      4F44455F 
  2121      4F50414D 
  2121      50315800 
  2122              	.LASF168:
- 2123 080e 63795F65 		.ascii	"cy_en_ctb_comp_bypass_t\000"
+ 2123 0806 63795F65 		.ascii	"cy_en_ctb_comp_bypass_t\000"
  2123      6E5F6374 
  2123      625F636F 
  2123      6D705F62 
  2123      79706173 
  2124              	.LASF172:
- 2125 0826 5F426F6F 		.ascii	"_Bool\000"
+ 2125 081e 5F426F6F 		.ascii	"_Bool\000"
  2125      6C00
  2126              	.LASF1:
- 2127 082c 756E7369 		.ascii	"unsigned char\000"
+ 2127 0824 756E7369 		.ascii	"unsigned char\000"
  2127      676E6564 
  2127      20636861 
  2127      7200
  2128              	.LASF30:
- 2129 083a 4F41315F 		.ascii	"OA1_SW\000"
+ 2129 0832 4F41315F 		.ascii	"OA1_SW\000"
  2129      535700
  2130              	.LASF95:
- 2131 0841 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 2131 0839 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
  2131      6843746C 
  2131      4D61696E 
  2131      57733446 
  2131      72657100 
  2132              	.LASF164:
- 2133 0855 43595F43 		.ascii	"CY_CTB_COMP_DSI_TRIGGER_OUT_LEVEL\000"
+ 2133 084d 43595F43 		.ascii	"CY_CTB_COMP_DSI_TRIGGER_OUT_LEVEL\000"
  2133      54425F43 
  2133      4F4D505F 
  2133      4453495F 
  2133      54524947 
  2134              	.LASF155:
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 68
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 68
 
 
- 2135 0877 43595F43 		.ascii	"CY_CTB_PUMP_DISABLE\000"
+ 2135 086f 43595F43 		.ascii	"CY_CTB_PUMP_DISABLE\000"
  2135      54425F50 
  2135      554D505F 
  2135      44495341 
  2135      424C4500 
  2136              	.LASF113:
- 2137 088b 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 2137 0883 70657269 		.ascii	"periDiv24_5CtlOffset\000"
  2137      44697632 
  2137      345F3543 
  2137      746C4F66 
  2137      66736574 
  2138              	.LASF0:
- 2139 08a0 73686F72 		.ascii	"short int\000"
+ 2139 0898 73686F72 		.ascii	"short int\000"
  2139      7420696E 
  2139      7400
  2140              	.LASF22:
- 2141 08aa 52455345 		.ascii	"RESERVED\000"
+ 2141 08a2 52455345 		.ascii	"RESERVED\000"
  2141      52564544 
  2141      00
  2142              	.LASF166:
- 2143 08b3 43595F43 		.ascii	"CY_CTB_COMP_BYPASS_SYNC\000"
+ 2143 08ab 43595F43 		.ascii	"CY_CTB_COMP_BYPASS_SYNC\000"
  2143      54425F43 
  2143      4F4D505F 
  2143      42595041 
  2143      53535F53 
  2144              	.LASF159:
- 2145 08cb 43595F43 		.ascii	"CY_CTB_COMP_EDGE_RISING\000"
+ 2145 08c3 43595F43 		.ascii	"CY_CTB_COMP_EDGE_RISING\000"
  2145      54425F43 
  2145      4F4D505F 
  2145      45444745 
  2145      5F524953 
  2146              	.LASF190:
- 2147 08e3 43795F43 		.ascii	"Cy_CTB_SetPower\000"
+ 2147 08db 43795F43 		.ascii	"Cy_CTB_SetPower\000"
  2147      54425F53 
  2147      6574506F 
  2147      77657200 
  2148              	.LASF44:
- 2149 08f3 4F41315F 		.ascii	"OA1_SLOPE_OFFSET_TRIM\000"
+ 2149 08eb 4F41315F 		.ascii	"OA1_SLOPE_OFFSET_TRIM\000"
  2149      534C4F50 
  2149      455F4F46 
  2149      46534554 
  2149      5F545249 
  2150              	.LASF106:
- 2151 0909 70657269 		.ascii	"periDivCmdDivSelMsk\000"
+ 2151 0901 70657269 		.ascii	"periDivCmdDivSelMsk\000"
  2151      44697643 
  2151      6D644469 
  2151      7653656C 
  2151      4D736B00 
  2152              	.LASF45:
- 2153 091d 4F41315F 		.ascii	"OA1_COMP_TRIM\000"
+ 2153 0915 4F41315F 		.ascii	"OA1_COMP_TRIM\000"
  2153      434F4D50 
  2153      5F545249 
  2153      4D00
  2154              	.LASF161:
- 2155 092b 43595F43 		.ascii	"CY_CTB_COMP_EDGE_BOTH\000"
+ 2155 0923 43595F43 		.ascii	"CY_CTB_COMP_EDGE_BOTH\000"
  2155      54425F43 
  2155      4F4D505F 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 69
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 69
 
 
  2155      45444745 
  2155      5F424F54 
  2156              	.LASF32:
- 2157 0941 52455345 		.ascii	"RESERVED2\000"
+ 2157 0939 52455345 		.ascii	"RESERVED2\000"
  2157      52564544 
  2157      3200
  2158              	.LASF41:
- 2159 094b 4F41305F 		.ascii	"OA0_SLOPE_OFFSET_TRIM\000"
+ 2159 0943 4F41305F 		.ascii	"OA0_SLOPE_OFFSET_TRIM\000"
  2159      534C4F50 
  2159      455F4F46 
  2159      46534554 
  2159      5F545249 
  2160              	.LASF77:
- 2161 0961 73727373 		.ascii	"srssNumHfroot\000"
+ 2161 0959 73727373 		.ascii	"srssNumHfroot\000"
  2161      4E756D48 
  2161      66726F6F 
  2161      7400
  2162              	.LASF39:
- 2163 096f 52455345 		.ascii	"RESERVED4\000"
+ 2163 0967 52455345 		.ascii	"RESERVED4\000"
  2163      52564544 
  2163      3400
  2164              	.LASF90:
- 2165 0979 666C6173 		.ascii	"flashEraseDelay\000"
+ 2165 0971 666C6173 		.ascii	"flashEraseDelay\000"
  2165      68457261 
  2165      73654465 
  2165      6C617900 
  2166              	.LASF179:
- 2167 0989 6F61436F 		.ascii	"oaCompBypass\000"
+ 2167 0981 6F61436F 		.ascii	"oaCompBypass\000"
  2167      6D704279 
  2167      70617373 
  2167      00
  2168              	.LASF16:
- 2169 0996 75696E74 		.ascii	"uint32_t\000"
+ 2169 098e 75696E74 		.ascii	"uint32_t\000"
  2169      33325F74 
  2169      00
  2170              	.LASF191:
- 2171 099f 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2171 0997 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  2171      43313120 
  2171      352E342E 
  2171      31203230 
  2171      31363036 
- 2172 09d2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 2172 09ca 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
  2172      20726576 
  2172      6973696F 
  2172      6E203233 
  2172      37373135 
- 2173 0a05 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 2173 09fd 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
  2173      67202D66 
  2173      66756E63 
  2173      74696F6E 
  2173      2D736563 
  2174              	.LASF48:
- 2175 0a31 6C6F6E67 		.ascii	"long double\000"
+ 2175 0a29 6C6F6E67 		.ascii	"long double\000"
  2175      20646F75 
  2175      626C6500 
  2176              	.LASF136:
- 2177 0a3d 63686172 		.ascii	"char\000"
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 70
+ 2177 0a35 63686172 		.ascii	"char\000"
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 70
 
 
  2177      00
  2178              	.LASF28:
- 2179 0a42 4F41305F 		.ascii	"OA0_SW\000"
+ 2179 0a3a 4F41305F 		.ascii	"OA0_SW\000"
  2179      535700
  2180              	.LASF173:
- 2181 0a49 64656570 		.ascii	"deepSleep\000"
+ 2181 0a41 64656570 		.ascii	"deepSleep\000"
  2181      536C6565 
  2181      7000
  2182              	.LASF130:
- 2183 0a53 63707573 		.ascii	"cpussRam0Ctl0\000"
+ 2183 0a4b 63707573 		.ascii	"cpussRam0Ctl0\000"
  2183      7352616D 
  2183      3043746C 
  2183      3000
  2184              	.LASF176:
- 2185 0a61 6F615075 		.ascii	"oaPump\000"
+ 2185 0a59 6F615075 		.ascii	"oaPump\000"
  2185      6D7000
  2186              	.LASF5:
- 2187 0a68 5F5F7569 		.ascii	"__uint16_t\000"
+ 2187 0a60 5F5F7569 		.ascii	"__uint16_t\000"
  2187      6E743136 
  2187      5F7400
  2188              	.LASF111:
- 2189 0a73 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 2189 0a6b 70657269 		.ascii	"periDiv16CtlOffset\000"
  2189      44697631 
  2189      3643746C 
  2189      4F666673 
  2189      657400
  2190              	.LASF160:
- 2191 0a86 43595F43 		.ascii	"CY_CTB_COMP_EDGE_FALLING\000"
+ 2191 0a7e 43595F43 		.ascii	"CY_CTB_COMP_EDGE_FALLING\000"
  2191      54425F43 
  2191      4F4D505F 
  2191      45444745 
  2191      5F46414C 
  2192              	.LASF64:
- 2193 0a9f 6873696F 		.ascii	"hsiomVersion\000"
+ 2193 0a97 6873696F 		.ascii	"hsiomVersion\000"
  2193      6D566572 
  2193      73696F6E 
  2193      00
  2194              	.LASF170:
- 2195 0aac 43595F43 		.ascii	"CY_CTB_COMP_HYST_10MV\000"
+ 2195 0aa4 43595F43 		.ascii	"CY_CTB_COMP_HYST_10MV\000"
  2195      54425F43 
  2195      4F4D505F 
  2195      48595354 
  2195      5F31304D 
  2196              	.LASF89:
- 2197 0ac2 666C6173 		.ascii	"flashProgramDelay\000"
+ 2197 0aba 666C6173 		.ascii	"flashProgramDelay\000"
  2197      6850726F 
  2197      6772616D 
  2197      44656C61 
  2197      7900
  2198              	.LASF23:
- 2199 0ad4 494E5452 		.ascii	"INTR\000"
+ 2199 0acc 494E5452 		.ascii	"INTR\000"
  2199      00
  2200              	.LASF145:
- 2201 0ad9 63795F65 		.ascii	"cy_en_ctb_deep_sleep_t\000"
+ 2201 0ad1 63795F65 		.ascii	"cy_en_ctb_deep_sleep_t\000"
  2201      6E5F6374 
  2201      625F6465 
  2201      65705F73 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 71
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 71
 
 
  2201      6C656570 
  2202              	.LASF147:
- 2203 0af0 43595F43 		.ascii	"CY_CTB_POWER_LOW\000"
+ 2203 0ae8 43595F43 		.ascii	"CY_CTB_POWER_LOW\000"
  2203      54425F50 
  2203      4F574552 
  2203      5F4C4F57 
  2203      00
  2204              	.LASF6:
- 2205 0b01 73686F72 		.ascii	"short unsigned int\000"
+ 2205 0af9 73686F72 		.ascii	"short unsigned int\000"
  2205      7420756E 
  2205      7369676E 
  2205      65642069 
  2205      6E7400
  2206              	.LASF97:
- 2207 0b14 64774368 		.ascii	"dwChSize\000"
+ 2207 0b0c 64774368 		.ascii	"dwChSize\000"
  2207      53697A65 
  2207      00
  2208              	.LASF33:
- 2209 0b1d 4354445F 		.ascii	"CTD_SW\000"
+ 2209 0b15 4354445F 		.ascii	"CTD_SW\000"
  2209      535700
  2210              	.LASF133:
- 2211 0b24 69706353 		.ascii	"ipcStructSize\000"
+ 2211 0b1c 69706353 		.ascii	"ipcStructSize\000"
  2211      74727563 
  2211      7453697A 
  2211      6500
  2212              	.LASF72:
- 2213 0b32 63707573 		.ascii	"cpussIpc0Irq\000"
+ 2213 0b2a 63707573 		.ascii	"cpussIpc0Irq\000"
  2213      73497063 
  2213      30497271 
  2213      00
  2214              	.LASF37:
- 2215 0b3f 4354425F 		.ascii	"CTB_SW_SQ_CTRL\000"
+ 2215 0b37 4354425F 		.ascii	"CTB_SW_SQ_CTRL\000"
  2215      53575F53 
  2215      515F4354 
  2215      524C00
  2216              	.LASF115:
- 2217 0b4e 6770696F 		.ascii	"gpioPrtCfgOffset\000"
+ 2217 0b46 6770696F 		.ascii	"gpioPrtCfgOffset\000"
  2217      50727443 
  2217      66674F66 
  2217      66736574 
  2217      00
  2218              	.LASF178:
- 2219 0b5f 6F61436F 		.ascii	"oaCompLevel\000"
+ 2219 0b57 6F61436F 		.ascii	"oaCompLevel\000"
  2219      6D704C65 
  2219      76656C00 
  2220              	.LASF74:
- 2221 0b6b 63707573 		.ascii	"cpussNotConnectedIrq\000"
+ 2221 0b63 63707573 		.ascii	"cpussNotConnectedIrq\000"
  2221      734E6F74 
  2221      436F6E6E 
  2221      65637465 
  2221      64497271 
  2222              	.LASF88:
- 2223 0b80 666C6173 		.ascii	"flashWriteDelay\000"
+ 2223 0b78 666C6173 		.ascii	"flashWriteDelay\000"
  2223      68577269 
  2223      74654465 
  2223      6C617900 
  2224              	.LASF36:
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 72
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 72
 
 
- 2225 0b90 4354425F 		.ascii	"CTB_SW_DS_CTRL\000"
+ 2225 0b88 4354425F 		.ascii	"CTB_SW_DS_CTRL\000"
  2225      53575F44 
  2225      535F4354 
  2225      524C00
  2226              	.LASF13:
- 2227 0b9f 75696E74 		.ascii	"uint8_t\000"
+ 2227 0b97 75696E74 		.ascii	"uint8_t\000"
  2227      385F7400 
  2228              	.LASF186:
- 2229 0ba7 4F70616D 		.ascii	"Opamp_initVar\000"
+ 2229 0b9f 4F70616D 		.ascii	"Opamp_initVar\000"
  2229      705F696E 
  2229      69745661 
  2229      7200
  2230              	.LASF121:
- 2231 0bb5 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 2231 0bad 63707573 		.ascii	"cpussCm4StatusOffset\000"
  2231      73436D34 
  2231      53746174 
  2231      75734F66 
  2231      66736574 
  2232              	.LASF165:
- 2233 0bca 63795F65 		.ascii	"cy_en_ctb_comp_level_t\000"
+ 2233 0bc2 63795F65 		.ascii	"cy_en_ctb_comp_level_t\000"
  2233      6E5F6374 
  2233      625F636F 
  2233      6D705F6C 
  2233      6576656C 
  2234              	.LASF25:
- 2235 0be1 494E5452 		.ascii	"INTR_MASK\000"
+ 2235 0bd9 494E5452 		.ascii	"INTR_MASK\000"
  2235      5F4D4153 
  2235      4B00
  2236              	.LASF152:
- 2237 0beb 43595F43 		.ascii	"CY_CTB_MODE_OPAMP10X\000"
+ 2237 0be3 43595F43 		.ascii	"CY_CTB_MODE_OPAMP10X\000"
  2237      54425F4D 
  2237      4F44455F 
  2237      4F50414D 
  2237      50313058 
  2238              	.LASF19:
- 2239 0c00 4F415F52 		.ascii	"OA_RES0_CTRL\000"
+ 2239 0bf8 4F415F52 		.ascii	"OA_RES0_CTRL\000"
  2239      4553305F 
  2239      4354524C 
  2239      00
  2240              	.LASF125:
- 2241 0c0d 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 2241 0c05 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
  2241      73547269 
  2241      6D526F6D 
  2241      43746C4F 
  2241      66667365 
  2242              	.LASF75:
- 2243 0c23 73727373 		.ascii	"srssNumClkpath\000"
+ 2243 0c1b 73727373 		.ascii	"srssNumClkpath\000"
  2243      4E756D43 
  2243      6C6B7061 
  2243      746800
  2244              	.LASF61:
- 2245 0c32 64775665 		.ascii	"dwVersion\000"
+ 2245 0c2a 64775665 		.ascii	"dwVersion\000"
  2245      7273696F 
  2245      6E00
  2246              	.LASF57:
- 2247 0c3c 69706342 		.ascii	"ipcBase\000"
+ 2247 0c34 69706342 		.ascii	"ipcBase\000"
  2247      61736500 
-ARM GAS  C:\Users\atril\AppData\Local\Temp\ccpI7TPl.s 			page 73
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccQTlXdE.s 			page 73
 
 
  2248              	.LASF192:
- 2249 0c44 47656E65 		.ascii	"Generated_Source\\PSoC6\\Opamp.c\000"
+ 2249 0c3c 47656E65 		.ascii	"Generated_Source\\PSoC6\\Opamp.c\000"
  2249      72617465 
  2249      645F536F 
  2249      75726365 
  2249      5C50536F 
  2250              	.LASF59:
- 2251 0c63 63707573 		.ascii	"cpussVersion\000"
+ 2251 0c5b 63707573 		.ascii	"cpussVersion\000"
  2251      73566572 
  2251      73696F6E 
  2251      00
  2252              	.LASF14:
- 2253 0c70 696E7431 		.ascii	"int16_t\000"
+ 2253 0c68 696E7431 		.ascii	"int16_t\000"
  2253      365F7400 
  2254              	.LASF143:
- 2255 0c78 43595F43 		.ascii	"CY_CTB_DEEPSLEEP_DISABLE\000"
+ 2255 0c70 43595F43 		.ascii	"CY_CTB_DEEPSLEEP_DISABLE\000"
  2255      54425F44 
  2255      45455053 
  2255      4C454550 
  2255      5F444953 
  2256              	.LASF175:
- 2257 0c91 6F614D6F 		.ascii	"oaMode\000"
+ 2257 0c89 6F614D6F 		.ascii	"oaMode\000"
  2257      646500
  2258              	.LASF86:
- 2259 0c98 666C6173 		.ascii	"flashRwwRequired\000"
+ 2259 0c90 666C6173 		.ascii	"flashRwwRequired\000"
  2259      68527777 
  2259      52657175 
  2259      69726564 
  2259      00
  2260              	.LASF157:
- 2261 0ca9 63795F65 		.ascii	"cy_en_ctb_pump_t\000"
+ 2261 0ca1 63795F65 		.ascii	"cy_en_ctb_pump_t\000"
  2261      6E5F6374 
  2261      625F7075 
  2261      6D705F74 
  2261      00
  2262              	.LASF20:
- 2263 0cba 4F415F52 		.ascii	"OA_RES1_CTRL\000"
+ 2263 0cb2 4F415F52 		.ascii	"OA_RES1_CTRL\000"
  2263      4553315F 
  2263      4354524C 
  2263      00
