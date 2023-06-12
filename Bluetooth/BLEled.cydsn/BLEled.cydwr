@@ -17,8 +17,10 @@
     </Group>
     <Group key="Pin">
       <Data key="4cca878b-77b5-471d-8aeb-ad6925202455" value="Button" />
+      <Data key="6efec5ac-7cd4-4bab-a87c-2cc4f6bcf197" value="Pin_1" />
       <Data key="7b079656-572b-4288-a7ef-ff25e4e51a4f" value="vmin2" />
       <Data key="8a4545c2-a2cc-4af4-9301-53a9d4210e97" value="vinadc" />
+      <Data key="22d662b9-9d17-4a3f-b39a-72e99fcd4fff" value="Pin_2" />
       <Data key="206f4099-2ed0-4d88-b20d-069a71bf9679" value="LED_GREEN" />
       <Data key="282aaed2-d463-4c6d-af85-be33f1e98849" value="vplus1" />
       <Data key="0113321b-4a37-46f6-8407-2f8646c68756" value="vmin1" />
@@ -753,12 +755,22 @@
         <Data key="Port Format" value="0,4" />
       </Group>
     </Group>
+    <Group key="6efec5ac-7cd4-4bab-a87c-2cc4f6bcf197">
+      <Group key="0">
+        <Data key="Port Format" value="10,1" />
+      </Group>
+    </Group>
     <Group key="7b079656-572b-4288-a7ef-ff25e4e51a4f">
       <Group key="0">
         <Data key="Port Format" value="9,1" />
       </Group>
     </Group>
     <Group key="8a4545c2-a2cc-4af4-9301-53a9d4210e97">
+      <Group key="0">
+        <Data key="Port Format" value="10,0" />
+      </Group>
+    </Group>
+    <Group key="22d662b9-9d17-4a3f-b39a-72e99fcd4fff">
       <Group key="0">
         <Data key="Port Format" value="10,0" />
       </Group>

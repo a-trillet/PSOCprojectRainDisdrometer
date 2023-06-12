@@ -103,7 +103,9 @@ int main(void)
     int16_t tempmax = 0; 
     
     int16_t value = 0;
+    int8_t value8bit = 0;
     int16_t volts = 0;
+    
     char string[30];
     
     float tresh_up = 2000;     
@@ -116,6 +118,10 @@ int main(void)
     int packet_counter = 0;
     int current_drop =0;
    
+        
+
+    
+    
     printf("Jean mmichel pif paf pouf\r\n");
     
     
@@ -132,7 +138,7 @@ int main(void)
             //ADC + conversion to volts
             value = Cy_SAR_GetResult16(SAR,0);
             volts = Cy_SAR_CountsTo_mVolts(SAR,0, value);
-           
+            
             
             #if (uart_enabled)
             if (volts > tempmax){
@@ -149,8 +155,8 @@ int main(void)
             
             //send voltage value through UART
             
-            //sprintf(string,"%f\n",volts);
-            //UART_PutString(string);
+            value8bit = (int8_t) value/16;
+            UART_Put(value8bit);
            
             //Calculating the number of raindrops 
             if (volts > tresh_up && count_enable == 1){
@@ -185,8 +191,7 @@ int main(void)
                 }
                 #endif
                 
-                sprintf(string,"%d\n",tempmax);
-                UART_PutString(string);
+                
                 
                 
                 tempmax = 0 ;

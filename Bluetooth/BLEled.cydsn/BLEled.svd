@@ -7,7 +7,7 @@
   <width>32</width>
   <peripherals>
     <peripheral>
-      <name>Opamp</name>
+      <name>Opamp2</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
       <addressBlock>
@@ -929,7 +929,7 @@
       </registers>
     </peripheral>
     <peripheral>
-      <name>Opamp2</name>
+      <name>Opamp</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
       <addressBlock>

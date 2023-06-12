@@ -1,5 +1,5 @@
 # BLEled
-# 2023-06-10 13:43:23Z
+# 2023-06-11 15:04:09Z
 
 dont_use_location SMIF -1 -1 0
 dont_use_location p4usbcell -1 -1 0
@@ -23,6 +23,8 @@ set_io "vmin1(0)" iocell 9 4
 set_io "vout1(0)" iocell 9 3
 set_io "vmin2(0)" iocell 9 1
 set_io "vout2(0)" iocell 9 2
+set_io "Pin_1(0)" iocell 10 1
+set_io "Pin_2(0)" iocell 10 0
 set_location "\BLE:cy_mxs40_ble\" BLE -1 -1 0
 set_location "\BLE:bless_isr\" interrupt -1 -1 24
 set_location "\UART:SCB_IRQ\" interrupt -1 -1 46

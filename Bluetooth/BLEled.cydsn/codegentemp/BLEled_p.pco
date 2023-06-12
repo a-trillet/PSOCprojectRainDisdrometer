@@ -28,7 +28,9 @@ set_io "LED_RED(0)" iocell 6 3
 set_io "LED_GREEN(0)" iocell 7 1
 set_io "vmin1(0)" iocell 9 4
 set_io "vout1(0)" iocell 9 3
+set_io "Pin_1(0)" iocell 10 1
 set_io "vplus1(0)" iocell 9 5
 set_io "vmin2(0)" iocell 9 1
 set_io "vout2(0)" iocell 9 2
+set_io "Pin_2(0)" iocell 10 0
 set_location "CPUSS" CPUSS -1 -1 0

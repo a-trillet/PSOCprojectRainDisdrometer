@@ -251,11 +251,11 @@ static void AnalogSetDefault(void);
 static void AnalogSetDefault(void)
 {
 	CY_SET_REG32(CYREG_CTBM0_CTB_CTRL, 0x80000000u);
-	CY_SET_REG32(CYREG_CTBM0_OA0_SW, 0x00240101u);
+	CY_SET_REG32(CYREG_CTBM0_OA0_SW, 0x00000101u);
 	CY_SET_REG32(CYREG_CTBM0_OA1_SW, 0x00000102u);
 	CY_SET_REG32(CYREG_CTBM0_CTD_SW, 0x00004000u);
 	CY_SET_REG32(CYREG_SAR_CTRL, 0x80000000u);
-	CY_SET_REG32(CYREG_SAR_MUX_SWITCH0, 0x00400000u);
+	CY_SET_REG32(CYREG_SAR_MUX_SWITCH0, 0x00000102u);
 	CY_SET_REG32(CYREG_PASS_AREF_AREF_CTRL, 0x80110001u);
 }
 
@@ -406,6 +406,23 @@ void Cy_SystemInit(void)
 	        .sel1Active = 0x00000000u,
 	    };
 	    (void)Cy_GPIO_Port_Init(GPIO_PRT9, &port9_cfg);
+	}
+
+	/* Port10 configuration */
+	{
+	    const cy_stc_gpio_prt_config_t port10_cfg =
+	    {
+	        .out        = 0x00000003u,
+	        .intrMask   = 0x00000000u,
+	        .intrCfg    = 0x00000000u,
+	        .cfg        = 0x00000000u,
+	        .cfgIn      = 0x00000000u,
+	        .cfgOut     = 0x00000000u,
+	        .cfgSIO     = 0x00000000u,
+	        .sel0Active = 0x00000000u,
+	        .sel1Active = 0x00000000u,
+	    };
+	    (void)Cy_GPIO_Port_Init(GPIO_PRT10, &port10_cfg);
 	}
 
 

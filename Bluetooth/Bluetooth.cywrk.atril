@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bluetooth\BLEled\CM4 (Core 1)\Source Files\main_cm4.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bluetooth\BLEled\TopDesign">
 <ExpandedNodeIds>
 <v>Bluetooth</v>
 <v>Bluetooth\BLEled</v>
@@ -73,6 +73,9 @@
 <v>Bluetooth\BLEled\Generated_Source\PSoC6\pdl\utilities\retarget_io</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>Bluetooth</v>
+<v>Bluetooth\BLEled</v>
+<v>Bluetooth\BLEled\TopDesign</v>
 <v>Bluetooth\BLEled\BLEled.cydwr</v>
 <v>Bluetooth\BLEled\BLEled.cydwr\Pins</v>
 <v>Bluetooth\BLEled\BLEled.cydwr\Analog</v>
@@ -118,9 +121,6 @@
 <v>Bluetooth\BLEled\CM4 (Core 1)\Source Files\system_psoc6_cm4.c</v>
 <v>Bluetooth\BLEled\Shared Files</v>
 <v>Bluetooth\BLEled\Shared Files\cy_ble_config.h</v>
-<v>Bluetooth\BLEled\Shared Files\cyapicallbacks.h</v>
-<v>Bluetooth\BLEled\Shared Files\cyhal.h</v>
-<v>Bluetooth\BLEled\Shared Files\stdio_user.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Bluetooth\BLEled\TopDesign\TopDesign.cysch">
