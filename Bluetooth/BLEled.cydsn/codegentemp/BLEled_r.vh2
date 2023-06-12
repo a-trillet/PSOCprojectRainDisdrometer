@@ -1,5 +1,9 @@
 -- Project:   BLEled
+<<<<<<< HEAD
 -- Generated: 06/11/2023 17:04:09
+=======
+-- Generated: 06/10/2023 18:47:35
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 -- PSoC Creator  4.4
 
 ENTITY BLEled IS

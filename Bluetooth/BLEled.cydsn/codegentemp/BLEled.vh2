@@ -2,7 +2,11 @@
 --	Conversion of BLEled.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
+<<<<<<< HEAD
 --	Sun Jun 11 17:04:03 2023
+=======
+--	Sat Jun 10 18:47:28 2023
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 --
 
 USE cypress.cypress.all;

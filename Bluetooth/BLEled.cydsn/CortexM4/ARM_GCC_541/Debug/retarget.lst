@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 1
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
    1              		.syntax unified
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
   22:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c **** 
   23:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c **** #ifdef IO_STDOUT_ENABLE
   24:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 2
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 2
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
   25:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c **** #if defined(__ARMCC_VERSION) /* ARM-MDK */
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
   79:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c ****     __attribute__((weak)) int _write (int fd, const char *ptr, int len)
   80:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c ****     {
   34              		.loc 1 80 0
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 3
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 3
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
   35              		.cfi_startproc
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
   73              	.L3:
   94:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c ****                 ++ptr;
   95:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c ****             }
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 4
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 4
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
   96:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c ****         }
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
   89              		.cfi_startproc
   90              		@ args = 0, pretend = 0, frame = 0
   91              		@ frame_needed = 0, uses_anonymous_args = 0
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 5
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 5
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
   92              	.LVL9:
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  134 0026 EFDB     		blt	.L10
  135              	.LVL17:
  136              	.L9:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 6
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 6
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  144:Generated_Source\PSoC6\pdl\utilities\retarget_io/retarget.c ****                 {
@@ -337,17 +361,17 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  163 0006 00000000 		.4byte	.Ldebug_abbrev0
  164 000a 04       		.byte	0x4
  165 000b 01       		.uleb128 0x1
- 166 000c 80080000 		.4byte	.LASF231
+ 166 000c 8B080000 		.4byte	.LASF231
  167 0010 0C       		.byte	0xc
- 168 0011 780E0000 		.4byte	.LASF232
- 169 0015 590B0000 		.4byte	.LASF233
+ 168 0011 700E0000 		.4byte	.LASF232
+ 169 0015 A70C0000 		.4byte	.LASF233
  170 0019 00000000 		.4byte	.Ldebug_ranges0+0
  171 001d 00000000 		.4byte	0
  172 0021 00000000 		.4byte	.Ldebug_line0
  173 0025 02       		.uleb128 0x2
  174 0026 01       		.byte	0x1
  175 0027 06       		.byte	0x6
- 176 0028 B40E0000 		.4byte	.LASF0
+ 176 0028 AC0E0000 		.4byte	.LASF0
  177 002c 03       		.uleb128 0x3
  178 002d A4000000 		.4byte	.LASF2
  179 0031 02       		.byte	0x2
@@ -356,9 +380,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  182 0037 02       		.uleb128 0x2
  183 0038 01       		.byte	0x1
  184 0039 08       		.byte	0x8
- 185 003a E9090000 		.4byte	.LASF1
+ 185 003a F4090000 		.4byte	.LASF1
  186 003e 03       		.uleb128 0x3
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 7
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 7
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  187 003f BE040000 		.4byte	.LASF3
@@ -370,16 +398,16 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  193 004b 05       		.byte	0x5
  194 004c 91060000 		.4byte	.LASF4
  195 0050 03       		.uleb128 0x3
- 196 0051 230C0000 		.4byte	.LASF5
+ 196 0051 B10B0000 		.4byte	.LASF5
  197 0055 02       		.byte	0x2
  198 0056 2B       		.byte	0x2b
  199 0057 5B000000 		.4byte	0x5b
  200 005b 02       		.uleb128 0x2
  201 005c 02       		.byte	0x2
  202 005d 07       		.byte	0x7
- 203 005e D90A0000 		.4byte	.LASF6
+ 203 005e E40A0000 		.4byte	.LASF6
  204 0062 03       		.uleb128 0x3
- 205 0063 830C0000 		.4byte	.LASF7
+ 205 0063 110C0000 		.4byte	.LASF7
  206 0067 02       		.byte	0x2
  207 0068 3F       		.byte	0x3f
  208 0069 6D000000 		.4byte	0x6d
@@ -415,10 +443,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  238 00a2 02       		.uleb128 0x2
  239 00a3 08       		.byte	0x8
  240 00a4 04       		.byte	0x4
- 241 00a5 4A070000 		.4byte	.LASF14
+ 241 00a5 55070000 		.4byte	.LASF14
  242 00a9 05       		.uleb128 0x5
  243 00aa 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 8
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 8
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  244 00ab 02       		.uleb128 0x2
@@ -431,14 +463,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  251 00b8 02       		.uleb128 0x2
  252 00b9 01       		.byte	0x1
  253 00ba 08       		.byte	0x8
- 254 00bb 090C0000 		.4byte	.LASF16
+ 254 00bb 970B0000 		.4byte	.LASF16
  255 00bf 06       		.uleb128 0x6
  256 00c0 04       		.byte	0x4
  257 00c1 C5000000 		.4byte	0xc5
  258 00c5 07       		.uleb128 0x7
  259 00c6 B8000000 		.4byte	0xb8
  260 00ca 03       		.uleb128 0x3
- 261 00cb E20D0000 		.4byte	.LASF17
+ 261 00cb DA0D0000 		.4byte	.LASF17
  262 00cf 03       		.byte	0x3
  263 00d0 18       		.byte	0x18
  264 00d1 2C000000 		.4byte	0x2c
@@ -453,12 +485,12 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  273 00e6 24       		.byte	0x24
  274 00e7 50000000 		.4byte	0x50
  275 00eb 03       		.uleb128 0x3
- 276 00ec E1090000 		.4byte	.LASF20
+ 276 00ec EC090000 		.4byte	.LASF20
  277 00f0 03       		.byte	0x3
  278 00f1 2C       		.byte	0x2c
  279 00f2 62000000 		.4byte	0x62
  280 00f6 03       		.uleb128 0x3
- 281 00f7 100F0000 		.4byte	.LASF21
+ 281 00f7 080F0000 		.4byte	.LASF21
  282 00fb 03       		.byte	0x3
  283 00fc 30       		.byte	0x30
  284 00fd 74000000 		.4byte	0x74
@@ -476,9 +508,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  296 0115 F6000000 		.4byte	0xf6
  297 0119 00       		.byte	0
  298 011a 0A       		.uleb128 0xa
- 299 011b 020B0000 		.4byte	.LASF23
+ 299 011b 0D0B0000 		.4byte	.LASF23
  300 011f 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 9
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 9
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  301 0120 38       		.byte	0x38
@@ -491,7 +527,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  308 012d F6000000 		.4byte	0xf6
  309 0131 08       		.byte	0x8
  310 0132 0A       		.uleb128 0xa
- 311 0133 99090000 		.4byte	.LASF25
+ 311 0133 A4090000 		.4byte	.LASF25
  312 0137 04       		.byte	0x4
  313 0138 3A       		.byte	0x3a
  314 0139 F6000000 		.4byte	0xf6
@@ -509,7 +545,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  326 0151 F6000000 		.4byte	0xf6
  327 0155 14       		.byte	0x14
  328 0156 0A       		.uleb128 0xa
- 329 0157 5D0D0000 		.4byte	.LASF28
+ 329 0157 550D0000 		.4byte	.LASF28
  330 015b 04       		.byte	0x4
  331 015c 3D       		.byte	0x3d
  332 015d F6000000 		.4byte	0xf6
@@ -521,7 +557,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  338 0169 F6000000 		.4byte	0xf6
  339 016d 1C       		.byte	0x1c
  340 016e 0A       		.uleb128 0xa
- 341 016f C00E0000 		.4byte	.LASF30
+ 341 016f B80E0000 		.4byte	.LASF30
  342 0173 04       		.byte	0x4
  343 0174 3F       		.byte	0x3f
  344 0175 F6000000 		.4byte	0xf6
@@ -533,12 +569,16 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  350 0181 F6000000 		.4byte	0xf6
  351 0185 24       		.byte	0x24
  352 0186 0A       		.uleb128 0xa
- 353 0187 030F0000 		.4byte	.LASF32
+ 353 0187 FB0E0000 		.4byte	.LASF32
  354 018b 04       		.byte	0x4
  355 018c 43       		.byte	0x43
  356 018d CA000000 		.4byte	0xca
  357 0191 28       		.byte	0x28
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 10
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 10
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  358 0192 0A       		.uleb128 0xa
@@ -548,13 +588,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  362 0199 CA000000 		.4byte	0xca
  363 019d 29       		.byte	0x29
  364 019e 0A       		.uleb128 0xa
- 365 019f A60C0000 		.4byte	.LASF34
+ 365 019f 340C0000 		.4byte	.LASF34
  366 01a3 04       		.byte	0x4
  367 01a4 45       		.byte	0x45
  368 01a5 CA000000 		.4byte	0xca
  369 01a9 2A       		.byte	0x2a
  370 01aa 0A       		.uleb128 0xa
- 371 01ab 28080000 		.4byte	.LASF35
+ 371 01ab 33080000 		.4byte	.LASF35
  372 01af 04       		.byte	0x4
  373 01b0 46       		.byte	0x46
  374 01b1 CA000000 		.4byte	0xca
@@ -566,13 +606,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  380 01bd CA000000 		.4byte	0xca
  381 01c1 2C       		.byte	0x2c
  382 01c2 0A       		.uleb128 0xa
- 383 01c3 B00C0000 		.4byte	.LASF37
+ 383 01c3 3E0C0000 		.4byte	.LASF37
  384 01c7 04       		.byte	0x4
  385 01c8 48       		.byte	0x48
  386 01c9 CA000000 		.4byte	0xca
  387 01cd 2D       		.byte	0x2d
  388 01ce 0A       		.uleb128 0xa
- 389 01cf CE0A0000 		.4byte	.LASF38
+ 389 01cf D90A0000 		.4byte	.LASF38
  390 01d3 04       		.byte	0x4
  391 01d4 49       		.byte	0x49
  392 01d5 CA000000 		.4byte	0xca
@@ -584,7 +624,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  398 01e1 CA000000 		.4byte	0xca
  399 01e5 2F       		.byte	0x2f
  400 01e6 0A       		.uleb128 0xa
- 401 01e7 DE070000 		.4byte	.LASF40
+ 401 01e7 E9070000 		.4byte	.LASF40
  402 01eb 04       		.byte	0x4
  403 01ec 4B       		.byte	0x4b
  404 01ed CA000000 		.4byte	0xca
@@ -598,7 +638,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  412 01fe 0A       		.uleb128 0xa
  413 01ff 96000000 		.4byte	.LASF42
  414 0203 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 11
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 11
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  415 0204 4F       		.byte	0x4f
@@ -611,13 +655,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  422 0211 CA000000 		.4byte	0xca
  423 0215 33       		.byte	0x33
  424 0216 0A       		.uleb128 0xa
- 425 0217 56070000 		.4byte	.LASF44
+ 425 0217 61070000 		.4byte	.LASF44
  426 021b 04       		.byte	0x4
  427 021c 51       		.byte	0x51
  428 021d CA000000 		.4byte	0xca
  429 0221 34       		.byte	0x34
  430 0222 0A       		.uleb128 0xa
- 431 0223 500D0000 		.4byte	.LASF45
+ 431 0223 480D0000 		.4byte	.LASF45
  432 0227 04       		.byte	0x4
  433 0228 52       		.byte	0x52
  434 0229 D5000000 		.4byte	0xd5
@@ -629,7 +673,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  440 0235 D5000000 		.4byte	0xd5
  441 0239 38       		.byte	0x38
  442 023a 0A       		.uleb128 0xa
- 443 023b B20D0000 		.4byte	.LASF47
+ 443 023b AA0D0000 		.4byte	.LASF47
  444 023f 04       		.byte	0x4
  445 0240 54       		.byte	0x54
  446 0241 D5000000 		.4byte	0xd5
@@ -647,7 +691,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  458 0259 CA000000 		.4byte	0xca
  459 025d 3D       		.byte	0x3d
  460 025e 0A       		.uleb128 0xa
- 461 025f 9A0D0000 		.4byte	.LASF50
+ 461 025f 920D0000 		.4byte	.LASF50
  462 0263 04       		.byte	0x4
  463 0264 57       		.byte	0x57
  464 0265 CA000000 		.4byte	0xca
@@ -658,11 +702,15 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  469 0270 58       		.byte	0x58
  470 0271 CA000000 		.4byte	0xca
  471 0275 3F       		.byte	0x3f
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 12
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 12
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  472 0276 0A       		.uleb128 0xa
- 473 0277 4F080000 		.4byte	.LASF52
+ 473 0277 5A080000 		.4byte	.LASF52
  474 027b 04       		.byte	0x4
  475 027c 59       		.byte	0x59
  476 027d CA000000 		.4byte	0xca
@@ -674,13 +722,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  482 0289 CA000000 		.4byte	0xca
  483 028d 41       		.byte	0x41
  484 028e 0A       		.uleb128 0xa
- 485 028f AA070000 		.4byte	.LASF54
+ 485 028f B5070000 		.4byte	.LASF54
  486 0293 04       		.byte	0x4
  487 0294 5B       		.byte	0x5b
  488 0295 CA000000 		.4byte	0xca
  489 0299 42       		.byte	0x42
  490 029a 0A       		.uleb128 0xa
- 491 029b FB070000 		.4byte	.LASF55
+ 491 029b 06080000 		.4byte	.LASF55
  492 029f 04       		.byte	0x4
  493 02a0 5C       		.byte	0x5c
  494 02a1 CA000000 		.4byte	0xca
@@ -704,7 +752,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  512 02c5 F6000000 		.4byte	0xf6
  513 02c9 4C       		.byte	0x4c
  514 02ca 0A       		.uleb128 0xa
- 515 02cb 190F0000 		.4byte	.LASF59
+ 515 02cb 110F0000 		.4byte	.LASF59
  516 02cf 04       		.byte	0x4
  517 02d0 60       		.byte	0x60
  518 02d1 CA000000 		.4byte	0xca
@@ -716,22 +764,26 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  524 02dd CA000000 		.4byte	0xca
  525 02e1 51       		.byte	0x51
  526 02e2 0A       		.uleb128 0xa
- 527 02e3 C70D0000 		.4byte	.LASF61
+ 527 02e3 BF0D0000 		.4byte	.LASF61
  528 02e7 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 13
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 13
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  529 02e8 62       		.byte	0x62
  530 02e9 CA000000 		.4byte	0xca
  531 02ed 52       		.byte	0x52
  532 02ee 0A       		.uleb128 0xa
- 533 02ef D30C0000 		.4byte	.LASF62
+ 533 02ef 610C0000 		.4byte	.LASF62
  534 02f3 04       		.byte	0x4
  535 02f4 63       		.byte	0x63
  536 02f5 CA000000 		.4byte	0xca
  537 02f9 53       		.byte	0x53
  538 02fa 0A       		.uleb128 0xa
- 539 02fb 2F0B0000 		.4byte	.LASF63
+ 539 02fb 3A0B0000 		.4byte	.LASF63
  540 02ff 04       		.byte	0x4
  541 0300 64       		.byte	0x64
  542 0301 CA000000 		.4byte	0xca
@@ -743,7 +795,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  548 030d CA000000 		.4byte	0xca
  549 0311 55       		.byte	0x55
  550 0312 0A       		.uleb128 0xa
- 551 0313 2E0C0000 		.4byte	.LASF65
+ 551 0313 BC0B0000 		.4byte	.LASF65
  552 0317 04       		.byte	0x4
  553 0318 66       		.byte	0x66
  554 0319 CA000000 		.4byte	0xca
@@ -761,7 +813,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  566 0331 CA000000 		.4byte	0xca
  567 0335 58       		.byte	0x58
  568 0336 0A       		.uleb128 0xa
- 569 0337 F7090000 		.4byte	.LASF68
+ 569 0337 020A0000 		.4byte	.LASF68
  570 033b 04       		.byte	0x4
  571 033c 69       		.byte	0x69
  572 033d CA000000 		.4byte	0xca
@@ -773,12 +825,16 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  578 0349 E0000000 		.4byte	0xe0
  579 034d 5A       		.byte	0x5a
  580 034e 0A       		.uleb128 0xa
- 581 034f 240D0000 		.4byte	.LASF70
+ 581 034f 1C0D0000 		.4byte	.LASF70
  582 0353 04       		.byte	0x4
  583 0354 6F       		.byte	0x6f
  584 0355 E0000000 		.4byte	0xe0
  585 0359 5C       		.byte	0x5c
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 14
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 14
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  586 035a 0A       		.uleb128 0xa
@@ -788,19 +844,19 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  590 0361 CA000000 		.4byte	0xca
  591 0365 5E       		.byte	0x5e
  592 0366 0A       		.uleb128 0xa
- 593 0367 6B090000 		.4byte	.LASF72
+ 593 0367 76090000 		.4byte	.LASF72
  594 036b 04       		.byte	0x4
  595 036c 71       		.byte	0x71
  596 036d CA000000 		.4byte	0xca
  597 0371 5F       		.byte	0x5f
  598 0372 0A       		.uleb128 0xa
- 599 0373 EA070000 		.4byte	.LASF73
+ 599 0373 F5070000 		.4byte	.LASF73
  600 0377 04       		.byte	0x4
  601 0378 72       		.byte	0x72
  602 0379 CA000000 		.4byte	0xca
  603 037d 60       		.byte	0x60
  604 037e 0A       		.uleb128 0xa
- 605 037f 44090000 		.4byte	.LASF74
+ 605 037f 4F090000 		.4byte	.LASF74
  606 0383 04       		.byte	0x4
  607 0384 73       		.byte	0x73
  608 0385 F6000000 		.4byte	0xf6
@@ -824,7 +880,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  626 03a9 E0000000 		.4byte	0xe0
  627 03ad 6C       		.byte	0x6c
  628 03ae 0A       		.uleb128 0xa
- 629 03af 4C0B0000 		.4byte	.LASF78
+ 629 03af 570B0000 		.4byte	.LASF78
  630 03b3 04       		.byte	0x4
  631 03b4 79       		.byte	0x79
  632 03b5 E0000000 		.4byte	0xe0
@@ -838,20 +894,24 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  640 03c6 0A       		.uleb128 0xa
  641 03c7 69020000 		.4byte	.LASF80
  642 03cb 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 15
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 15
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  643 03cc 7C       		.byte	0x7c
  644 03cd CA000000 		.4byte	0xca
  645 03d1 71       		.byte	0x71
  646 03d2 0A       		.uleb128 0xa
- 647 03d3 C80E0000 		.4byte	.LASF81
+ 647 03d3 C00E0000 		.4byte	.LASF81
  648 03d7 04       		.byte	0x4
  649 03d8 7D       		.byte	0x7d
  650 03d9 CA000000 		.4byte	0xca
  651 03dd 72       		.byte	0x72
  652 03de 0A       		.uleb128 0xa
- 653 03df 74070000 		.4byte	.LASF82
+ 653 03df 7F070000 		.4byte	.LASF82
  654 03e3 04       		.byte	0x4
  655 03e4 7E       		.byte	0x7e
  656 03e5 CA000000 		.4byte	0xca
@@ -863,7 +923,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  662 03f1 E0000000 		.4byte	0xe0
  663 03f5 74       		.byte	0x74
  664 03f6 0A       		.uleb128 0xa
- 665 03f7 700C0000 		.4byte	.LASF84
+ 665 03f7 FE0B0000 		.4byte	.LASF84
  666 03fb 04       		.byte	0x4
  667 03fc 81       		.byte	0x81
  668 03fd E0000000 		.4byte	0xe0
@@ -875,7 +935,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  674 0409 E0000000 		.4byte	0xe0
  675 040d 78       		.byte	0x78
  676 040e 0A       		.uleb128 0xa
- 677 040f 4E0A0000 		.4byte	.LASF86
+ 677 040f 590A0000 		.4byte	.LASF86
  678 0413 04       		.byte	0x4
  679 0414 83       		.byte	0x83
  680 0415 E0000000 		.4byte	0xe0
@@ -898,7 +958,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  697 0438 88       		.byte	0x88
  698 0439 CA000000 		.4byte	0xca
  699 043d 7E       		.byte	0x7e
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 16
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 16
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  700 043e 0A       		.uleb128 0xa
@@ -926,7 +990,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  722 0469 F6000000 		.4byte	0xf6
  723 046d 88       		.byte	0x88
  724 046e 0A       		.uleb128 0xa
- 725 046f EA0D0000 		.4byte	.LASF94
+ 725 046f E20D0000 		.4byte	.LASF94
  726 0473 04       		.byte	0x4
  727 0474 8F       		.byte	0x8f
  728 0475 F6000000 		.4byte	0xf6
@@ -950,7 +1014,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  746 0499 F6000000 		.4byte	0xf6
  747 049d 98       		.byte	0x98
  748 049e 0A       		.uleb128 0xa
- 749 049f 880A0000 		.4byte	.LASF98
+ 749 049f 930A0000 		.4byte	.LASF98
  750 04a3 04       		.byte	0x4
  751 04a4 93       		.byte	0x93
  752 04a5 F6000000 		.4byte	0xf6
@@ -958,7 +1022,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  754 04aa 0A       		.uleb128 0xa
  755 04ab CB010000 		.4byte	.LASF99
  756 04af 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 17
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 17
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  757 04b0 94       		.byte	0x94
@@ -971,13 +1039,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  764 04bd E0000000 		.4byte	0xe0
  765 04c1 A4       		.byte	0xa4
  766 04c2 0A       		.uleb128 0xa
- 767 04c3 D60B0000 		.4byte	.LASF101
+ 767 04c3 640B0000 		.4byte	.LASF101
  768 04c7 04       		.byte	0x4
  769 04c8 96       		.byte	0x96
  770 04c9 E0000000 		.4byte	0xe0
  771 04cd A6       		.byte	0xa6
  772 04ce 0A       		.uleb128 0xa
- 773 04cf 5F090000 		.4byte	.LASF102
+ 773 04cf 6A090000 		.4byte	.LASF102
  774 04d3 04       		.byte	0x4
  775 04d4 97       		.byte	0x97
  776 04d5 E0000000 		.4byte	0xe0
@@ -1001,7 +1069,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  794 04f9 E0000000 		.4byte	0xe0
  795 04fd AE       		.byte	0xae
  796 04fe 0A       		.uleb128 0xa
- 797 04ff 370D0000 		.4byte	.LASF106
+ 797 04ff 2F0D0000 		.4byte	.LASF106
  798 0503 04       		.byte	0x4
  799 0504 9D       		.byte	0x9d
  800 0505 E0000000 		.4byte	0xe0
@@ -1018,13 +1086,17 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  811 051c 04       		.byte	0x4
  812 051d 9F       		.byte	0x9f
  813 051e 06010000 		.4byte	0x106
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 18
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 18
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  814 0522 02       		.uleb128 0x2
  815 0523 04       		.byte	0x4
  816 0524 04       		.byte	0x4
- 817 0525 3E090000 		.4byte	.LASF109
+ 817 0525 49090000 		.4byte	.LASF109
  818 0529 02       		.uleb128 0x2
  819 052a 08       		.byte	0x8
  820 052b 04       		.byte	0x4
@@ -1036,14 +1108,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  826 0537 C701     		.2byte	0x1c7
  827 0539 4D050000 		.4byte	0x54d
  828 053d 0C       		.uleb128 0xc
- 829 053e 36080000 		.4byte	.LASF111
+ 829 053e 41080000 		.4byte	.LASF111
  830 0542 00       		.byte	0
  831 0543 0D       		.uleb128 0xd
- 832 0544 580C0000 		.4byte	.LASF112
+ 832 0544 E60B0000 		.4byte	.LASF112
  833 0548 00000040 		.4byte	0x40000000
  834 054c 00       		.byte	0
  835 054d 0E       		.uleb128 0xe
- 836 054e E50C0000 		.4byte	.LASF113
+ 836 054e 730C0000 		.4byte	.LASF113
  837 0552 05       		.byte	0x5
  838 0553 CA01     		.2byte	0x1ca
  839 0555 30050000 		.4byte	0x530
@@ -1057,7 +1129,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  847 0567 C9000000 		.4byte	.LASF114
  848 056b 00       		.byte	0
  849 056c 0C       		.uleb128 0xc
- 850 056d FC0C0000 		.4byte	.LASF115
+ 850 056d 8A0C0000 		.4byte	.LASF115
  851 0571 01       		.byte	0x1
  852 0572 0C       		.uleb128 0xc
  853 0573 2C030000 		.4byte	.LASF116
@@ -1078,20 +1150,24 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  868 0592 F501     		.2byte	0x1f5
  869 0594 AB050000 		.4byte	0x5ab
  870 0598 0C       		.uleb128 0xc
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 19
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 19
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  871 0599 83010000 		.4byte	.LASF119
  872 059d 00       		.byte	0
  873 059e 0C       		.uleb128 0xc
- 874 059f 4E0E0000 		.4byte	.LASF120
+ 874 059f 460E0000 		.4byte	.LASF120
  875 05a3 08       		.byte	0x8
  876 05a4 0C       		.uleb128 0xc
- 877 05a5 1E0B0000 		.4byte	.LASF121
+ 877 05a5 290B0000 		.4byte	.LASF121
  878 05a9 10       		.byte	0x10
  879 05aa 00       		.byte	0
  880 05ab 0E       		.uleb128 0xe
- 881 05ac 8B070000 		.4byte	.LASF122
+ 881 05ac 96070000 		.4byte	.LASF122
  882 05b0 05       		.byte	0x5
  883 05b1 F901     		.2byte	0x1f9
  884 05b3 8B050000 		.4byte	0x58b
@@ -1102,14 +1178,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  889 05be 0F02     		.2byte	0x20f
  890 05c0 D2050000 		.4byte	0x5d2
  891 05c4 0C       		.uleb128 0xc
- 892 05c5 3A0A0000 		.4byte	.LASF123
+ 892 05c5 450A0000 		.4byte	.LASF123
  893 05c9 00       		.byte	0
  894 05ca 0F       		.uleb128 0xf
  895 05cb 01030000 		.4byte	.LASF124
  896 05cf 0008     		.2byte	0x800
  897 05d1 00       		.byte	0
  898 05d2 0E       		.uleb128 0xe
- 899 05d3 2A0F0000 		.4byte	.LASF125
+ 899 05d3 220F0000 		.4byte	.LASF125
  900 05d7 05       		.byte	0x5
  901 05d8 1202     		.2byte	0x212
  902 05da B7050000 		.4byte	0x5b7
@@ -1123,22 +1199,26 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  910 05ec 3E040000 		.4byte	.LASF126
  911 05f0 00       		.byte	0
  912 05f1 0F       		.uleb128 0xf
- 913 05f2 B60A0000 		.4byte	.LASF127
+ 913 05f2 C10A0000 		.4byte	.LASF127
  914 05f6 0001     		.2byte	0x100
  915 05f8 0F       		.uleb128 0xf
- 916 05f9 8D0C0000 		.4byte	.LASF128
+ 916 05f9 1B0C0000 		.4byte	.LASF128
  917 05fd 0002     		.2byte	0x200
  918 05ff 0F       		.uleb128 0xf
- 919 0600 EC0A0000 		.4byte	.LASF129
+ 919 0600 F70A0000 		.4byte	.LASF129
  920 0604 0003     		.2byte	0x300
  921 0606 00       		.byte	0
  922 0607 0E       		.uleb128 0xe
- 923 0608 5C080000 		.4byte	.LASF130
+ 923 0608 67080000 		.4byte	.LASF130
  924 060c 05       		.byte	0x5
  925 060d 1E02     		.2byte	0x21e
  926 060f DE050000 		.4byte	0x5de
  927 0613 0B       		.uleb128 0xb
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 20
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 20
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  928 0614 01       		.byte	0x1
@@ -1150,11 +1230,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  934 0621 00010000 		.4byte	.LASF131
  935 0625 00       		.byte	0
  936 0626 0C       		.uleb128 0xc
- 937 0627 0B0A0000 		.4byte	.LASF132
+ 937 0627 160A0000 		.4byte	.LASF132
  938 062b 80       		.byte	0x80
  939 062c 00       		.byte	0
  940 062d 0E       		.uleb128 0xe
- 941 062e FF0D0000 		.4byte	.LASF133
+ 941 062e F70D0000 		.4byte	.LASF133
  942 0632 05       		.byte	0x5
  943 0633 2502     		.2byte	0x225
  944 0635 13060000 		.4byte	0x613
@@ -1165,14 +1245,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  949 0640 2902     		.2byte	0x229
  950 0642 53060000 		.4byte	0x653
  951 0646 0C       		.uleb128 0xc
- 952 0647 9E0A0000 		.4byte	.LASF134
+ 952 0647 A90A0000 		.4byte	.LASF134
  953 064b 00       		.byte	0
  954 064c 0C       		.uleb128 0xc
  955 064d AE000000 		.4byte	.LASF135
  956 0651 40       		.byte	0x40
  957 0652 00       		.byte	0
  958 0653 0E       		.uleb128 0xe
- 959 0654 BA090000 		.4byte	.LASF136
+ 959 0654 C5090000 		.4byte	.LASF136
  960 0658 05       		.byte	0x5
  961 0659 2C02     		.2byte	0x22c
  962 065b 39060000 		.4byte	0x639
@@ -1183,10 +1263,10 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  967 0666 3002     		.2byte	0x230
  968 0668 79060000 		.4byte	0x679
  969 066c 0C       		.uleb128 0xc
- 970 066d 0F080000 		.4byte	.LASF137
+ 970 066d 1A080000 		.4byte	.LASF137
  971 0671 00       		.byte	0
  972 0672 0C       		.uleb128 0xc
- 973 0673 BD0C0000 		.4byte	.LASF138
+ 973 0673 4B0C0000 		.4byte	.LASF138
  974 0677 20       		.byte	0x20
  975 0678 00       		.byte	0
  976 0679 0E       		.uleb128 0xe
@@ -1197,8 +1277,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  981 0685 02       		.uleb128 0x2
  982 0686 01       		.byte	0x1
  983 0687 02       		.byte	0x2
+<<<<<<< HEAD
  984 0688 F60E0000 		.4byte	.LASF140
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 21
+=======
+ 984 0688 EE0E0000 		.4byte	.LASF140
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 21
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  985 068c 10       		.uleb128 0x10
@@ -1207,7 +1292,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  988 068f 0503     		.2byte	0x305
  989 0691 0B070000 		.4byte	0x70b
  990 0695 11       		.uleb128 0x11
- 991 0696 190C0000 		.4byte	.LASF141
+ 991 0696 A70B0000 		.4byte	.LASF141
  992 069a 05       		.byte	0x5
  993 069b 0603     		.2byte	0x306
  994 069d 4D050000 		.4byte	0x54d
@@ -1219,13 +1304,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1000 06aa 7F050000 		.4byte	0x57f
  1001 06ae 04       		.byte	0x4
  1002 06af 11       		.uleb128 0x11
- 1003 06b0 FC0E0000 		.4byte	.LASF143
+ 1003 06b0 F40E0000 		.4byte	.LASF143
  1004 06b4 05       		.byte	0x5
  1005 06b5 0A03     		.2byte	0x30a
  1006 06b7 AB050000 		.4byte	0x5ab
  1007 06bb 05       		.byte	0x5
  1008 06bc 11       		.uleb128 0x11
- 1009 06bd 510C0000 		.4byte	.LASF144
+ 1009 06bd DF0B0000 		.4byte	.LASF144
  1010 06c1 05       		.byte	0x5
  1011 06c2 0B03     		.2byte	0x30b
  1012 06c4 D2050000 		.4byte	0x5d2
@@ -1237,19 +1322,19 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1018 06d1 07060000 		.4byte	0x607
  1019 06d5 08       		.byte	0x8
  1020 06d6 11       		.uleb128 0x11
- 1021 06d7 740D0000 		.4byte	.LASF146
+ 1021 06d7 6C0D0000 		.4byte	.LASF146
  1022 06db 05       		.byte	0x5
  1023 06dc 0D03     		.2byte	0x30d
  1024 06de 2D060000 		.4byte	0x62d
  1025 06e2 0A       		.byte	0xa
  1026 06e3 11       		.uleb128 0x11
- 1027 06e4 3F0B0000 		.4byte	.LASF147
+ 1027 06e4 4A0B0000 		.4byte	.LASF147
  1028 06e8 05       		.byte	0x5
  1029 06e9 0E03     		.2byte	0x30e
  1030 06eb 53060000 		.4byte	0x653
  1031 06ef 0B       		.byte	0xb
  1032 06f0 11       		.uleb128 0x11
- 1033 06f1 33090000 		.4byte	.LASF148
+ 1033 06f1 3E090000 		.4byte	.LASF148
  1034 06f5 05       		.byte	0x5
  1035 06f6 0F03     		.2byte	0x30f
  1036 06f8 79060000 		.4byte	0x679
@@ -1258,14 +1343,18 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1039 06fe 1A000000 		.4byte	.LASF149
  1040 0702 05       		.byte	0x5
  1041 0703 1003     		.2byte	0x310
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 22
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 22
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1042 0705 85060000 		.4byte	0x685
  1043 0709 0D       		.byte	0xd
  1044 070a 00       		.byte	0
  1045 070b 0E       		.uleb128 0xe
- 1046 070c C4070000 		.4byte	.LASF150
+ 1046 070c CF070000 		.4byte	.LASF150
  1047 0710 05       		.byte	0x5
  1048 0711 1103     		.2byte	0x311
  1049 0713 8C060000 		.4byte	0x68c
@@ -1279,13 +1368,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1057 0725 14030000 		.4byte	.LASF151
  1058 0729 00       		.byte	0
  1059 072a 0C       		.uleb128 0xc
- 1060 072b A1090000 		.4byte	.LASF152
+ 1060 072b AC090000 		.4byte	.LASF152
  1061 072f 01       		.byte	0x1
  1062 0730 0C       		.uleb128 0xc
  1063 0731 B3030000 		.4byte	.LASF153
  1064 0735 02       		.byte	0x2
  1065 0736 0C       		.uleb128 0xc
- 1066 0737 260E0000 		.4byte	.LASF154
+ 1066 0737 1E0E0000 		.4byte	.LASF154
  1067 073b 03       		.byte	0x3
  1068 073c 00       		.byte	0
  1069 073d 0E       		.uleb128 0xe
@@ -1305,7 +1394,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1083 075a F6000000 		.4byte	0xf6
  1084 075e 00       		.byte	0
  1085 075f 11       		.uleb128 0x11
- 1086 0760 D70D0000 		.4byte	.LASF157
+ 1086 0760 CF0D0000 		.4byte	.LASF157
  1087 0764 06       		.byte	0x6
  1088 0765 0505     		.2byte	0x505
  1089 0767 F6000000 		.4byte	0xf6
@@ -1317,8 +1406,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1095 0774 F6000000 		.4byte	0xf6
  1096 0778 08       		.byte	0x8
  1097 0779 11       		.uleb128 0x11
+<<<<<<< HEAD
  1098 077a 67070000 		.4byte	.LASF159
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 23
+=======
+ 1098 077a 72070000 		.4byte	.LASF159
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 23
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1099 077e 06       		.byte	0x6
@@ -1326,19 +1420,19 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1101 0781 F6000000 		.4byte	0xf6
  1102 0785 0C       		.byte	0xc
  1103 0786 11       		.uleb128 0x11
- 1104 0787 450D0000 		.4byte	.LASF160
+ 1104 0787 3D0D0000 		.4byte	.LASF160
  1105 078b 06       		.byte	0x6
  1106 078c 0805     		.2byte	0x508
  1107 078e F6000000 		.4byte	0xf6
  1108 0792 10       		.byte	0x10
  1109 0793 11       		.uleb128 0x11
- 1110 0794 A80D0000 		.4byte	.LASF161
+ 1110 0794 A00D0000 		.4byte	.LASF161
  1111 0798 06       		.byte	0x6
  1112 0799 0905     		.2byte	0x509
  1113 079b 3D070000 		.4byte	0x73d
  1114 079f 14       		.byte	0x14
  1115 07a0 11       		.uleb128 0x11
- 1116 07a1 92090000 		.4byte	.LASF162
+ 1116 07a1 9D090000 		.4byte	.LASF162
  1117 07a5 06       		.byte	0x6
  1118 07a6 0A05     		.2byte	0x50a
  1119 07a8 F6000000 		.4byte	0xf6
@@ -1350,7 +1444,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1125 07b5 16080000 		.4byte	0x816
  1126 07b9 1C       		.byte	0x1c
  1127 07ba 11       		.uleb128 0x11
- 1128 07bb 7F0A0000 		.4byte	.LASF164
+ 1128 07bb 8A0A0000 		.4byte	.LASF164
  1129 07bf 06       		.byte	0x6
  1130 07c0 0C05     		.2byte	0x50c
  1131 07c2 F6000000 		.4byte	0xf6
@@ -1362,13 +1456,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1137 07cf F6000000 		.4byte	0xf6
  1138 07d3 60       		.byte	0x60
  1139 07d4 11       		.uleb128 0x11
- 1140 07d5 72080000 		.4byte	.LASF166
+ 1140 07d5 7D080000 		.4byte	.LASF166
  1141 07d9 06       		.byte	0x6
  1142 07da 0E05     		.2byte	0x50e
  1143 07dc F6000000 		.4byte	0xf6
  1144 07e0 64       		.byte	0x64
  1145 07e1 11       		.uleb128 0x11
- 1146 07e2 750A0000 		.4byte	.LASF167
+ 1146 07e2 800A0000 		.4byte	.LASF167
  1147 07e6 06       		.byte	0x6
  1148 07e7 0F05     		.2byte	0x50f
  1149 07e9 F6000000 		.4byte	0xf6
@@ -1378,18 +1472,22 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1153 07f3 06       		.byte	0x6
  1154 07f4 1005     		.2byte	0x510
  1155 07f6 F6000000 		.4byte	0xf6
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 24
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 24
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1156 07fa 6C       		.byte	0x6c
  1157 07fb 11       		.uleb128 0x11
- 1158 07fc B6070000 		.4byte	.LASF169
+ 1158 07fc C1070000 		.4byte	.LASF169
  1159 0800 06       		.byte	0x6
  1160 0801 1105     		.2byte	0x511
  1161 0803 85060000 		.4byte	0x685
  1162 0807 70       		.byte	0x70
  1163 0808 11       		.uleb128 0x11
- 1164 0809 EB0B0000 		.4byte	.LASF170
+ 1164 0809 790B0000 		.4byte	.LASF170
  1165 080d 06       		.byte	0x6
  1166 080e 1205     		.2byte	0x512
  1167 0810 F6000000 		.4byte	0xf6
@@ -1421,24 +1519,28 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1193 0849 D901     		.2byte	0x1d9
  1194 084b 32080000 		.4byte	0x832
  1195 084f 16       		.uleb128 0x16
- 1196 0850 DE0E0000 		.4byte	.LASF188
+ 1196 0850 D60E0000 		.4byte	.LASF188
  1197 0854 38       		.byte	0x38
  1198 0855 07       		.byte	0x7
  1199 0856 7502     		.2byte	0x275
  1200 0858 13090000 		.4byte	0x913
  1201 085c 11       		.uleb128 0x11
- 1202 085d 6F0E0000 		.4byte	.LASF173
+ 1202 085d 670E0000 		.4byte	.LASF173
  1203 0861 07       		.byte	0x7
  1204 0862 7802     		.2byte	0x278
  1205 0864 01010000 		.4byte	0x101
  1206 0868 00       		.byte	0
  1207 0869 11       		.uleb128 0x11
- 1208 086a 06080000 		.4byte	.LASF174
+ 1208 086a 11080000 		.4byte	.LASF174
  1209 086e 07       		.byte	0x7
  1210 086f 7902     		.2byte	0x279
  1211 0871 01010000 		.4byte	0x101
  1212 0875 04       		.byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 25
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 25
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1213 0876 11       		.uleb128 0x11
@@ -1454,19 +1556,19 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1223 088b F6000000 		.4byte	0xf6
  1224 088f 0C       		.byte	0xc
  1225 0890 11       		.uleb128 0x11
- 1226 0891 9C070000 		.4byte	.LASF177
+ 1226 0891 A7070000 		.4byte	.LASF177
  1227 0895 07       		.byte	0x7
  1228 0896 7D02     		.2byte	0x27d
  1229 0898 01010000 		.4byte	0x101
  1230 089c 10       		.byte	0x10
  1231 089d 11       		.uleb128 0x11
- 1232 089e 400E0000 		.4byte	.LASF178
+ 1232 089e 380E0000 		.4byte	.LASF178
  1233 08a2 07       		.byte	0x7
  1234 08a3 7E02     		.2byte	0x27e
  1235 08a5 01010000 		.4byte	0x101
  1236 08a9 14       		.byte	0x14
  1237 08aa 11       		.uleb128 0x11
- 1238 08ab 6E0D0000 		.4byte	.LASF179
+ 1238 08ab 660D0000 		.4byte	.LASF179
  1239 08af 07       		.byte	0x7
  1240 08b0 8002     		.2byte	0x280
  1241 08b2 A9000000 		.4byte	0xa9
@@ -1496,9 +1598,13 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1265 08e6 F6000000 		.4byte	0xf6
  1266 08ea 28       		.byte	0x28
  1267 08eb 11       		.uleb128 0x11
- 1268 08ec 81090000 		.4byte	.LASF184
+ 1268 08ec 8C090000 		.4byte	.LASF184
  1269 08f0 07       		.byte	0x7
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 26
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 26
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1270 08f1 8602     		.2byte	0x286
@@ -1511,14 +1617,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1277 0900 43080000 		.4byte	0x843
  1278 0904 30       		.byte	0x30
  1279 0905 11       		.uleb128 0x11
- 1280 0906 660D0000 		.4byte	.LASF186
+ 1280 0906 5E0D0000 		.4byte	.LASF186
  1281 090a 07       		.byte	0x7
  1282 090b 8E02     		.2byte	0x28e
  1283 090d F6000000 		.4byte	0xf6
  1284 0911 34       		.byte	0x34
  1285 0912 00       		.byte	0
  1286 0913 0E       		.uleb128 0xe
- 1287 0914 800D0000 		.4byte	.LASF187
+ 1287 0914 780D0000 		.4byte	.LASF187
  1288 0918 07       		.byte	0x7
  1289 0919 9102     		.2byte	0x291
  1290 091b 4F080000 		.4byte	0x84f
@@ -1553,28 +1659,32 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1319 0956 F6000000 		.4byte	0xf6
  1320 095a 0C       		.byte	0xc
  1321 095b 0A       		.uleb128 0xa
- 1322 095c 0D0B0000 		.4byte	.LASF194
+ 1322 095c 180B0000 		.4byte	.LASF194
  1323 0960 08       		.byte	0x8
  1324 0961 37       		.byte	0x37
  1325 0962 F6000000 		.4byte	0xf6
  1326 0966 10       		.byte	0x10
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 27
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 27
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1327 0967 0A       		.uleb128 0xa
- 1328 0968 F70B0000 		.4byte	.LASF195
+ 1328 0968 850B0000 		.4byte	.LASF195
  1329 096c 08       		.byte	0x8
  1330 096d 38       		.byte	0x38
  1331 096e F6000000 		.4byte	0xf6
  1332 0972 14       		.byte	0x14
  1333 0973 0A       		.uleb128 0xa
- 1334 0974 000C0000 		.4byte	.LASF196
+ 1334 0974 8E0B0000 		.4byte	.LASF196
  1335 0978 08       		.byte	0x8
  1336 0979 39       		.byte	0x39
  1337 097a F6000000 		.4byte	0xf6
  1338 097e 18       		.byte	0x18
  1339 097f 0A       		.uleb128 0xa
- 1340 0980 630A0000 		.4byte	.LASF197
+ 1340 0980 6E0A0000 		.4byte	.LASF197
  1341 0984 08       		.byte	0x8
  1342 0985 3A       		.byte	0x3a
  1343 0986 85060000 		.4byte	0x685
@@ -1598,27 +1708,31 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1361 09aa F6000000 		.4byte	0xf6
  1362 09ae 28       		.byte	0x28
  1363 09af 0A       		.uleb128 0xa
- 1364 09b0 160E0000 		.4byte	.LASF201
+ 1364 09b0 0E0E0000 		.4byte	.LASF201
  1365 09b4 08       		.byte	0x8
  1366 09b5 40       		.byte	0x40
  1367 09b6 F6000000 		.4byte	0xf6
  1368 09ba 2C       		.byte	0x2c
  1369 09bb 0A       		.uleb128 0xa
- 1370 09bc 0D0D0000 		.4byte	.LASF202
+ 1370 09bc 9B0C0000 		.4byte	.LASF202
  1371 09c0 08       		.byte	0x8
  1372 09c1 42       		.byte	0x42
  1373 09c2 F6000000 		.4byte	0xf6
  1374 09c6 30       		.byte	0x30
  1375 09c7 0A       		.uleb128 0xa
- 1376 09c8 D2090000 		.4byte	.LASF203
+ 1376 09c8 DD090000 		.4byte	.LASF203
  1377 09cc 08       		.byte	0x8
  1378 09cd 43       		.byte	0x43
  1379 09ce F6000000 		.4byte	0xf6
  1380 09d2 34       		.byte	0x34
  1381 09d3 0A       		.uleb128 0xa
- 1382 09d4 3B0F0000 		.4byte	.LASF204
+ 1382 09d4 330F0000 		.4byte	.LASF204
  1383 09d8 08       		.byte	0x8
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 28
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 28
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1384 09d9 45       		.byte	0x45
@@ -1631,7 +1745,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1391 09e6 F6000000 		.4byte	0xf6
  1392 09ea 3C       		.byte	0x3c
  1393 09eb 0A       		.uleb128 0xa
- 1394 09ec 2D0D0000 		.4byte	.LASF206
+ 1394 09ec 250D0000 		.4byte	.LASF206
  1395 09f0 08       		.byte	0x8
  1396 09f1 48       		.byte	0x48
  1397 09f2 F6000000 		.4byte	0xf6
@@ -1643,7 +1757,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1403 09fe F6000000 		.4byte	0xf6
  1404 0a02 44       		.byte	0x44
  1405 0a03 0A       		.uleb128 0xa
- 1406 0a04 0E0C0000 		.4byte	.LASF208
+ 1406 0a04 9C0B0000 		.4byte	.LASF208
  1407 0a08 08       		.byte	0x8
  1408 0a09 4B       		.byte	0x4b
  1409 0a0a F6000000 		.4byte	0xf6
@@ -1660,7 +1774,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1420 0a1e 3B       		.byte	0x3b
  1421 0a1f 600A0000 		.4byte	0xa60
  1422 0a23 0A       		.uleb128 0xa
- 1423 0a24 630E0000 		.4byte	.LASF210
+ 1423 0a24 5B0E0000 		.4byte	.LASF210
  1424 0a28 09       		.byte	0x9
  1425 0a29 3D       		.byte	0x3d
  1426 0a2a F6000000 		.4byte	0xf6
@@ -1678,10 +1792,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1438 0a42 600A0000 		.4byte	0xa60
  1439 0a46 08       		.byte	0x8
  1440 0a47 0A       		.uleb128 0xa
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 29
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 29
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
- 1441 0a48 190D0000 		.4byte	.LASF213
+ 1441 0a48 4A070000 		.4byte	.LASF213
  1442 0a4c 09       		.byte	0x9
  1443 0a4d 40       		.byte	0x40
  1444 0a4e F6000000 		.4byte	0xf6
@@ -1738,7 +1856,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1495 0ac2 94000000 		.4byte	0x94
  1496 0ac6 C8000000 		.4byte	.LLST3
  1497 0aca 1B       		.uleb128 0x1b
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 30
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 30
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1498 0acb 10000000 		.4byte	.LVL4
@@ -1783,14 +1905,14 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1537 0b2d E20B0000 		.4byte	0xbe2
  1538 0b31 00       		.byte	0
  1539 0b32 1C       		.uleb128 0x1c
- 1540 0b33 2D0A0000 		.4byte	.LASF219
+ 1540 0b33 380A0000 		.4byte	.LASF219
  1541 0b37 0A       		.byte	0xa
  1542 0b38 F907     		.2byte	0x7f9
  1543 0b3a 3E0B0000 		.4byte	0xb3e
  1544 0b3e 08       		.uleb128 0x8
  1545 0b3f EB000000 		.4byte	0xeb
  1546 0b43 1D       		.uleb128 0x1d
- 1547 0b44 55090000 		.4byte	.LASF220
+ 1547 0b44 60090000 		.4byte	.LASF220
  1548 0b48 04       		.byte	0x4
  1549 0b49 A7       		.byte	0xa7
  1550 0b4a 4E0B0000 		.4byte	0xb4e
@@ -1798,7 +1920,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1552 0b4f 04       		.byte	0x4
  1553 0b50 540B0000 		.4byte	0xb54
  1554 0b54 07       		.uleb128 0x7
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 31
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 31
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1555 0b55 17050000 		.4byte	0x517
@@ -1822,7 +1948,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1573 0b80 07       		.uleb128 0x7
  1574 0b81 6B0A0000 		.4byte	0xa6b
  1575 0b85 1C       		.uleb128 0x1c
- 1576 0b86 420C0000 		.4byte	.LASF223
+ 1576 0b86 D00B0000 		.4byte	.LASF223
  1577 0b8a 09       		.byte	0x9
  1578 0b8b 6401     		.2byte	0x164
  1579 0b8d 910B0000 		.4byte	0xb91
@@ -1858,7 +1984,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1609 0bd2 33       		.byte	0x33
  1610 0bd3 BC0B0000 		.4byte	0xbbc
  1611 0bd7 1E       		.uleb128 0x1e
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 32
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 32
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1612 0bd8 0D040000 		.4byte	.LASF229
@@ -1918,7 +2048,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1666 002a 00       		.byte	0
  1667 002b 04       		.uleb128 0x4
  1668 002c 24       		.uleb128 0x24
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 33
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 33
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1669 002d 00       		.byte	0
@@ -1978,7 +2112,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1723 0063 00       		.byte	0
  1724 0064 03       		.uleb128 0x3
  1725 0065 0E       		.uleb128 0xe
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 34
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 34
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1726 0066 3A       		.uleb128 0x3a
@@ -2038,7 +2176,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1780 009c 00       		.byte	0
  1781 009d 00       		.byte	0
  1782 009e 0F       		.uleb128 0xf
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 35
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 35
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1783 009f 28       		.uleb128 0x28
@@ -2098,7 +2240,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1837 00d5 14       		.uleb128 0x14
  1838 00d6 15       		.uleb128 0x15
  1839 00d7 01       		.byte	0x1
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 36
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 36
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1840 00d8 27       		.uleb128 0x27
@@ -2158,7 +2304,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1894 010e 27       		.uleb128 0x27
  1895 010f 19       		.uleb128 0x19
  1896 0110 49       		.uleb128 0x49
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 37
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 37
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1897 0111 13       		.uleb128 0x13
@@ -2218,7 +2368,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  1951 014a 00       		.byte	0
  1952 014b 03       		.uleb128 0x3
  1953 014c 0E       		.uleb128 0xe
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 38
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 38
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  1954 014d 3A       		.uleb128 0x3a
@@ -2278,7 +2432,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2008 000b 08000000 		.4byte	.LVL2
  2009 000f 14000000 		.4byte	.LVL6
  2010 0013 0400     		.2byte	0x4
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 39
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 39
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2011 0015 F3       		.byte	0xf3
@@ -2338,7 +2496,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2065 009b 56       		.byte	0x56
  2066 009c 14000000 		.4byte	.LVL6
  2067 00a0 1A000000 		.4byte	.LVL7
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 40
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 40
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2068 00a4 0100     		.2byte	0x1
@@ -2398,7 +2560,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2122 012a 0400     		.2byte	0x4
  2123 012c F3       		.byte	0xf3
  2124 012d 01       		.uleb128 0x1
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 41
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 41
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2125 012e 50       		.byte	0x50
@@ -2458,7 +2624,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2179 01b9 9F       		.byte	0x9f
  2180 01ba 08000000 		.4byte	.LVL11
  2181 01be 1E000000 		.4byte	.LVL15
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 42
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 42
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2182 01c2 0100     		.2byte	0x1
@@ -2518,7 +2688,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2225      7472456E 
  2225      00
  2226              	.LASF142:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 43
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 43
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2227 0027 6F61506F 		.ascii	"oaPower\000"
@@ -2578,7 +2752,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2249      54425F50 
  2249      4F574552 
  2249      5F4F4646 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 44
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 44
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2249      00
@@ -2638,7 +2816,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2271      4F44455F 
  2271      4F50414D 
  2271      50315800 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 45
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 45
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2272              	.LASF191:
@@ -2698,7 +2880,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2295      6F6E6669 
  2295      675F7400 
  2296              	.LASF11:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 46
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 46
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2297 023d 6C6F6E67 		.ascii	"long long int\000"
@@ -2758,7 +2944,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2317 0301 43595F43 		.ascii	"CY_CTB_PUMP_ENABLE\000"
  2317      54425F50 
  2317      554D505F 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 47
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 47
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2317      454E4142 
@@ -2818,7 +3008,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2338              	.LASF153:
  2339 03b3 43595F53 		.ascii	"CY_SAR_RANGE_COND_ABOVE\000"
  2339      41525F52 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 48
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 48
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2339      414E4745 
@@ -2878,7 +3072,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2359      73657400 
  2360              	.LASF180:
  2361 046b 72784275 		.ascii	"rxBufSize\000"
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 49
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 49
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2361      6653697A 
@@ -2938,7 +3136,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2385      72636573 
  2385      00
  2386              	.LASF91:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 50
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 50
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2387 050c 6770696F 		.ascii	"gpioPrtCfgSioOffset\000"
@@ -2998,7 +3200,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2405      74657874 
  2405      00
  2406              	.LASF41:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 51
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 51
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2407 05c6 63707573 		.ascii	"cpussIpcNr\000"
@@ -3058,7 +3264,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2428              	.LASF211:
  2429 066a 6E756D43 		.ascii	"numChannels\000"
  2429      68616E6E 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 52
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 52
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2429      656C7300 
@@ -3118,7 +3328,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2453      6370776D 
  2453      5F636F75 
  2453      6E746572 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 53
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 53
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2454              	.LASF227:
@@ -3135,21 +3349,21 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2459 073f 64774368 		.ascii	"dwChOffset\000"
  2459      4F666673 
  2459      657400
- 2460              	.LASF14:
- 2461 074a 6C6F6E67 		.ascii	"long double\000"
- 2461      20646F75 
- 2461      626C6500 
- 2462              	.LASF44:
- 2463 0756 63707573 		.ascii	"cpussFlashPaSize\000"
- 2463      73466C61 
- 2463      73685061 
- 2463      53697A65 
- 2463      00
- 2464              	.LASF159:
- 2465 0767 73616D70 		.ascii	"sampleTime23\000"
- 2465      6C655469 
- 2465      6D653233 
+ 2460              	.LASF213:
+ 2461 074a 6D697363 		.ascii	"miscConfig\000"
+ 2461      436F6E66 
+ 2461      696700
+ 2462              	.LASF14:
+ 2463 0755 6C6F6E67 		.ascii	"long double\000"
+ 2463      20646F75 
+ 2463      626C6500 
+ 2464              	.LASF44:
+ 2465 0761 63707573 		.ascii	"cpussFlashPaSize\000"
+ 2465      73466C61 
+ 2465      73685061 
+ 2465      53697A65 
  2465      00
+<<<<<<< HEAD
  2466              	.LASF82:
  2467 0774 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
  2467      44697643 
@@ -3359,36 +3573,247 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2541              	.LASF197:
  2542 0a63 656E6162 		.ascii	"enableCompareSwap\000"
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 57
+=======
+ 2466              	.LASF159:
+ 2467 0772 73616D70 		.ascii	"sampleTime23\000"
+ 2467      6C655469 
+ 2467      6D653233 
+ 2467      00
+ 2468              	.LASF82:
+ 2469 077f 70657269 		.ascii	"periDivCmdPaTypeSelPos\000"
+ 2469      44697643 
+ 2469      6D645061 
+ 2469      54797065 
+ 2469      53656C50 
+ 2470              	.LASF122:
+ 2471 0796 63795F65 		.ascii	"cy_en_ctb_mode_t\000"
+ 2471      6E5F6374 
+ 2471      625F6D6F 
+ 2471      64655F74 
+ 2471      00
+ 2472              	.LASF177:
+ 2473 07a7 72785269 		.ascii	"rxRingBufHead\000"
+ 2473      6E674275 
+ 2473      66486561 
+ 2473      6400
+ 2474              	.LASF54:
+ 2475 07b5 65704D6F 		.ascii	"epMonitorNr\000"
+ 2475      6E69746F 
+ 2475      724E7200 
+ 2476              	.LASF169:
+ 2477 07c1 636F6E66 		.ascii	"configRouting\000"
+ 2477      6967526F 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 54
 
 
- 2542      6C65436F 
- 2542      6D706172 
- 2542      65537761 
- 2542      7000
- 2543              	.LASF167:
- 2544 0a75 6D757853 		.ascii	"muxSwitch\000"
- 2544      77697463 
- 2544      6800
- 2545              	.LASF164:
- 2546 0a7f 696E7472 		.ascii	"intrMask\000"
- 2546      4D61736B 
- 2546      00
- 2547              	.LASF98:
- 2548 0a88 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
- 2548      73547269 
- 2548      6D526F6D 
- 2548      43746C4F 
- 2548      66667365 
- 2549              	.LASF134:
- 2550 0a9e 43595F43 		.ascii	"CY_CTB_COMP_BYPASS_SYNC\000"
- 2550      54425F43 
- 2550      4F4D505F 
- 2550      42595041 
- 2550      53535F53 
- 2551              	.LASF127:
- 2552 0ab6 43595F43 		.ascii	"CY_CTB_COMP_EDGE_RISING\000"
+ 2477      7574696E 
+ 2477      6700
+ 2478              	.LASF150:
+ 2479 07cf 63795F73 		.ascii	"cy_stc_ctb_opamp_config_t\000"
+ 2479      74635F63 
+ 2479      74625F6F 
+ 2479      70616D70 
+ 2479      5F636F6E 
+ 2480              	.LASF40:
+ 2481 07e9 70726F74 		.ascii	"protVersion\000"
+ 2481      56657273 
+ 2481      696F6E00 
+ 2482              	.LASF73:
+ 2483 07f5 64775374 		.ascii	"dwStatusChIdxPos\000"
+ 2483      61747573 
+ 2483      43684964 
+ 2483      78506F73 
+ 2483      00
+ 2484              	.LASF55:
+ 2485 0806 75646250 		.ascii	"udbPresent\000"
+ 2485      72657365 
+ 2485      6E7400
+ 2486              	.LASF174:
+ 2487 0811 72785374 		.ascii	"rxStatus\000"
+ 2487      61747573 
+ 2487      00
+ 2488              	.LASF137:
+ 2489 081a 43595F43 		.ascii	"CY_CTB_COMP_HYST_DISABLE\000"
+ 2489      54425F43 
+ 2489      4F4D505F 
+ 2489      48595354 
+ 2489      5F444953 
+ 2490              	.LASF35:
+ 2491 0833 666C6173 		.ascii	"flashcVersion\000"
+ 2491      68635665 
+ 2491      7273696F 
+ 2491      6E00
+ 2492              	.LASF111:
+ 2493 0841 43595F43 		.ascii	"CY_CTB_DEEPSLEEP_DISABLE\000"
+ 2493      54425F44 
+ 2493      45455053 
+ 2493      4C454550 
+ 2493      5F444953 
+ 2494              	.LASF52:
+ 2495 085a 736D6966 		.ascii	"smifDeviceNr\000"
+ 2495      44657669 
+ 2495      63654E72 
+ 2495      00
+ 2496              	.LASF130:
+ 2497 0867 63795F65 		.ascii	"cy_en_ctb_comp_edge_t\000"
+ 2497      6E5F6374 
+ 2497      625F636F 
+ 2497      6D705F65 
+ 2497      6467655F 
+ 2498              	.LASF166:
+ 2499 087d 72616E67 		.ascii	"rangeIntrMask\000"
+ 2499      65496E74 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 55
+
+
+ 2499      724D6173 
+ 2499      6B00
+ 2500              	.LASF231:
+ 2501 088b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2501      43313120 
+ 2501      352E342E 
+ 2501      31203230 
+ 2501      31363036 
+ 2502 08be 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 2502      20726576 
+ 2502      6973696F 
+ 2502      6E203233 
+ 2502      37373135 
+ 2503 08f1 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 2503      70202D6D 
+ 2503      6670753D 
+ 2503      66707634 
+ 2503      2D73702D 
+ 2504 0924 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 2504      6F6E7320 
+ 2504      2D666661 
+ 2504      742D6C74 
+ 2504      6F2D6F62 
+ 2505              	.LASF148:
+ 2506 093e 6F61436F 		.ascii	"oaCompHyst\000"
+ 2506      6D704879 
+ 2506      737400
+ 2507              	.LASF109:
+ 2508 0949 666C6F61 		.ascii	"float\000"
+ 2508      7400
+ 2509              	.LASF74:
+ 2510 094f 64775374 		.ascii	"dwStatusChIdxMsk\000"
+ 2510      61747573 
+ 2510      43684964 
+ 2510      784D736B 
+ 2510      00
+ 2511              	.LASF220:
+ 2512 0960 63795F64 		.ascii	"cy_device\000"
+ 2512      65766963 
+ 2512      6500
+ 2513              	.LASF102:
+ 2514 096a 63707573 		.ascii	"cpussRomCtl\000"
+ 2514      73526F6D 
+ 2514      43746C00 
+ 2515              	.LASF72:
+ 2516 0976 64774368 		.ascii	"dwChCtlPreemptablePos\000"
+ 2516      43746C50 
+ 2516      7265656D 
+ 2516      70746162 
+ 2516      6C65506F 
+ 2517              	.LASF184:
+ 2518 098c 74784C65 		.ascii	"txLeftToTransmit\000"
+ 2518      6674546F 
+ 2518      5472616E 
+ 2518      736D6974 
+ 2518      00
+ 2519              	.LASF162:
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 56
+
+
+ 2520 099d 6368616E 		.ascii	"chanEn\000"
+ 2520      456E00
+ 2521              	.LASF25:
+ 2522 09a4 75646242 		.ascii	"udbBase\000"
+ 2522      61736500 
+ 2523              	.LASF152:
+ 2524 09ac 43595F53 		.ascii	"CY_SAR_RANGE_COND_INSIDE\000"
+ 2524      41525F52 
+ 2524      414E4745 
+ 2524      5F434F4E 
+ 2524      445F494E 
+ 2525              	.LASF136:
+ 2526 09c5 63795F65 		.ascii	"cy_en_ctb_comp_bypass_t\000"
+ 2526      6E5F6374 
+ 2526      625F636F 
+ 2526      6D705F62 
+ 2526      79706173 
+ 2527              	.LASF203:
+ 2528 09dd 73746172 		.ascii	"startInputMode\000"
+ 2528      74496E70 
+ 2528      75744D6F 
+ 2528      646500
+ 2529              	.LASF20:
+ 2530 09ec 696E7433 		.ascii	"int32_t\000"
+ 2530      325F7400 
+ 2531              	.LASF1:
+ 2532 09f4 756E7369 		.ascii	"unsigned char\000"
+ 2532      676E6564 
+ 2532      20636861 
+ 2532      7200
+ 2533              	.LASF68:
+ 2534 0a02 666C6173 		.ascii	"flashCtlMainWs4Freq\000"
+ 2534      6843746C 
+ 2534      4D61696E 
+ 2534      57733446 
+ 2534      72657100 
+ 2535              	.LASF132:
+ 2536 0a16 43595F43 		.ascii	"CY_CTB_COMP_DSI_TRIGGER_OUT_LEVEL\000"
+ 2536      54425F43 
+ 2536      4F4D505F 
+ 2536      4453495F 
+ 2536      54524947 
+ 2537              	.LASF219:
+ 2538 0a38 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 2538      52784275 
+ 2538      66666572 
+ 2538      00
+ 2539              	.LASF123:
+ 2540 0a45 43595F43 		.ascii	"CY_CTB_PUMP_DISABLE\000"
+ 2540      54425F50 
+ 2540      554D505F 
+ 2540      44495341 
+ 2540      424C4500 
+ 2541              	.LASF86:
+ 2542 0a59 70657269 		.ascii	"periDiv24_5CtlOffset\000"
+ 2542      44697632 
+ 2542      345F3543 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 57
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
+
+
+ 2542      746C4F66 
+ 2542      66736574 
+ 2543              	.LASF197:
+ 2544 0a6e 656E6162 		.ascii	"enableCompareSwap\000"
+ 2544      6C65436F 
+ 2544      6D706172 
+ 2544      65537761 
+ 2544      7000
+ 2545              	.LASF167:
+ 2546 0a80 6D757853 		.ascii	"muxSwitch\000"
+ 2546      77697463 
+ 2546      6800
+ 2547              	.LASF164:
+ 2548 0a8a 696E7472 		.ascii	"intrMask\000"
+ 2548      4D61736B 
+ 2548      00
+ 2549              	.LASF98:
+ 2550 0a93 63707573 		.ascii	"cpussTrimRomCtlOffset\000"
+ 2550      73547269 
+ 2550      6D526F6D 
+ 2550      43746C4F 
+ 2550      66667365 
+ 2551              	.LASF134:
+ 2552 0aa9 43595F43 		.ascii	"CY_CTB_COMP_BYPASS_SYNC\000"
  2552      54425F43 
  2552      4F4D505F 
+<<<<<<< HEAD
  2552      45444745 
  2552      5F524953 
  2553              	.LASF38:
@@ -3419,62 +3844,88 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2562      00
  2563              	.LASF121:
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 58
+=======
+ 2552      42595041 
+ 2552      53535F53 
+ 2553              	.LASF127:
+ 2554 0ac1 43595F43 		.ascii	"CY_CTB_COMP_EDGE_RISING\000"
+ 2554      54425F43 
+ 2554      4F4D505F 
+ 2554      45444745 
+ 2554      5F524953 
+ 2555              	.LASF38:
+ 2556 0ad9 69706356 		.ascii	"ipcVersion\000"
+ 2556      65727369 
+ 2556      6F6E00
+ 2557              	.LASF6:
+ 2558 0ae4 73686F72 		.ascii	"short unsigned int\000"
+ 2558      7420756E 
+ 2558      7369676E 
+ 2558      65642069 
+ 2558      6E7400
+ 2559              	.LASF129:
+ 2560 0af7 43595F43 		.ascii	"CY_CTB_COMP_EDGE_BOTH\000"
+ 2560      54425F43 
+ 2560      4F4D505F 
+ 2560      45444745 
+ 2560      5F424F54 
+ 2561              	.LASF23:
+ 2562 0b0d 666C6173 		.ascii	"flashcBase\000"
+ 2562      68634261 
+ 2562      736500
+ 2563              	.LASF194:
+ 2564 0b18 636F6D70 		.ascii	"compareOrCapture\000"
+ 2564      6172654F 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 58
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
- 2564 0b1e 43595F43 		.ascii	"CY_CTB_MODE_COMP\000"
- 2564      54425F4D 
- 2564      4F44455F 
- 2564      434F4D50 
+ 2564      72436170 
+ 2564      74757265 
  2564      00
- 2565              	.LASF63:
- 2566 0b2f 666C6173 		.ascii	"flashEraseDelay\000"
- 2566      68457261 
- 2566      73654465 
- 2566      6C617900 
- 2567              	.LASF147:
- 2568 0b3f 6F61436F 		.ascii	"oaCompBypass\000"
- 2568      6D704279 
- 2568      70617373 
- 2568      00
- 2569              	.LASF78:
- 2570 0b4c 70657269 		.ascii	"periTrGrSize\000"
- 2570      54724772 
- 2570      53697A65 
+ 2565              	.LASF121:
+ 2566 0b29 43595F43 		.ascii	"CY_CTB_MODE_COMP\000"
+ 2566      54425F4D 
+ 2566      4F44455F 
+ 2566      434F4D50 
+ 2566      00
+ 2567              	.LASF63:
+ 2568 0b3a 666C6173 		.ascii	"flashEraseDelay\000"
+ 2568      68457261 
+ 2568      73654465 
+ 2568      6C617900 
+ 2569              	.LASF147:
+ 2570 0b4a 6F61436F 		.ascii	"oaCompBypass\000"
+ 2570      6D704279 
+ 2570      70617373 
  2570      00
- 2571              	.LASF233:
- 2572 0b59 453A5C4F 		.ascii	"E:\\OneDrive - Universite Libre de Bruxelles\\Docum"
- 2572      6E654472 
- 2572      69766520 
- 2572      2D20556E 
- 2572      69766572 
- 2573 0b8a 656E7473 		.ascii	"ents\\PSoC Creator\\GitPSOC\\PSOCprojectRainDisdrom"
- 2573      5C50536F 
- 2573      43204372 
- 2573      6561746F 
- 2573      725C4769 
- 2574 0bba 65746572 		.ascii	"eter\\Bluetooth\\BLEled.cydsn\000"
- 2574      5C426C75 
- 2574      65746F6F 
- 2574      74685C42 
- 2574      4C456C65 
- 2575              	.LASF101:
- 2576 0bd6 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
- 2576      73436D34 
- 2576      4E6D6943 
- 2576      746C4F66 
- 2576      66736574 
- 2577              	.LASF170:
- 2578 0beb 76726566 		.ascii	"vrefMvValue\000"
- 2578      4D765661 
- 2578      6C756500 
- 2579              	.LASF195:
- 2580 0bf7 636F6D70 		.ascii	"compare0\000"
- 2580      61726530 
+ 2571              	.LASF78:
+ 2572 0b57 70657269 		.ascii	"periTrGrSize\000"
+ 2572      54724772 
+ 2572      53697A65 
+ 2572      00
+ 2573              	.LASF101:
+ 2574 0b64 63707573 		.ascii	"cpussCm4NmiCtlOffset\000"
+ 2574      73436D34 
+ 2574      4E6D6943 
+ 2574      746C4F66 
+ 2574      66736574 
+ 2575              	.LASF170:
+ 2576 0b79 76726566 		.ascii	"vrefMvValue\000"
+ 2576      4D765661 
+ 2576      6C756500 
+ 2577              	.LASF195:
+ 2578 0b85 636F6D70 		.ascii	"compare0\000"
+ 2578      61726530 
+ 2578      00
+ 2579              	.LASF196:
+ 2580 0b8e 636F6D70 		.ascii	"compare1\000"
+ 2580      61726531 
  2580      00
- 2581              	.LASF196:
- 2582 0c00 636F6D70 		.ascii	"compare1\000"
- 2582      61726531 
+ 2581              	.LASF16:
+ 2582 0b97 63686172 		.ascii	"char\000"
  2582      00
+<<<<<<< HEAD
  2583              	.LASF16:
  2584 0c09 63686172 		.ascii	"char\000"
  2584      00
@@ -3539,218 +3990,305 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 1
  2608      73696F6E 
  2608      00
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 60
+=======
+ 2583              	.LASF208:
+ 2584 0b9c 636F756E 		.ascii	"countInput\000"
+ 2584      74496E70 
+ 2584      757400
+ 2585              	.LASF141:
+ 2586 0ba7 64656570 		.ascii	"deepSleep\000"
+ 2586      536C6565 
+ 2586      7000
+ 2587              	.LASF5:
+ 2588 0bb1 5F5F7569 		.ascii	"__uint16_t\000"
+ 2588      6E743136 
+ 2588      5F7400
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 59
 
 
- 2609              	.LASF138:
- 2610 0cbd 43595F43 		.ascii	"CY_CTB_COMP_HYST_10MV\000"
- 2610      54425F43 
- 2610      4F4D505F 
- 2610      48595354 
- 2610      5F31304D 
- 2611              	.LASF62:
- 2612 0cd3 666C6173 		.ascii	"flashProgramDelay\000"
- 2612      6850726F 
- 2612      6772616D 
- 2612      44656C61 
- 2612      7900
- 2613              	.LASF113:
- 2614 0ce5 63795F65 		.ascii	"cy_en_ctb_deep_sleep_t\000"
- 2614      6E5F6374 
- 2614      625F6465 
- 2614      65705F73 
- 2614      6C656570 
- 2615              	.LASF115:
- 2616 0cfc 43595F43 		.ascii	"CY_CTB_POWER_LOW\000"
- 2616      54425F50 
- 2616      4F574552 
- 2616      5F4C4F57 
- 2616      00
- 2617              	.LASF202:
- 2618 0d0d 72656C6F 		.ascii	"reloadInput\000"
- 2618      6164496E 
- 2618      70757400 
- 2619              	.LASF213:
- 2620 0d19 6D697363 		.ascii	"miscConfig\000"
- 2620      436F6E66 
- 2620      696700
+ 2589              	.LASF65:
+ 2590 0bbc 666C6173 		.ascii	"flashCtlMainWs1Freq\000"
+ 2590      6843746C 
+ 2590      4D61696E 
+ 2590      57733146 
+ 2590      72657100 
+ 2591              	.LASF223:
+ 2592 0bd0 4144435F 		.ascii	"ADC_allConfigs\000"
+ 2592      616C6C43 
+ 2592      6F6E6669 
+ 2592      677300
+ 2593              	.LASF144:
+ 2594 0bdf 6F615075 		.ascii	"oaPump\000"
+ 2594      6D7000
+ 2595              	.LASF112:
+ 2596 0be6 43595F43 		.ascii	"CY_CTB_DEEPSLEEP_ENABLE\000"
+ 2596      54425F44 
+ 2596      45455053 
+ 2596      4C454550 
+ 2596      5F454E41 
+ 2597              	.LASF84:
+ 2598 0bfe 70657269 		.ascii	"periDiv16CtlOffset\000"
+ 2598      44697631 
+ 2598      3643746C 
+ 2598      4F666673 
+ 2598      657400
+ 2599              	.LASF7:
+ 2600 0c11 5F5F696E 		.ascii	"__int32_t\000"
+ 2600      7433325F 
+ 2600      7400
+ 2601              	.LASF128:
+ 2602 0c1b 43595F43 		.ascii	"CY_CTB_COMP_EDGE_FALLING\000"
+ 2602      54425F43 
+ 2602      4F4D505F 
+ 2602      45444745 
+ 2602      5F46414C 
+ 2603              	.LASF34:
+ 2604 0c34 64775665 		.ascii	"dwVersion\000"
+ 2604      7273696F 
+ 2604      6E00
+ 2605              	.LASF37:
+ 2606 0c3e 6873696F 		.ascii	"hsiomVersion\000"
+ 2606      6D566572 
+ 2606      73696F6E 
+ 2606      00
+ 2607              	.LASF138:
+ 2608 0c4b 43595F43 		.ascii	"CY_CTB_COMP_HYST_10MV\000"
+ 2608      54425F43 
+ 2608      4F4D505F 
+ 2608      48595354 
+ 2608      5F31304D 
+ 2609              	.LASF62:
+ 2610 0c61 666C6173 		.ascii	"flashProgramDelay\000"
+ 2610      6850726F 
+ 2610      6772616D 
+ 2610      44656C61 
+ 2610      7900
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 60
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
+
+
+ 2611              	.LASF113:
+ 2612 0c73 63795F65 		.ascii	"cy_en_ctb_deep_sleep_t\000"
+ 2612      6E5F6374 
+ 2612      625F6465 
+ 2612      65705F73 
+ 2612      6C656570 
+ 2613              	.LASF115:
+ 2614 0c8a 43595F43 		.ascii	"CY_CTB_POWER_LOW\000"
+ 2614      54425F50 
+ 2614      4F574552 
+ 2614      5F4C4F57 
+ 2614      00
+ 2615              	.LASF202:
+ 2616 0c9b 72656C6F 		.ascii	"reloadInput\000"
+ 2616      6164496E 
+ 2616      70757400 
+ 2617              	.LASF233:
+ 2618 0ca7 433A5C55 		.ascii	"C:\\Users\\atril\\Documents\\ULB-Studies\\MA2\\PSOC"
+ 2618      73657273 
+ 2618      5C617472 
+ 2618      696C5C44 
+ 2618      6F63756D 
+ 2619 0cd4 5C426C75 		.ascii	"\\Bluetooth-3\\repoPSOC\\PSOCprojectRainDisdrometer"
+ 2619      65746F6F 
+ 2619      74682D33 
+ 2619      5C726570 
+ 2619      6F50534F 
+ 2620 0d04 5C426C75 		.ascii	"\\Bluetooth\\BLEled.cydsn\000"
+ 2620      65746F6F 
+ 2620      74685C42 
+ 2620      4C456C65 
+ 2620      642E6379 
  2621              	.LASF70:
- 2622 0d24 64774368 		.ascii	"dwChSize\000"
+ 2622 0d1c 64774368 		.ascii	"dwChSize\000"
  2622      53697A65 
  2622      00
  2623              	.LASF206:
- 2624 0d2d 73746F70 		.ascii	"stopInput\000"
+ 2624 0d25 73746F70 		.ascii	"stopInput\000"
  2624      496E7075 
  2624      7400
  2625              	.LASF106:
- 2626 0d37 69706353 		.ascii	"ipcStructSize\000"
+ 2626 0d2f 69706353 		.ascii	"ipcStructSize\000"
  2626      74727563 
  2626      7453697A 
  2626      6500
  2627              	.LASF160:
- 2628 0d45 72616E67 		.ascii	"rangeThres\000"
+ 2628 0d3d 72616E67 		.ascii	"rangeThres\000"
  2628      65546872 
  2628      657300
  2629              	.LASF45:
- 2630 0d50 63707573 		.ascii	"cpussIpc0Irq\000"
+ 2630 0d48 63707573 		.ascii	"cpussIpc0Irq\000"
  2630      73497063 
  2630      30497271 
  2630      00
  2631              	.LASF28:
- 2632 0d5d 6770696F 		.ascii	"gpioBase\000"
+ 2632 0d55 6770696F 		.ascii	"gpioBase\000"
  2632      42617365 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 61
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 61
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2632      00
  2633              	.LASF186:
- 2634 0d66 696E6974 		.ascii	"initKey\000"
+ 2634 0d5e 696E6974 		.ascii	"initKey\000"
  2634      4B657900 
  2635              	.LASF179:
- 2636 0d6e 72784275 		.ascii	"rxBuf\000"
+ 2636 0d66 72784275 		.ascii	"rxBuf\000"
  2636      6600
  2637              	.LASF146:
- 2638 0d74 6F61436F 		.ascii	"oaCompLevel\000"
+ 2638 0d6c 6F61436F 		.ascii	"oaCompLevel\000"
  2638      6D704C65 
  2638      76656C00 
  2639              	.LASF187:
- 2640 0d80 63795F73 		.ascii	"cy_stc_scb_uart_context_t\000"
+ 2640 0d78 63795F73 		.ascii	"cy_stc_scb_uart_context_t\000"
  2640      74635F73 
  2640      63625F75 
  2640      6172745F 
  2640      636F6E74 
  2641              	.LASF50:
- 2642 0d9a 73727373 		.ascii	"srssNumHfroot\000"
+ 2642 0d92 73727373 		.ascii	"srssNumHfroot\000"
  2642      4E756D48 
  2642      66726F6F 
  2642      7400
  2643              	.LASF161:
- 2644 0da8 72616E67 		.ascii	"rangeCond\000"
+ 2644 0da0 72616E67 		.ascii	"rangeCond\000"
  2644      65436F6E 
  2644      6400
  2645              	.LASF47:
- 2646 0db2 63707573 		.ascii	"cpussNotConnectedIrq\000"
+ 2646 0daa 63707573 		.ascii	"cpussNotConnectedIrq\000"
  2646      734E6F74 
  2646      436F6E6E 
  2646      65637465 
  2646      64497271 
  2647              	.LASF61:
- 2648 0dc7 666C6173 		.ascii	"flashWriteDelay\000"
+ 2648 0dbf 666C6173 		.ascii	"flashWriteDelay\000"
  2648      68577269 
  2648      74654465 
  2648      6C617900 
  2649              	.LASF157:
- 2650 0dd7 73616D70 		.ascii	"sampleCtrl\000"
+ 2650 0dcf 73616D70 		.ascii	"sampleCtrl\000"
  2650      6C654374 
  2650      726C00
  2651              	.LASF17:
- 2652 0de2 75696E74 		.ascii	"uint8_t\000"
+ 2652 0dda 75696E74 		.ascii	"uint8_t\000"
  2652      385F7400 
  2653              	.LASF94:
- 2654 0dea 63707573 		.ascii	"cpussCm4StatusOffset\000"
+ 2654 0de2 63707573 		.ascii	"cpussCm4StatusOffset\000"
  2654      73436D34 
  2654      53746174 
  2654      75734F66 
  2654      66736574 
  2655              	.LASF133:
- 2656 0dff 63795F65 		.ascii	"cy_en_ctb_comp_level_t\000"
+ 2656 0df7 63795F65 		.ascii	"cy_en_ctb_comp_level_t\000"
  2656      6E5F6374 
  2656      625F636F 
  2656      6D705F6C 
  2656      6576656C 
  2657              	.LASF201:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 62
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 62
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
- 2658 0e16 72656C6F 		.ascii	"reloadInputMode\000"
+ 2658 0e0e 72656C6F 		.ascii	"reloadInputMode\000"
  2658      6164496E 
  2658      7075744D 
  2658      6F646500 
  2659              	.LASF154:
- 2660 0e26 43595F53 		.ascii	"CY_SAR_RANGE_COND_OUTSIDE\000"
+ 2660 0e1e 43595F53 		.ascii	"CY_SAR_RANGE_COND_OUTSIDE\000"
  2660      41525F52 
  2660      414E4745 
  2660      5F434F4E 
  2660      445F4F55 
  2661              	.LASF178:
- 2662 0e40 72785269 		.ascii	"rxRingBufTail\000"
+ 2662 0e38 72785269 		.ascii	"rxRingBufTail\000"
  2662      6E674275 
  2662      66546169 
  2662      6C00
  2663              	.LASF120:
- 2664 0e4e 43595F43 		.ascii	"CY_CTB_MODE_OPAMP10X\000"
+ 2664 0e46 43595F43 		.ascii	"CY_CTB_MODE_OPAMP10X\000"
  2664      54425F4D 
  2664      4F44455F 
  2664      4F50414D 
  2664      50313058 
  2665              	.LASF210:
- 2666 0e63 6368616E 		.ascii	"channelBase\000"
+ 2666 0e5b 6368616E 		.ascii	"channelBase\000"
  2666      6E656C42 
  2666      61736500 
  2667              	.LASF173:
- 2668 0e6f 74785374 		.ascii	"txStatus\000"
+ 2668 0e67 74785374 		.ascii	"txStatus\000"
  2668      61747573 
  2668      00
  2669              	.LASF232:
- 2670 0e78 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\utilities\\retarget_i"
+ 2670 0e70 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\utilities\\retarget_i"
  2670      72617465 
  2670      645F536F 
  2670      75726365 
  2670      5C50536F 
- 2671 0ea7 6F5C7265 		.ascii	"o\\retarget.c\000"
+ 2671 0e9f 6F5C7265 		.ascii	"o\\retarget.c\000"
  2671      74617267 
  2671      65742E63 
  2671      00
  2672              	.LASF0:
- 2673 0eb4 7369676E 		.ascii	"signed char\000"
+ 2673 0eac 7369676E 		.ascii	"signed char\000"
  2673      65642063 
  2673      68617200 
  2674              	.LASF30:
- 2675 0ec0 69706342 		.ascii	"ipcBase\000"
+ 2675 0eb8 69706342 		.ascii	"ipcBase\000"
  2675      61736500 
  2676              	.LASF81:
- 2677 0ec8 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
+ 2677 0ec0 70657269 		.ascii	"periDivCmdPaDivSelPos\000"
  2677      44697643 
  2677      6D645061 
  2677      44697653 
  2677      656C506F 
  2678              	.LASF188:
- 2679 0ede 63795F73 		.ascii	"cy_stc_scb_uart_context\000"
+ 2679 0ed6 63795F73 		.ascii	"cy_stc_scb_uart_context\000"
  2679      74635F73 
  2679      63625F75 
  2679      6172745F 
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\ccEZVLEC.s 			page 63
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccFM8Pki.s 			page 63
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  2679      636F6E74 
  2680              	.LASF140:
- 2681 0ef6 5F426F6F 		.ascii	"_Bool\000"
+ 2681 0eee 5F426F6F 		.ascii	"_Bool\000"
  2681      6C00
  2682              	.LASF143:
- 2683 0efc 6F614D6F 		.ascii	"oaMode\000"
+ 2683 0ef4 6F614D6F 		.ascii	"oaMode\000"
  2683      646500
  2684              	.LASF32:
- 2685 0f03 63707573 		.ascii	"cpussVersion\000"
+ 2685 0efb 63707573 		.ascii	"cpussVersion\000"
  2685      73566572 
  2685      73696F6E 
  2685      00
  2686              	.LASF21:
- 2687 0f10 75696E74 		.ascii	"uint32_t\000"
+ 2687 0f08 75696E74 		.ascii	"uint32_t\000"
  2687      33325F74 
  2687      00
  2688              	.LASF59:
- 2689 0f19 666C6173 		.ascii	"flashRwwRequired\000"
+ 2689 0f11 666C6173 		.ascii	"flashRwwRequired\000"
  2689      68527777 
  2689      52657175 
  2689      69726564 
  2689      00
  2690              	.LASF125:
- 2691 0f2a 63795F65 		.ascii	"cy_en_ctb_pump_t\000"
+ 2691 0f22 63795F65 		.ascii	"cy_en_ctb_pump_t\000"
  2691      6E5F6374 
  2691      625F7075 
  2691      6D705F74 
  2691      00
  2692              	.LASF204:
- 2693 0f3b 73746172 		.ascii	"startInput\000"
+ 2693 0f33 73746172 		.ascii	"startInput\000"
  2693      74496E70 
  2693      757400
  2694              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

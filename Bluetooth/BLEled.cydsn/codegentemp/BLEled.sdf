@@ -1,6 +1,10 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
+<<<<<<< HEAD
  (DATE "2023-06-11T15:04:17Z")
+=======
+ (DATE "2023-06-10T16:47:46Z")
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
  (DESIGN "BLEled")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")

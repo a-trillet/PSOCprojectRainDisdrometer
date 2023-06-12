@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccWT4a76.s 			page 1
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
    1              		.syntax unified
@@ -31,10 +35,10 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
   28 0006 00000000 		.4byte	.Ldebug_abbrev0
   29 000a 04       		.byte	0x4
   30 000b 01       		.uleb128 0x1
-  31 000c 8B000000 		.4byte	.LASF16
+  31 000c 0E000000 		.4byte	.LASF16
   32 0010 0C       		.byte	0xc
-  33 0011 F1010000 		.4byte	.LASF17
-  34 0015 0E000000 		.4byte	.LASF18
+  33 0011 E9010000 		.4byte	.LASF17
+  34 0015 C1000000 		.4byte	.LASF18
   35 0019 00000000 		.4byte	.Ldebug_line0
   36 001d 02       		.uleb128 0x2
   37 001e 04       		.byte	0x4
@@ -43,7 +47,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
   40 0024 03       		.uleb128 0x3
   41 0025 04       		.byte	0x4
   42 0026 07       		.byte	0x7
-  43 0027 BC010000 		.4byte	.LASF0
+  43 0027 B4010000 		.4byte	.LASF0
   44 002b 03       		.uleb128 0x3
   45 002c 08       		.byte	0x8
   46 002d 05       		.byte	0x5
@@ -51,66 +55,70 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
   48 0032 03       		.uleb128 0x3
   49 0033 08       		.byte	0x8
   50 0034 04       		.byte	0x4
-  51 0035 D3010000 		.4byte	.LASF2
+  51 0035 CB010000 		.4byte	.LASF2
   52 0039 03       		.uleb128 0x3
   53 003a 01       		.byte	0x1
   54 003b 06       		.byte	0x6
-  55 003c B0010000 		.4byte	.LASF3
+  55 003c A8010000 		.4byte	.LASF3
   56 0040 03       		.uleb128 0x3
   57 0041 01       		.byte	0x1
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 2
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccWT4a76.s 			page 2
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
   58 0042 08       		.byte	0x8
-  59 0043 6D010000 		.4byte	.LASF4
+  59 0043 65010000 		.4byte	.LASF4
   60 0047 03       		.uleb128 0x3
   61 0048 02       		.byte	0x2
   62 0049 05       		.byte	0x5
-  63 004a DF010000 		.4byte	.LASF5
+  63 004a D7010000 		.4byte	.LASF5
   64 004e 03       		.uleb128 0x3
   65 004f 02       		.byte	0x2
   66 0050 07       		.byte	0x7
-  67 0051 9D010000 		.4byte	.LASF6
+  67 0051 95010000 		.4byte	.LASF6
   68 0055 04       		.uleb128 0x4
-  69 0056 C9010000 		.4byte	.LASF10
+  69 0056 C1010000 		.4byte	.LASF10
   70 005a 01       		.byte	0x1
   71 005b 3F       		.byte	0x3f
   72 005c 60000000 		.4byte	0x60
   73 0060 03       		.uleb128 0x3
   74 0061 04       		.byte	0x4
   75 0062 05       		.byte	0x5
-  76 0063 94010000 		.4byte	.LASF7
+  76 0063 8C010000 		.4byte	.LASF7
   77 0067 03       		.uleb128 0x3
   78 0068 04       		.byte	0x4
   79 0069 07       		.byte	0x7
-  80 006a 3E010000 		.4byte	.LASF8
+  80 006a 36010000 		.4byte	.LASF8
   81 006e 03       		.uleb128 0x3
   82 006f 08       		.byte	0x8
   83 0070 07       		.byte	0x7
-  84 0071 50010000 		.4byte	.LASF9
+  84 0071 48010000 		.4byte	.LASF9
   85 0075 04       		.uleb128 0x4
-  86 0076 E9010000 		.4byte	.LASF11
+  86 0076 E1010000 		.4byte	.LASF11
   87 007a 02       		.byte	0x2
   88 007b 2C       		.byte	0x2c
   89 007c 55000000 		.4byte	0x55
   90 0080 03       		.uleb128 0x3
   91 0081 04       		.byte	0x4
   92 0082 07       		.byte	0x7
-  93 0083 33020000 		.4byte	.LASF12
+  93 0083 2B020000 		.4byte	.LASF12
   94 0087 03       		.uleb128 0x3
   95 0088 01       		.byte	0x1
   96 0089 08       		.byte	0x8
-  97 008a 7B010000 		.4byte	.LASF13
+  97 008a 73010000 		.4byte	.LASF13
   98 008e 03       		.uleb128 0x3
   99 008f 04       		.byte	0x4
  100 0090 04       		.byte	0x4
- 101 0091 67010000 		.4byte	.LASF14
+ 101 0091 5F010000 		.4byte	.LASF14
  102 0095 03       		.uleb128 0x3
  103 0096 08       		.byte	0x8
  104 0097 04       		.byte	0x4
- 105 0098 8D010000 		.4byte	.LASF15
+ 105 0098 85010000 		.4byte	.LASF15
  106 009c 05       		.uleb128 0x5
- 107 009d 80010000 		.4byte	.LASF19
+ 107 009d 78010000 		.4byte	.LASF19
  108 00a1 03       		.byte	0x3
  109 00a2 F907     		.2byte	0x7f9
  110 00a4 A8000000 		.4byte	0xa8
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
  112 00a9 75000000 		.4byte	0x75
  113 00ad 00       		.byte	0
  114              		.section	.debug_abbrev,"",%progbits
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 3
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccWT4a76.s 			page 3
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  115              	.Ldebug_abbrev0:
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
  169 0035 03       		.uleb128 0x3
  170 0036 0E       		.uleb128 0xe
  171 0037 3A       		.uleb128 0x3a
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 4
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccWT4a76.s 			page 4
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
  172 0038 0B       		.uleb128 0xb
@@ -222,6 +238,7 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
  205      206C6F6E 
  205      6720696E 
  205      7400
+<<<<<<< HEAD
  206              	.LASF18:
  207 000e 453A5C4F 		.ascii	"E:\\OneDrive - Universite Libre de Bruxelles\\Docum"
  207      6E654472 
@@ -239,110 +256,133 @@ ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 1
  209      74685C42 
  209      4C456C65 
 ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 5
+=======
+ 206              	.LASF16:
+ 207 000e 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 207      43313120 
+ 207      352E342E 
+ 207      31203230 
+ 207      31363036 
+ 208 0041 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 208      20726576 
+ 208      6973696F 
+ 208      6E203233 
+ 208      37373135 
+ 209 0074 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 209      70202D6D 
+ 209      6670753D 
+ 209      66707634 
+ 209      2D73702D 
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccWT4a76.s 			page 5
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
- 210              	.LASF16:
- 211 008b 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 211      43313120 
- 211      352E342E 
- 211      31203230 
- 211      31363036 
- 212 00be 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
- 212      20726576 
- 212      6973696F 
- 212      6E203233 
- 212      37373135 
- 213 00f1 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
- 213      70202D6D 
- 213      6670753D 
- 213      66707634 
- 213      2D73702D 
- 214 0124 65637469 		.ascii	"ections -ffat-lto-objects\000"
- 214      6F6E7320 
- 214      2D666661 
- 214      742D6C74 
- 214      6F2D6F62 
+ 210 00a7 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 210      6F6E7320 
+ 210      2D666661 
+ 210      742D6C74 
+ 210      6F2D6F62 
+ 211              	.LASF18:
+ 212 00c1 433A5C55 		.ascii	"C:\\Users\\atril\\Documents\\ULB-Studies\\MA2\\PSOC"
+ 212      73657273 
+ 212      5C617472 
+ 212      696C5C44 
+ 212      6F63756D 
+ 213 00ee 5C426C75 		.ascii	"\\Bluetooth-3\\repoPSOC\\PSOCprojectRainDisdrometer"
+ 213      65746F6F 
+ 213      74682D33 
+ 213      5C726570 
+ 213      6F50534F 
+ 214 011e 5C426C75 		.ascii	"\\Bluetooth\\BLEled.cydsn\000"
+ 214      65746F6F 
+ 214      74685C42 
+ 214      4C456C65 
+ 214      642E6379 
  215              	.LASF8:
- 216 013e 6C6F6E67 		.ascii	"long unsigned int\000"
+ 216 0136 6C6F6E67 		.ascii	"long unsigned int\000"
  216      20756E73 
  216      69676E65 
  216      6420696E 
  216      7400
  217              	.LASF9:
- 218 0150 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 218 0148 6C6F6E67 		.ascii	"long long unsigned int\000"
  218      206C6F6E 
  218      6720756E 
  218      7369676E 
  218      65642069 
  219              	.LASF14:
- 220 0167 666C6F61 		.ascii	"float\000"
+ 220 015f 666C6F61 		.ascii	"float\000"
  220      7400
  221              	.LASF4:
- 222 016d 756E7369 		.ascii	"unsigned char\000"
+ 222 0165 756E7369 		.ascii	"unsigned char\000"
  222      676E6564 
  222      20636861 
  222      7200
  223              	.LASF13:
- 224 017b 63686172 		.ascii	"char\000"
+ 224 0173 63686172 		.ascii	"char\000"
  224      00
  225              	.LASF19:
- 226 0180 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 226 0178 49544D5F 		.ascii	"ITM_RxBuffer\000"
  226      52784275 
  226      66666572 
  226      00
  227              	.LASF15:
- 228 018d 646F7562 		.ascii	"double\000"
+ 228 0185 646F7562 		.ascii	"double\000"
  228      6C6500
  229              	.LASF7:
- 230 0194 6C6F6E67 		.ascii	"long int\000"
+ 230 018c 6C6F6E67 		.ascii	"long int\000"
  230      20696E74 
  230      00
  231              	.LASF6:
+<<<<<<< HEAD
 ARM GAS  C:\Users\atril\AppData\Local\Temp\cc40NeXL.s 			page 6
+=======
+ARM GAS  C:\Users\atril\AppData\Local\Temp\ccWT4a76.s 			page 6
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 
- 232 019d 73686F72 		.ascii	"short unsigned int\000"
+ 232 0195 73686F72 		.ascii	"short unsigned int\000"
  232      7420756E 
  232      7369676E 
  232      65642069 
  232      6E7400
  233              	.LASF3:
- 234 01b0 7369676E 		.ascii	"signed char\000"
+ 234 01a8 7369676E 		.ascii	"signed char\000"
  234      65642063 
  234      68617200 
  235              	.LASF0:
- 236 01bc 756E7369 		.ascii	"unsigned int\000"
+ 236 01b4 756E7369 		.ascii	"unsigned int\000"
  236      676E6564 
  236      20696E74 
  236      00
  237              	.LASF10:
- 238 01c9 5F5F696E 		.ascii	"__int32_t\000"
+ 238 01c1 5F5F696E 		.ascii	"__int32_t\000"
  238      7433325F 
  238      7400
  239              	.LASF2:
- 240 01d3 6C6F6E67 		.ascii	"long double\000"
+ 240 01cb 6C6F6E67 		.ascii	"long double\000"
  240      20646F75 
  240      626C6500 
  241              	.LASF5:
- 242 01df 73686F72 		.ascii	"short int\000"
+ 242 01d7 73686F72 		.ascii	"short int\000"
  242      7420696E 
  242      7400
  243              	.LASF11:
- 244 01e9 696E7433 		.ascii	"int32_t\000"
+ 244 01e1 696E7433 		.ascii	"int32_t\000"
  244      325F7400 
  245              	.LASF17:
- 246 01f1 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\rtos\\FreeRTOS\\10.0."
+ 246 01e9 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\rtos\\FreeRTOS\\10.0."
  246      72617465 
  246      645F536F 
  246      75726365 
  246      5C50536F 
- 247 021f 315C536F 		.ascii	"1\\Source\\croutine.c\000"
+ 247 0217 315C536F 		.ascii	"1\\Source\\croutine.c\000"
  247      75726365 
  247      5C63726F 
  247      7574696E 
  247      652E6300 
  248              	.LASF12:
- 249 0233 73697A65 		.ascii	"sizetype\000"
+ 249 022b 73697A65 		.ascii	"sizetype\000"
  249      74797065 
  249      00
  250              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 -- Project:   E:\OneDrive - Universite Libre de Bruxelles\Documents\PSoC Creator\GitPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\BLEled.cyprj
 -- Generated: 06/11/2023 17:04:17
+=======
+-- Project:   C:\Users\atril\Documents\ULB-Studies\MA2\PSOC\Bluetooth-3\repoPSOC\PSOCprojectRainDisdrometer\Bluetooth\BLEled.cydsn\BLEled.cyprj
+-- Generated: 06/10/2023 18:47:46
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 -- PSoC Creator  4.4
 
 ENTITY BLEled IS

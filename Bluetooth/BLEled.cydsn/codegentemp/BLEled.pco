@@ -1,5 +1,9 @@
 # BLEled
+<<<<<<< HEAD
 # 2023-06-11 15:04:09Z
+=======
+# 2023-06-10 16:47:36Z
+>>>>>>> e0975124908a077b87ed306cf2cff0773ab8bc88
 
 dont_use_location SMIF -1 -1 0
 dont_use_location p4usbcell -1 -1 0
